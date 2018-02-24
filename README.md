@@ -93,7 +93,7 @@ toc: to be generated
 - [viz.js](https://github.com/mdaines/viz.js/) - This project builds Graphviz with Emscripten and provides a simple wrapper for using it in the browser.
 - [d3-graphviz](https://github.com/magjac/d3-graphviz) - Renders SVG from graphs dusing the Viz.js port of Graphviz and does animated transitions between graphs.
 - [graph-viz-d3-js](https://github.com/mstefaniuk/graph-viz-d3-js) - Bower component graphviz-d3-renderer renders Graphviz source in the browser with d3.js
-- [d3-dot-graph](https://github.com/gmamaladze/d3-dot-graph) - This module provides D3js compatible library to parse and load files in graphviz DOT (.dot) (graph description language) format.
+- [d3-dot-graph](https://github.com/gmamaladze/d3-dot-graph) - This module provides D3js compatible library to parse and load files in graphviz format.
 
 ### Graphviz Visual Online Editor
 - [Viz-Js](http://viz-js.com/) - Editor based on Viz-JS Lib
