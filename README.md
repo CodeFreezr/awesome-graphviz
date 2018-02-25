@@ -1,6 +1,6 @@
 # Awesome GraphViz [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-A curated list of GraphViz stuff.  
+A curated list of GraphViz related resources.  
 
 ![GraphViz](GraphvizLogo.png)
 
@@ -9,8 +9,7 @@ These are some representative internal and external resources.
 The list includes tools that complement Graphviz, such as graph generators, postprocessors and interactive viewers. Additional the most important internal resource will be linked. It also includes higher level systems and web sites that rely on Graphviz as a visualization service. You can also find Graphviz-related projects in <a href="http://code.google.com/hosting/search?q=graphviz" target="_blank">Google Code</a>. 
 
 
-
-See contribution.md (tbd) how to add additional resource via pull requests.  
+See contribution.md how to add additional resource via pull requests.  
 
 
 ## Table of Content
@@ -32,7 +31,7 @@ See contribution.md (tbd) how to add additional resource via pull requests.
   * [Mac OS](#mac-os)
   * [Java](#java)
   * [Other](#other)
-  * [Platforms](#platforms)
+  * [Online Platforms](#online-platforms)
 * [Language Bindings](#language-bindings)
   * [Libs for Node / JS / JQuery / D3](#libs-for-node--js--jquery--d3)
   * [Libs for Python](#libs-for-python)
@@ -50,6 +49,13 @@ See contribution.md (tbd) how to add additional resource via pull requests.
   * [AI and Language Tools](#ai-and-language-tools)
   * [Network and Web Engineering Tools](#network-and-web-engineering-tools)
   * [Programming and Software Engineering Tools](#programming-and-software-engineering-tools)
+    * [UML and Software\-Design &amp; \-Modelling](#uml-and-software-design---modelling)
+    * [Documentation](#documentation)
+    * [Call Graphs](#call-graphs)
+    * [Dependency](#dependency)
+    * [Schema &amp; Database Visualisations](#schema--database-visualisations)
+    * [Theoretical Computer Science](#theoretical-computer-science)
+    * [Others](#others-1)
   * [Bioinformatics and Cheminformatics](#bioinformatics-and-cheminformatics)
   * [Document preparation with Graphviz](#document-preparation-with-graphviz)
   * [Social Networking and Collaborative Work](#social-networking-and-collaborative-work)
@@ -63,44 +69,44 @@ See contribution.md (tbd) how to add additional resource via pull requests.
 ### Graphviz Distribution
 
 #### Introductions
-- [Homepage](https://graphviz.org/) - The official Homepage
-- [git](https://gitlab.com/graphviz/graphviz/) - The master GIT Repository for graphvi
-- [About Graph Visualisation](https://www.graphviz.org/about/) - A Summary about Graph Visualisation
-- [Wikipedia- Graphviz](https://en.wikipedia.org/wiki/Graphviz) -  Wikipedia page about Graphviz
-- [Wikipedia- DOT](https://en.wikipedia.org/wiki/DOT_(graph_description_language)) -  Great starter into the DOT / GV Language
-- [Changelog](https://gitlab.com/graphviz/graphviz/blob/master/ChangeLog) - Changelog starting from March 13, 2000
+- [Homepage](https://graphviz.org/) - The official Homepage.
+- [sourcecode](https://gitlab.com/graphviz/graphviz/) - The master GIT Repository for graphviz.
+- [About Graph Visualisation](https://www.graphviz.org/about/) - A Summary about Graph Visualisation.
+- [Wikipedia- Graphviz](https://en.wikipedia.org/wiki/Graphviz) -  Wikipedia page about Graphviz.
+- [Wikipedia- DOT](https://en.wikipedia.org/wiki/DOT_(graph_description_language)) -  Great starter into the DOT / GV Language.
+- [Changelog](https://gitlab.com/graphviz/graphviz/blob/master/ChangeLog) - Changelog starting from March 13, 2000.
 
 #### Entities
-- [All in One](https://graphviz.gitlab.io/_pages/doc/info/lang.html) -  The DOT Language 
+- [All in One](https://graphviz.gitlab.io/_pages/doc/info/lang.html) -  The DOT Language.
 - [Node](https://graphviz.gitlab.io/_pages/doc/info/shapes.html) - A node in the primary element in a graph.
 - [Edge](https://graphviz.gitlab.io/_pages/doc/info/arrows.html) - An edge connect two nodes.
-- [Graph]() - All entities are placed within a graph or digraph (tbd)
-- [Cluster/Subgraph](https://graphviz.gitlab.io/_pages/Gallery/directed/cluster.html) - Devides the graph
+- [Graph]() - All entities are placed within a graph or digraph (tbd).
+- [Cluster/Subgraph](https://graphviz.gitlab.io/_pages/Gallery/directed/cluster.html) - Devides the graph.
 
 #### Attributes
-- [All in One](https://graphviz.gitlab.io/_pages/doc/info/attrs.html) - All Attributes of all Entities in one page
-- [Colors](https://graphviz.gitlab.io/_pages/doc/info/colors.html) - Overview of graphviz colornames
-- [Arrow Shapes](https://graphviz.gitlab.io/_pages/doc/info/arrows.html) - All possible arrowheads
-- [Node Shapes](https://graphviz.gitlab.io/_pages/doc/info/shapes.html) - All possible builtin shapes
+- [All in One](https://graphviz.gitlab.io/_pages/doc/info/attrs.html) - All Attributes of all Entities in one page.
+- [Colors](https://graphviz.gitlab.io/_pages/doc/info/colors.html) - Overview of graphviz colornames.
+- [Arrow Shapes](https://graphviz.gitlab.io/_pages/doc/info/arrows.html) - All possible arrowheads.
+- [Node Shapes](https://graphviz.gitlab.io/_pages/doc/info/shapes.html) - All possible builtin shapes.
 
 #### Layout-Types
-- [circo]() - (tbd)
-- [dot]() - (tbd)
-- [fdp]() - (tbd)
-- [neato]() - (tbd)
-- [osage]() - (tbd)
-- [patchwork]() - (tbd)
-- [sfdp]() - (tbd)
-- [twopi]() - (tbd)
+- [circo]() - draws graphs using a circular layout (tbd).
+- [dot](https://graphviz.gitlab.io/_pages/pdf/dot.1.pdf) - draws directed graphs.
+- [fdp]() - draws undirected graphs using a 'spring' model (tbd).
+- [neato](https://graphviz.gitlab.io/_pages/pdf/neatoguide.pdf) - draws undirected graphs using 'spring' models.
+- [osage](https://graphviz.gitlab.io/_pages/pdf/osage.1.pdf) - filter for drawing clustered graphs.
+- [patchwork](https://graphviz.gitlab.io/_pages/pdf/patchwork.1.pdf) - filter for drawing clustered graphs as treemaps.
+- [sfdp]() - filter for drawing large undirected graphs  (tbd).
+- [twopi]() - filter for radial layouts of graphs (tbd).
 
 #### Tools
 - GUI
-  - [dotty]() - A Customizable Graph Editor - (tbd)
-  - [gvedit]() - simple graph editor and viewer - (tbd)
-  - [lefty]() - A Programmable Graphics Editor - (tbd)
-  - [lneato]() - Editor on top of neato & lefty - (tbd)
-  - [smyrna]() - interactive graph viewer - (tbd)
-  - [vimdot]() - Combined text editor and dot viewer - (tbd)
+  - [dotty]() - A Customizable Graph Editor - (tbd).
+  - [gvedit]() - simple graph editor and viewer - (tbd).
+  - [lefty]() - A Programmable Graphics Editor - (tbd).
+  - [lneato]() - Editor on top of neato & lefty - (tbd).
+  - [smyrna]() - interactive graph viewer - (tbd).
+  - [vimdot]() - Combined text editor and dot viewer - (tbd).
 
 - Graph Analysis
   - [acyclic]() -  make directed graph acyclic  - (tbd)
@@ -131,7 +137,13 @@ See contribution.md (tbd) how to add additional resource via pull requests.
 #### API
 - Language Bindings
   - [C-Code Samples]() - (tbd)
-  - [C libraries]() - (tbd)
+  - C libraries
+    - [cdt](https://graphviz.gitlab.io/_pages/pdf/cdt.3.pdf) - container data types
+    - [cgraph](https://graphviz.gitlab.io/_pages/pdf/cgraph.pdf) - Cgraph Tutorial
+    - [gvc]() - (tbd)
+    - [pack]() - (tbd)
+    - [pathplan]() - (tbd)
+    - [xdot]() - (tbd)
   - [Guile]() - (tbd)
   - [Java]() - (tbd)
   - [Perl]() - (tbd)
@@ -140,6 +152,7 @@ See contribution.md (tbd) how to add additional resource via pull requests.
   - [Ruby]() - (tbd)
   - [TCL/TK libraries]() - (tbd)
 - Misc
+  - [Build Notes](https://graphviz.org/doc/build.html) - Information on Building the sourcecode
   - [Schema Files]() - (tbd)
 
 ### Theory & Publication (tbd)
@@ -160,7 +173,6 @@ See contribution.md (tbd) how to add additional resource via pull requests.
 - [jQuery.Graphviz](https://github.com/goinnn/jquery.graphviz) - a jQuery based interactive graph viewer for graphviz svg *Pablo Martín* 
 - [an AJAX viewer](http://ashitani.jp/gv/) written with Rico *T. Ashitani* 
 - [Online Graphviz Generator](http://fiane.mooo.com:8080/graphviz/) - Simple Online Generator with Go Server
-
 
 #### Editor Addons
 - [Graphviz for vscode](https://marketplace.visualstudio.com/items?itemName=Stephanvs.dot) - Graphviz (dot) Syntax Highlight and snippets for Visual Studio Code *Stephanvs*
@@ -433,8 +445,6 @@ See contribution.md (tbd) how to add additional resource via pull requests.
 - [GoLangLibs](https://golanglibs.com/search?q=graphviz) - Three pages full of Go Packages incorporated graphviz
 - [Go Search](http://go-search.org/search?q=graphviz) - Searching in over 700k Golang Files and Packages
 - [GoDoc](https://godoc.org/?q=graphviz) - Query through all the Go Package Documentation
-
-
 
 #### More to find
 - [Google Code](http://code.google.com/hosting/search?q=graphviz) - Over 100 more references
