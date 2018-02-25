@@ -1,24 +1,24 @@
 #### Graphviz Papers
-- [Graphviz and Dynagraph - Static and Dynamic Graph Drawing Tools]({{ site.url }}/_pages/Documentation/EGKNW03.pdf) \- a condensed overview ([cite](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.96.3776))  
-- [An open graph visualization system and its applications to software engineering]({{ site.url }}/_pages/Documentation/GN99.pdf) \- longer overview, preferred for citation ([cite](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.106.5621))  
-- [Graph Drawing by Stress Majorization]({{ site.url }}/_pages/Documentation/GKN04.pdf) \- an improved algorithm for neato ([cite](http://www.springerlink.com/content/jrn52j7cx8grcy6v))  
-- [Topological Fisheye Views for Visualizing Large Graphs]({{ site.url }}/_pages/Documentation/GKN04a.pdf) \- topological-based distorted views for large graphs  
-- [A method for drawing directed graphs]({{ site.url }}/_pages/Documentation/TSE93.pdf) \- dot's algorithm (1993) ([cite](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.3.8982))  
-- [Efficient and high quality force-directed graph drawing](http://yifanhu.net/PUB/graph_draw.pdf) \- sfdp's algorithm (2005)  
-- [Improved Circular Layouts]({{ site.url }}/_pages/Documentation/GK06.pdf) \- crossing reduction and edge bundling for circular layouts ([cite](http://www.springerlink.com/content/e0t5172328185qh0))  
-- [Efficient and High Quality Force-Directed Graph Drawing]({{ site.url }}/_pages/Documentation/Hu05.pdf) \- the multiscale algorithm used in sfdp ([cite](http://www.mathematica-journal.com/issue/v10i1/graph_draw.html))  
-- [Implementing a General-Purpose Edge Router]({{ site.url }}/_pages/Documentation/DGKN97.pdf) \- edge routing in Graphviz ([cite](http://www.springerlink.com/content/bh38049246662058))  
-- [Improved Force-Directed Layouts]({{ site.url }}/_pages/Documentation/GN98.pdf) \- Voronoi-based node overlap removal ([cite](http://www.springerlink.com/content/9lpu2h2qkgjlc9r5))  
-- [GMap: Visualizing graphs and clusters as maps]({{ site.url }}/_pages/Documentation/GHK09.pdf) \- displaying graphs as maps ([cite](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.154.8753))  
-- [Efficient Node Overlap Removal Using a Proximity Stress Model]({{ site.url }}/_pages/Documentation/GH10.pdf) \- Prism node overlap removal ([cite](http://www.springerlink.com/content/v631x1202456450u))  
-- [On-line Hierarchical Graph Drawing]({{ site.url }}/_pages/Documentation/NW01.pdf) \- dynadag algorithm  
+- [Graphviz and Dynagraph - Static and Dynamic Graph Drawing Tools](https://graphviz.org/_pages/Documentation/EGKNW03.pdf) - condensed overview ([cite](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.96.3776))  
+- [An open graph visualization system and its applications to software engineering](https://graphviz.org/_pages/Documentation/GN99.pdf) - longer overview, preferred for citation ([cite](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.106.5621))  
+- [Graph Drawing by Stress Majorization](https://graphviz.org/_pages/Documentation/GKN04.pdf) - improved algorithm for neato ([cite](http://www.springerlink.com/content/jrn52j7cx8grcy6v))  
+- [Topological Fisheye Views for Visualizing Large Graphs](https://graphviz.org/_pages/Documentation/GKN04a.pdf) - topological-based distorted views for large graphs  
+- [A method for drawing directed graphs](https://graphviz.org/_pages/Documentation/TSE93.pdf) - dot's algorithm (1993) ([cite](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.3.8982))  
+- [Efficient and high quality force-directed graph drawing](http://yifanhu.net/PUB/graph_draw.pdf) - sfdp's algorithm (2005)  
+- [Improved Circular Layouts](https://graphviz.org/_pages/Documentation/GK06.pdf) - crossing reduction and edge bundling for circular layouts ([cite](http://www.springerlink.com/content/e0t5172328185qh0))  
+- [Efficient and High Quality Force-Directed Graph Drawing](https://graphviz.org/_pages/Documentation/Hu05.pdf) - the multiscale algorithm used in sfdp ([cite](http://www.mathematica-journal.com/issue/v10i1/graph_draw.html))  
+- [Implementing a General-Purpose Edge Router](https://graphviz.org/_pages/Documentation/DGKN97.pdf) - edge routing in Graphviz ([cite](http://www.springerlink.com/content/bh38049246662058))  
+- [Improved Force-Directed Layouts](https://graphviz.org/_pages/Documentation/GN98.pdf) - Voronoi-based node overlap removal ([cite](http://www.springerlink.com/content/9lpu2h2qkgjlc9r5))  
+- [GMap: Visualizing graphs and clusters as maps](https://graphviz.org/_pages/Documentation/GHK09.pdf) - displaying graphs as maps ([cite](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.154.8753))  
+- [Efficient Node Overlap Removal Using a Proximity Stress Model](https://graphviz.org/_pages/Documentation/GH10.pdf) - Prism node overlap removal ([cite](http://www.springerlink.com/content/v631x1202456450u))  
+- [On-line Hierarchical Graph Drawing](https://graphviz.org/_pages/Documentation/NW01.pdf) - dynadag algorithm  
 
 
 #### Graph Drawing
 -------------
 
 [Wikipedia entry.](http://en.wikipedia.org/wiki/Graph_drawing) They also have a [short article on Graphviz](http://en.wikipedia.org/wiki/Graphviz).  
-[graphdrawing.org](http://www.graphdrawing.org/index.html) \- annual symposia, books, data, open problems and more  
+[graphdrawing.org](http://www.graphdrawing.org/index.html) - annual symposia, books, data, open problems and more  
 
   
 -  [Survey (Franz Brandenburg talk notes in Powerpoint)](http://www.csse.monash.edu.au/~gfarr/research/GraphDrawing02-Mel.ppt)  
