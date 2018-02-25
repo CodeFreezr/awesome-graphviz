@@ -14,18 +14,17 @@ See contribution.md (tbd) how to add additional resource via pull requests.
 
 
 ## Table of Content
-
 * [Graphviz Distribution](#graphviz-distribution)
-  * [Introduction](#introduction)
+  * [Introductions](#introductions)
   * [Entities](#entities)
   * [Attributes](#attributes)
   * [Layout\-Types](#layout-types)
   * [Tools](#tools)
   * [API](#api)
-* [Theory &amp; Publication](#theory--publication)
-  * [Graphviz Papers](#graphviz-papers)
-  * [Graph Drawing](#graph-drawing)
-  * [Information Visualization](#information-visualization)
+* [Theory &amp; Publication (tbd)](#theory--publication-tbd)
+  * [Graphviz Papers (tbd)](#graphviz-papers-tbd)
+  * [Graph Drawing (tbd)](#graph-drawing-tbd)
+  * [Information Visualization (tbd)](#information-visualization-tbd)
 * [Graphical Interfaces](#graphical-interfaces)
   * [Web\-Interface](#web-interface)
   * [Editor Addons](#editor-addons)
@@ -35,7 +34,7 @@ See contribution.md (tbd) how to add additional resource via pull requests.
   * [Other](#other)
   * [Platforms](#platforms)
 * [Language Bindings](#language-bindings)
-  * [Libs for JS / JQuery / D3](#libs-for-js--jquery--d3)
+  * [Libs for Node / JS / JQuery / D3](#libs-for-node--js--jquery--d3)
   * [Libs for Python](#libs-for-python)
   * [Libs for Django](#libs-for-django)
   * [Libs for Go](#libs-for-go)
@@ -55,94 +54,98 @@ See contribution.md (tbd) how to add additional resource via pull requests.
   * [Document preparation with Graphviz](#document-preparation-with-graphviz)
   * [Social Networking and Collaborative Work](#social-networking-and-collaborative-work)
   * [Third\-Party Distributions](#third-party-distributions)
-
+* [Package Search and Further Collections](#package-search-and-further-collections)
+  * [Packages](#packages)
+  * [More to find](#more-to-find)
 
 ## Content
 
 ### Graphviz Distribution
 
-#### Introduction
-- [About GV]()
-- [Wikipedia]()
-- [Changelog]()
-- [...]()
+#### Introductions
+- [Homepage](https://graphviz.org/) - The official Homepage
+- [git](https://gitlab.com/graphviz/graphviz/) - The master GIT Repository for graphvi
+- [About Graph Visualisation](https://www.graphviz.org/about/) - A Summary about Graph Visualisation
+- [Wikipedia- Graphviz](https://en.wikipedia.org/wiki/Graphviz) -  Wikipedia page about Graphviz
+- [Wikipedia- DOT](https://en.wikipedia.org/wiki/DOT_(graph_description_language)) -  Great starter into the DOT / GV Language
+- [Changelog](https://gitlab.com/graphviz/graphviz/blob/master/ChangeLog) - Changelog starting from March 13, 2000
 
 #### Entities
-- [Node]() - A node in the primary element in a graph.
-- [Edge]() - An edge connect two nodes.
-- [Graph]() - All entities are placed within a graph
-- [Subgraph]() - Devides the graph
-- [Cluster]() - Devides the graph
+- [All in One](https://graphviz.gitlab.io/_pages/doc/info/lang.html) -  The DOT Language 
+- [Node](https://graphviz.gitlab.io/_pages/doc/info/shapes.html) - A node in the primary element in a graph.
+- [Edge](https://graphviz.gitlab.io/_pages/doc/info/arrows.html) - An edge connect two nodes.
+- [Graph]() - All entities are placed within a graph or digraph (tbd)
+- [Cluster/Subgraph](https://graphviz.gitlab.io/_pages/Gallery/directed/cluster.html) - Devides the graph
 
 #### Attributes
-- [All in One]() - All Attributes of all Entities in one page
-- [Colors]() - Overview of graphviz colornames
-- [Arrowheads]() - All possible arrowheads
-- [Shapes]() - All possible builtin shapes
+- [All in One](https://graphviz.gitlab.io/_pages/doc/info/attrs.html) - All Attributes of all Entities in one page
+- [Colors](https://graphviz.gitlab.io/_pages/doc/info/colors.html) - Overview of graphviz colornames
+- [Arrow Shapes](https://graphviz.gitlab.io/_pages/doc/info/arrows.html) - All possible arrowheads
+- [Node Shapes](https://graphviz.gitlab.io/_pages/doc/info/shapes.html) - All possible builtin shapes
 
 #### Layout-Types
-- [circo]()
-- [dot]()
-- [fdp]()
-- [neato]()
-- [osage]()
-- [patchwork]()
-- [sfdp]()
-- [twopi]()
+- [circo]() - (tbd)
+- [dot]() - (tbd)
+- [fdp]() - (tbd)
+- [neato]() - (tbd)
+- [osage]() - (tbd)
+- [patchwork]() - (tbd)
+- [sfdp]() - (tbd)
+- [twopi]() - (tbd)
 
 #### Tools
 - GUI
-  - [dotty]() - A Customizable Graph Editor
-  - [gvedit]() - simple graph editor and viewer
-  - [lefty]() - A Programmable Graphics Editor
-  - [lneato]() - Editor on top of neato & lefty
-  - [smyrna]() - interactive graph viewer
-  - [vimdot]() - Combined text editor and dot viewer
+  - [dotty]() - A Customizable Graph Editor - (tbd)
+  - [gvedit]() - simple graph editor and viewer - (tbd)
+  - [lefty]() - A Programmable Graphics Editor - (tbd)
+  - [lneato]() - Editor on top of neato & lefty - (tbd)
+  - [smyrna]() - interactive graph viewer - (tbd)
+  - [vimdot]() - Combined text editor and dot viewer - (tbd)
 
 - Graph Analysis
-  - [acyclic]() -  make directed graph acyclic 
-  - [bcomps]() - biconnected components filter for graphs
-  - [cluster]() - find clusters in a graph and augment the graph with this information
-  - [ccomps]() - connected components filter for graphs
-  - [diffimg]() - Calculates intersection between two images
-  - [dijkstra]() - single-source distance filter
-  - [edgepaint]() - edge coloring to disambiguate crossing edges
-  - [gc]() - count graph components
-  - [gvcolor]() - flow colors through a ranked digraph
-  - [gvgen]() - generate graphs
-  - [gvmap]() - find clusters and create a geographical map highlighting clusters
-  - [gvpack]() - merge and pack disjoint graphs
-  - [gvpr]() - graph pattern scanning and processing language
-  - [mingle]() - fast edge bundling
-  - [nop]() - pretty-print graph file
-  - [sccmap]() - extract strongly connected components of directed graphs
-  - [tred]() - transitive reduction filter for directed graphs
-  - [unflatten]() - adjust directed graphs to improve layout aspect ratio
+  - [acyclic]() -  make directed graph acyclic  - (tbd)
+  - [bcomps]() - biconnected components filter for graphs - (tbd)
+  - [cluster]() - find clusters in a graph and augment the graph with this information - (tbd)
+  - [ccomps]() - connected components filter for graphs - (tbd)
+  - [diffimg]() - Calculates intersection between two images - (tbd)
+  - [dijkstra]() - single-source distance filter - (tbd)
+  - [edgepaint]() - edge coloring to disambiguate crossing edges - (tbd)
+  - [gc]() - count graph components - (tbd)
+  - [gvcolor]() - flow colors through a ranked digraph - (tbd)
+  - [gvgen]() - generate graphs - (tbd)
+  - [gvmap]() - find clusters and create a geographical map highlighting clusters - (tbd)
+  - [gvpack]() - merge and pack disjoint graphs - (tbd)
+  - [gvpr]() - graph pattern scanning and processing language - (tbd)
+  - [mingle]() - fast edge bundling - (tbd)
+  - [nop]() - pretty-print graph file - (tbd)
+  - [sccmap]() - extract strongly connected components of directed graphs - (tbd)
+  - [tred]() - transitive reduction filter for directed graphs - (tbd)
+  - [unflatten]() - adjust directed graphs to improve layout aspect ratio - (tbd)
     
 - Converter
-  - [mm2gv]() - Matrix Market-DOT converters
-  - [gxl2gv]() - GXL-GV converters
-  - [gml2gv]() - GML-DOTconverters
-  - [graphml2gv]() - GRAPHML-DOT converter
+  - [mm2gv]() - Matrix Market-DOT converters - (tbd)
+  - [gxl2gv]() - GXL-GV converters - (tbd)
+  - [gml2gv]() - GML-DOTconverters - (tbd)
+  - [graphml2gv]() - GRAPHML-DOT converter - (tbd)
 
 #### API
 - Language Bindings
-  - [C-Code Samples]()
-  - [C libraries]()
-  - [Guile]()
-  - [Java]()
-  - [Perl]()
-  - [PHP]()
-  - [Python]()
-  - [Ruby]()
-  - [TCL/TK libraries]()
+  - [C-Code Samples]() - (tbd)
+  - [C libraries]() - (tbd)
+  - [Guile]() - (tbd)
+  - [Java]() - (tbd)
+  - [Perl]() - (tbd)
+  - [PHP]() - (tbd)
+  - [Python]() - (tbd)
+  - [Ruby]() - (tbd)
+  - [TCL/TK libraries]() - (tbd)
 - Misc
-  - [Schema Files]()
+  - [Schema Files]() - (tbd)
 
-### Theory & Publication
-#### Graphviz Papers
-#### Graph Drawing
-#### Information Visualization
+### Theory & Publication (tbd)
+#### Graphviz Papers (tbd)
+#### Graph Drawing (tbd)
+#### Information Visualization (tbd)
 
 
 ### Graphical Interfaces
@@ -198,12 +201,13 @@ See contribution.md (tbd) how to add additional resource via pull requests.
 
 ### Language Bindings 
  
-#### Libs for JS / JQuery / D3
+#### Libs for Node / JS / JQuery / D3
 - [viz.js](https://github.com/mdaines/viz.js/) - This project builds Graphviz with Emscripten and provides a simple wrapper for using it in the browser.
 - [d3-graphviz](https://github.com/magjac/d3-graphviz) - Renders SVG from graphs described in the DOT language using the Viz.js port of Graphviz and does animated transitions between graphs. *Magnus Jacobsson*
 - [graph-viz-d3-js](https://github.com/mstefaniuk/graph-viz-d3-js) - Bower component graphviz-d3-renderer renders Graphviz source in the browser with d3.js
 - [d3-dot-graph](https://github.com/gmamaladze/d3-dot-graph) - This module provides D3js compatible library to parse and load files in graphviz DOT (.dot) (graph description language) format.
 - [jquery.graphviz.svg](http://github.com/mountainstorm/jquery.graphviz.svg/) - jQuery plugin to make Graphviz SVG output more interactive and easier to navigate. *Rich Cooper* 
+- [node-graphviz](https://github.com/glejeune/node-graphviz) - Interface to the GraphViz graphing tool
 
 #### Libs for Python
  - [Pydot](http://code.google.com/p/pydot/) - a python interface to Graphviz (Windows comptible). 
@@ -236,6 +240,7 @@ See contribution.md (tbd) how to add additional resource via pull requests.
  - [Eclipse plugin](http://sourceforge.net/projects/eclipsegraphviz/) 
  - [JPGD](http://www.alexander-merz.com/graphviz/): A Java parser for Graphviz documents *Alexander Merz* 
  - [Java API](https://github.com/jabbalaci/graphviz-java-api) *Laszlo Szathmary* 
+ - [jGraphViz](http://jgraphviz.sourceforge.net/) - Java bindings for libGraphViz *schmeeky*
  
 #### Libs for C# and .NET
  - [graphviznet](http://code.google.com/p/graphviznet/) 
@@ -251,10 +256,11 @@ See contribution.md (tbd) how to add additional resource via pull requests.
 - [Tk::GraphViz](http://search.cpan.org/~jgs/Tk-GraphViz/) - a perl module for displaying graphs in a perl/TK canvas *Jeremy Slade* 
 - [Graph-ReadWrite](http://search.cpan.org/~neilb/Graph-ReadWrite/) - module that supports 'dot' syntax graphs *Neil Bowers* 
 - [GraphViz::DBI](http://search.cpan.org/search?dist=GraphViz-DBI) - graph database tables and their relationships *Marcel Grunauer* 
-- [100 more hits in CPAN](http://search.cpan.org/search?query=graphviz&mode=all) 
 - [GraphViz::ISA](http://search.cpan.org/~marcel/GraphViz-ISA-1.100860/lib/GraphViz/ISA.pm) - graph Perl packages' ISA runtime hierarchies *Marcel Grunauer* 
 - [Graph::Easy](http://search.cpan.org/~tels/Graph-Easy/) is a rectilinear graph drawing program compatible with Graphviz and written  
- 
+
+
+
 #### Libs for Ruby:  
 - [GraphR](http://rockit.sourceforge.net/subprojects/graphr/) Graph-related Ruby classes using graphviz *Robert Feldt* 
 - [Ruby-Graphviz](https://github.com/glejeune/Ruby-Graphviz/) - Ruby interface to Graphviz *Grégoire Lejeune* 
@@ -359,6 +365,7 @@ See contribution.md (tbd) how to add additional resource via pull requests.
 - [ADR](http://www.albertolluch.com/research/adr) - is a system for formal software design by means of graphical methods. *Alberto Lluch Lafuente* 
 - [YaST](http://lizards.opensuse.org/2009/01/19/graph-of-storage-devices/) - openSUSE installation and configuration showing a graph of storage devices with dependencies. *Arvin Schnell* 
 - [Grails class diagram plugin](http://grails.org/plugin/class-diagram/) - provides an UML-like diagram of grails domain classes. *Trygve Amundsen* 
+- [gradle-graphviz-plugin](https://github.com/jeysal/gradle-graphviz-plugin) - A Gradle plugin to make builds using Graphviz portable.
 - [PlantUML](http://plantuml.sourceforge.net/) - generates UML diagrams (classes, usecases, activities, components) - using a simple text description language. *Arnaud Roques* 
 - [javashot](http://code.google.com/p/javashot/) - captures the dynamic execution flow of a Java programa. The traces can be viewed using Graphviz. 
 - [scxml2dot](http://code.google.com/p/scxml2dot/) - a very simple conversion function in perl to plot a finite state machine written in scxml using the graphviz tools. *Fabrizio Morbini* 
@@ -401,3 +408,21 @@ See contribution.md (tbd) how to add additional resource via pull requests.
 - [Fedora Extras](http://download.fedora.redhat.com/pub/fedora/linux/extras/) - rpms for Fedora Core 3 and later. 
 - [SuSE](http://software.opensuse.org/search?q=graphviz) - rpms for Novell/SuSE distributions for many architectures. 
 - [Ubuntu](http://packages.ubuntu.com/search?keywords=graphviz&searchon=names&suite=all&section=all) - Linux packages.
+
+### Package Search and Further Collections
+#### Packages
+- [libraries.io](https://libraries.io/search?q=graphviz) - Meta Package Serach
+- [npm packages](https://www.npmjs.com/browse/keyword/graphviz) - npm packages with keyword ‘graphviz’
+- [CPAN](http://search.cpan.org/search?query=graphviz&mode=all) - The ultimative PERL Source
+- [rpmfind](https://rpmfind.net/linux/rpm2html/search.php?query=graphviz&submit=Search+...&system=&arch=) - RPM resource graphviz on rpmfind
+- [GoLangLibs](https://golanglibs.com/search?q=graphviz) - Three pages full of Go Packages incorporated graphviz
+- [Go Search](http://go-search.org/search?q=graphviz) - Searching in over 700k Golang Files and Packages
+- [GoDoc](https://godoc.org/?q=graphviz) - Query through all the Go Package Documentation
+
+
+
+#### More to find
+- [Google Code](http://code.google.com/hosting/search?q=graphviz) - Over 100 more references
+- [DMOZ Graph Drawing](https://dmoztools.net/Science/Math/Combinatorics/Software/Graph_Drawing/) - DMOZ Category Science > Math > Combinatorics > Software > Graph Drawing 
+- [DMOZ Graph Theory](https://dmoztools.net/Science/Math/Combinatorics/Graph_Theory/) - Science > Math > Combinatorics > Graph Theory 
+- [stackovervlow](https://stackoverflow.com/search?q=graphviz) - Found over 1000 Questions & Answers for graphviz
