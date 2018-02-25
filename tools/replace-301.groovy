@@ -3,7 +3,7 @@ import groovy.json.JsonSlurper;
 def myJson = /ab-results-README.md-filtered.json/
 def sFile = new File(myJson)
 
-def myReadme = /README.md/
+def myReadme = /..\README.md/
 def counter = 0
 
 def list = new JsonSlurper().parseText(sFile.text)
@@ -17,6 +17,7 @@ for (rec in list) {
         def txt = rFile.text
         txt = txt.replaceAll(rec.link, rec.redirect)
         rFile.write(txt)
+        sleep(1000)
         println "done."
 
     }
