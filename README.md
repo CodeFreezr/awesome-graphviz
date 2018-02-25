@@ -1,10 +1,14 @@
 # Awesome GraphViz [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-A curated list of Graph Visualisation stuff.  
+A curated list of GraphViz stuff.  
 
 ![GraphViz](GraphvizLogo.png)
 
-These are some representative internal and external resources. The list includes tools that complement Graphviz, such as graph generators, postprocessors and interactive viewers. It also includes higher level systems and web sites that rely on Graphviz as a visualization service. You can also find Graphviz-related projects in <a href="http://code.google.com/hosting/search?q=graphviz" target="_blank">Google Code</a>. 
+These are some representative internal and external resources.  
+
+The list includes tools that complement Graphviz, such as graph generators, postprocessors and interactive viewers. Additional the most important internal resource will be linked. It also includes higher level systems and web sites that rely on Graphviz as a visualization service. You can also find Graphviz-related projects in <a href="http://code.google.com/hosting/search?q=graphviz" target="_blank">Google Code</a>. 
+
+
 
 See contribution.md (tbd) how to add additional resource via pull requests.  
 
@@ -18,6 +22,10 @@ See contribution.md (tbd) how to add additional resource via pull requests.
   * [Layout\-Types](#layout-types)
   * [Tools](#tools)
   * [API](#api)
+* [Theory &amp; Publication](#theory--publication)
+  * [Graphviz Papers](#graphviz-papers)
+  * [Graph Drawing](#graph-drawing)
+  * [Information Visualization](#information-visualization)
 * [Graphical Interfaces](#graphical-interfaces)
   * [Web\-Interface](#web-interface)
   * [Editor Addons](#editor-addons)
@@ -27,7 +35,7 @@ See contribution.md (tbd) how to add additional resource via pull requests.
   * [Other](#other)
   * [Platforms](#platforms)
 * [Language Bindings](#language-bindings)
-* [Libs for JS / JQuery / D3](#libs-for-js--jquery--d3)
+  * [Libs for JS / JQuery / D3](#libs-for-js--jquery--d3)
   * [Libs for Python](#libs-for-python)
   * [Libs for Django](#libs-for-django)
   * [Libs for Go](#libs-for-go)
@@ -40,12 +48,12 @@ See contribution.md (tbd) how to add additional resource via pull requests.
   * [CMS (Wiki/Blog):](#cms-wikiblog)
 * [Generators and Translators](#generators-and-translators)
   * [Transform data sources and formats into Graphviz\.](#transform-data-sources-and-formats-into-graphviz)
-  * [Network and Web Engineering Tools](#network-and-web-engineering-tools)
   * [AI and Language Tools](#ai-and-language-tools)
+  * [Network and Web Engineering Tools](#network-and-web-engineering-tools)
   * [Programming and Software Engineering Tools](#programming-and-software-engineering-tools)
-  * [Bioinformatics and Cheminformatics Tools and Resources Using Graphviz](#bioinformatics-and-cheminformatics-tools-and-resources-using-graphviz)
+  * [Bioinformatics and Cheminformatics](#bioinformatics-and-cheminformatics)
   * [Document preparation with Graphviz](#document-preparation-with-graphviz)
-  * [social\-networking"&gt;Social Networking and Collaborative Work](#social-networkingsocial-networking-and-collaborative-work)
+  * [Social Networking and Collaborative Work](#social-networking-and-collaborative-work)
   * [Third\-Party Distributions](#third-party-distributions)
 
 
@@ -131,6 +139,10 @@ See contribution.md (tbd) how to add additional resource via pull requests.
 - Misc
   - [Schema Files]()
 
+### Theory & Publication
+#### Graphviz Papers
+#### Graph Drawing
+#### Information Visualization
 
 
 ### Graphical Interfaces
@@ -186,7 +198,7 @@ See contribution.md (tbd) how to add additional resource via pull requests.
 
 ### Language Bindings 
  
-### Libs for JS / JQuery / D3
+#### Libs for JS / JQuery / D3
 - [viz.js](https://github.com/mdaines/viz.js/) - This project builds Graphviz with Emscripten and provides a simple wrapper for using it in the browser.
 - [d3-graphviz](https://github.com/magjac/d3-graphviz) - Renders SVG from graphs described in the DOT language using the Viz.js port of Graphviz and does animated transitions between graphs. *Magnus Jacobsson*
 - [graph-viz-d3-js](https://github.com/mstefaniuk/graph-viz-d3-js) - Bower component graphviz-d3-renderer renders Graphviz source in the browser with d3.js
@@ -284,6 +296,15 @@ See contribution.md (tbd) how to add additional resource via pull requests.
 - [SQL Fairy](http://sqlfairy.sourceforge.net/) - a group of Perl modules that manipulate structure data definitions (mostly database schemas) - in interesting ways, such as visualizations of schemas (pseudo-ER diagrams Graphviz or GD) - *Szilárd Vajda* 
 - [DBGraphNav](http://code.google.com/p/dbgraphnav/) - a tool to facilitate the browsing of data within relational databases. *Paul McMillan* 
 - [EMF To Graphviz](http://sourceforge.net/projects/emf2gv/) - an Eclipse plugin that helps to transform an EMF model into a diagram using Graphviz. 
+
+
+#### AI and Language Tools 
+- [txt2graph](http://andreas-romeyke.de/txt2graph/txt2graph.html) - visualize the structure and dependencies of a text read from stdin and generates a dot-File for graphviz to stdout *Andreas Romeyke* 
+- [Ontoviz](http://protegewiki.stanford.edu/wiki/OntoViz) - is a plugin for displaying knowledge base diagrams in the- [Protoge](http://protege.stanford.edu/) - system 
+- [CanooNet](http://www.canoo.net/services/WordformationDictionary/Controller) - , a German word formation dictionary. (Try- [_Blockflöte_](http://www.canoo.net/services/WordformationDictionary/Controller?asp=1&input=blockfl%F6te&features=%28Cat+N%29%28Gender+F%29&lang=de&country=CH&lookup=caseInSensitive),- [_Hochschule_](http://www.canoo.net/services/WordformationDictionary/Controller?asp=1&input=hochschule&features=%28Cat+N%29%28Gender+F%29&lang=de&country=CH&lookup=caseInSensitive) - or- [_Massanzug_](http://www.canoo.net/services/WordformationDictionary/Controller?asp=1&input=massanzug&features=%28Cat+N%29%28Gender+M%29&lang=de&country=CH&lookup=caseInSensitive) - in the entry field) - 
+- [DAWG CREATOR](http://www.hotscripts.com/listing/dawgcreator/) - a C++ class for creating a prefix tree representation of a given lexicon. 
+- [Topic extraction using Wikipedia data](http://blog.prashanthellina.com/topic-extraction-using-wikipedia-data.html). 
+- [FcaStone](http://fcastone.sourceforge.net/) - lays out algebraic lattices in the sense of Formal Concept Analysis. (Try the- [demo](http://www.upriss.org.uk/fca/fcademo.html) - or the- [lattice visualisations of Roget's Thesaurus](http://www.ketlab.org.uk/roget.html)). *Uta Priss* 
  
  
 #### Network and Web Engineering Tools 
@@ -306,16 +327,7 @@ See contribution.md (tbd) how to add additional resource via pull requests.
 - [Visitors, a fast web log analyzer](http://www.hping.org/visitors/) - uses graphviz to display usage patterns showing how users are using your web site. *Salvatore Sanfilippo* 
 - [Visualize your firewall](http://jekor.com/gressgraph/) - uses graphviz to produce a graph of your iptables ruleset. *Chris Forno* 
 - [graph-tool](https://graph-tool.skewed.de/) - an efficient python module for manipulation and statistical analysis of graphs, which includes an interface to GraphViz, via its python bindings. *Tiago de Paula Peixoto* 
- 
- 
-#### AI and Language Tools 
-- [txt2graph](http://andreas-romeyke.de/txt2graph/txt2graph.html) - visualize the structure and dependencies of a text read from stdin and generates a dot-File for graphviz to stdout *Andreas Romeyke* 
-- [Ontoviz](http://protegewiki.stanford.edu/wiki/OntoViz) - is a plugin for displaying knowledge base diagrams in the- [Protoge](http://protege.stanford.edu/) - system 
-- [CanooNet](http://www.canoo.net/services/WordformationDictionary/Controller) - , a German word formation dictionary. (Try- [_Blockflöte_](http://www.canoo.net/services/WordformationDictionary/Controller?asp=1&input=blockfl%F6te&features=%28Cat+N%29%28Gender+F%29&lang=de&country=CH&lookup=caseInSensitive),- [_Hochschule_](http://www.canoo.net/services/WordformationDictionary/Controller?asp=1&input=hochschule&features=%28Cat+N%29%28Gender+F%29&lang=de&country=CH&lookup=caseInSensitive) - or- [_Massanzug_](http://www.canoo.net/services/WordformationDictionary/Controller?asp=1&input=massanzug&features=%28Cat+N%29%28Gender+M%29&lang=de&country=CH&lookup=caseInSensitive) - in the entry field) - 
-- [DAWG CREATOR](http://www.hotscripts.com/listing/dawgcreator/) - a C++ class for creating a prefix tree representation of a given lexicon. 
-- [Topic extraction using Wikipedia data](http://blog.prashanthellina.com/topic-extraction-using-wikipedia-data.html). 
-- [FcaStone](http://fcastone.sourceforge.net/) - lays out algebraic lattices in the sense of Formal Concept Analysis. (Try the- [demo](http://www.upriss.org.uk/fca/fcademo.html) - or the- [lattice visualisations of Roget's Thesaurus](http://www.ketlab.org.uk/roget.html)). *Uta Priss* 
- 
+  
  
 #### Programming and Software Engineering Tools 
 - [TheHat workflow engine](https://fedorahosted.org/TheHat/) - based on IRC, XMPP (Jabber) - shows workflows in auto-refreshing webpages *Dave Parker* 
@@ -354,7 +366,7 @@ See contribution.md (tbd) how to add additional resource via pull requests.
 - [Symfony application-map plugin](http://www.symfony-project.org/plugins/sfApplicationMapPlugin) - an easy-to-use documentation tool for the symfony framework community. *Tomasz Ducin* 
  
  
-#### Bioinformatics and Cheminformatics Tools and Resources Using Graphviz 
+#### Bioinformatics and Cheminformatics
 - [HasseManager](https://github.com/peter-lind/hasse-manager/tree/master/HasseManager) - for visualizing relations between chemical structures used in fragment-based drug discovery, as described in the- [Journal of Chemical Information and Modelling](http://pubs.acs.org/doi/abs/10.1021/ci4004464) - *Peter Lind* 
 - [R-Graphviz](http://www.bioconductor.org/packages/release/bioc/html/Rgraphviz.html) - ([guide](http://www.bioconductor.org/packages/release/bioc/vignettes/Rgraphviz/inst/doc/newRgraphvizInterface.pdf)) - from the Bio-Conductor project integrates graphs and statistical models. *Robert Gentleman, Jeff Gentry and the R team* 
 - [protein database visualization](http://www.stke.org/) -  *American Association for the Advancement of Science (AAAS) - and Stanford University Digital Libraries Project* 
@@ -376,7 +388,7 @@ See contribution.md (tbd) how to add additional resource via pull requests.
 - [TeX and PSTRICKS](http://web.ncf.ca/en493/GRAPHVIZ/) - describes how to use PSTRICKS in conjunction with TeX to include Graphviz PostScript output into TeX documents. This approach makes further manipulation, such as rotation,shifting, etc. easy. *Roger Herz-Fischler* 
  
  
-#### social-networking">Social Networking and Collaborative Work 
+#### Social Networking and Collaborative Work 
 - [Proximity Subgraphs](http://www2.research.att.com/~volinsky/cgi-bin/prox/prox.pl) - visualize communities in the Internet Movie Database 
 - [Hammond Jazz Inventory](http://www.hammondjazz.net/index.php?page=article&task=current&mode=detail&section=News&target=70) - show graphical representation of musicians related by recordings in which the Hammond organ plays a significant role (orghammograms!) - 
  
