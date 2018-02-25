@@ -13,7 +13,7 @@ See [contributing.md](contributing.md) how to pull requests.
 
 
 ## Table of Content
-* [Graphviz Distribution](#graphviz-distribution)aw
+* [Graphviz Distribution](#graphviz-distribution)
   * [Introductions](#introductions)
   * [Entities](#entities)
   * [Attributes](#attributes)
