@@ -2,7 +2,9 @@
 
 A curated list of Graph Visualisation stuff.  
 
-These are some representative external resources. The list includes tools that complement Graphviz, such as graph generators, postprocessors and interactive viewers. It also includes higher level systems and web sites that rely on Graphviz as a visualization service. You can also find Graphviz-related projects in <a href="http://code.google.com/hosting/search?q=graphviz" target="_blank">Google Code</a>. 
+![GraphViz](GraphvizLogo.png)
+
+These are some representative internal and external resources. The list includes tools that complement Graphviz, such as graph generators, postprocessors and interactive viewers. It also includes higher level systems and web sites that rely on Graphviz as a visualization service. You can also find Graphviz-related projects in <a href="http://code.google.com/hosting/search?q=graphviz" target="_blank">Google Code</a>. 
 
 See contribution.md (tbd) how to add additional resource via pull requests.  
 
