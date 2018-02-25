@@ -9,7 +9,7 @@ These are some representative internal and external resources.
 The list includes tools that complement Graphviz, such as graph generators, postprocessors and interactive viewers. Additional the most important internal resource are linked. It also includes higher level systems and web sites that rely on Graphviz as a visualization service. You can also find more Graphviz related projects and resources in the [more to find](#more-to-find) Section. Find the [attic.md](attic.md) for old stuff with broken links or changed content. 
 
 You're welcome to add new stuff or report glitches.  
-See [contribution.md](contribution.md) how to pull requests.  
+See [contributing.md](contributing.md) how to pull requests.  
 
 
 ## Table of Content
