@@ -191,7 +191,7 @@ See contribution.md (tbd) how to add additional resource via pull requests.
 - [EasyGraphViz](http://wiki.cyze.jp/wiki.cgi/software?page=EasyGraphViz) - a Japanese editor for Graphviz. *Nikolaos Kavvadias*
 - [NodeViz](http://code.google.com/p/nodeviz/) - a php framework for mapping relational data to highly styled Graphviz and displaying interactively in web clients *Greg Michalec and Skye Bender-deMoll* 
 
-#### Platforms
+#### Online Platforms
 - [Gephi](https://gephi.org/) - The Open Graph Viz Platform *Mathieu Bastian*
 - [IdeaTree](http://www.myideatree.com/) - a platform for concurrent, shared knowledge mapping
 - [Observable](https://beta.observablehq.com/) - Common Map, Chart & Diagram creation with graphviz support
@@ -259,15 +259,13 @@ See contribution.md (tbd) how to add additional resource via pull requests.
 - [GraphViz::ISA](http://search.cpan.org/~marcel/GraphViz-ISA-1.100860/lib/GraphViz/ISA.pm) - graph Perl packages' ISA runtime hierarchies *Marcel Grunauer* 
 - [Graph::Easy](http://search.cpan.org/~tels/Graph-Easy/) is a rectilinear graph drawing program compatible with Graphviz and written  
 
-
-
 #### Libs for Ruby:  
 - [GraphR](http://rockit.sourceforge.net/subprojects/graphr/) Graph-related Ruby classes using graphviz *Robert Feldt* 
 - [Ruby-Graphviz](https://github.com/glejeune/Ruby-Graphviz/) - Ruby interface to Graphviz *Grégoire Lejeune* 
  
 #### Others: 
 - [MatLab](http://www.mathworks.com/matlabcentral/fileexchange/4518) *Leon Peshkin* 
-- [R-Graphviz](#Rgraphviz) 
+- [R-Graphviz](#Rgraphviz) (tbd)
 - [webdot](https://gitlab.com/graphviz/webdot) in TCL *John Ellson*  
  
 #### Confluence/Jira: 
@@ -336,41 +334,58 @@ See contribution.md (tbd) how to add additional resource via pull requests.
   
  
 #### Programming and Software Engineering Tools 
-- [TheHat workflow engine](https://fedorahosted.org/TheHat/) - based on IRC, XMPP (Jabber) - shows workflows in auto-refreshing webpages *Dave Parker* 
-- [anifsm](http://fmt.cs.utwente.nl/tools/torx/anifsm.1.html) - animates graphs in dot format via tcldot (part of the- [TorX](http://fmt.cs.utwente.nl/tools/torxviz/) - software visualization suite) - *Alex Belinfante and TorX consortium* 
-- [doxygen](http://www.doxygen.org/) - uses graphviz to produce class hierarchies and other diagrams directly from source code *Dimitri van Heesch* 
-- [nmdepend](http://nmdepend.sourceforge.net/) - is a lightweight link-time dependency analyzer for C/C++ object files and libraries, helps manage cross-directory dependencies *Eddy Pronk* 
-- [Lambda Animator](http://thyer.name/lambda-animator/) - is a tool for demonstrating and experimenting with alternative reduction strategies in the lambda-calculus *Mike Thyer* 
-- [AsmL](http://research.microsoft.com/en-us/projects/asml/) - an executable specification language from Microsoft Research. 
-- [UMLGraph](http://www.umlgraph.org/) - a Java tool for the Declarative Drawing of UML diagrams which generates diagrams using dot *Diomidis Spinellis* (Diomidis also contributed code for a richer set of arrow heads for dot, which he claims were really part of a stealthy plot to have Graphviz taken over by the UML community. :-) - 
-- [Merisedot](http://oss.phear.org/merisedot/) - a tool to generate MCD Entity/Relation graphics of Merise. (Seulement en Français) - 
-- [RDOC](http://rdoc.sourceforge.net) - Ruby documentation *Dave Thomas* 
-- [YaccViso](http://www.lo-res.org/~aaron/yaccviso/) - YACC visualization tool 
-- [Callgrind](http://kcachegrind.sourceforge.net/cgi-bin/show.cgi) - makes callgraphs from- [Valgrind](http://kcachegrind.sourceforge.net/cgi-bin/show.cgi/KcacheGrindValgrind) - *Jörg Schillin and Josef Weidendorfer* 
-- [Maria](http://www.tcs.hut.fi/Software/maria/index.en.html) - Modular Reachability Analyzer - a reachability analyzer for concurrent systems that uses Algebraic System Nets as its modelling formalism *Marko Mäkelä* 
-- [IsaViz](http://www.w3.org/2001/11/IsaViz/): A Visual Authoring Tool for RDF *Emmanuel Pietriga* 
-- [Finite State Machine web visualization](http://www.let.rug.nl/vannoord/Fsa/) - interactively accepts input from a form *Gertjan van Noord* 
-- [RPMGraph](http://freecode.com/projects/rpmgraph) - uses neato to draw a graph of dependencies between RPMs on RedHat or other RPM based systems *Andrea Lombardoni* 
-- [Compendium-TA](http://www.compendiumdev.co.uk/compendium-ta/default.php) - an integrated package of modelling tools which uses Graphviz for graph layouts *Alan Richardson* 
-- [CodeViz](https://github.com/petersenna/codeviz) - a call graph generation utility for C/C++ that assumes dot for its back end *Mel Gorman* 
-- [Pimentech-DbUtils](http://www.pimentech.fr/technologies/outils/) - utils for writing patterns databases in XML (Extended Entities Relationship diagram (ERA)) - and exporting them to graphviz and sql. 
-- [LJV.java](http://www.cs.auckland.ac.nz/~j-hamer/LJV.html) - (Lightweight Java Visualizer) - is tool for visualizing Java data structures with Graphviz. It has been used to good effect in CS1 and CS2-level data structures courses. *John Hammer* 
-- [Python call graphs](http://pycallgraph.slowchop.com/en/master/) - 
-- [ArgoUML Graphviz](http://argouml-graphviz.tigris.org/) - Automatically repositioning all visual elements from UML diagrams that are stored in XMI. These can be exported with DOT to PDF, SVG, PNG, etc. This XLST runs independently of ArgoUML. *Pander* 
-- [Ragel](http://www.complang.org/ragel/) - (think "lex") - compiles executable finite state machines from regular languages and can generate diagrams of the state machines in DOT format. 
-- [APIviz](http://code.google.com/p/apiviz/) - is a JavaDoc doclet which extends the Java standard doclet. It generates comprehensive UML-like class and package diagrams. 
-- [Reverse Snowflake Joins](http://sourceforge.net/projects/revj) - is a tool that parses SQL Select statements and generates a diagram. 
-- [eEye Binary Diffing Suite](http://www.eeye.com/Resources/Security-Center/Research/Tools/eEye-Binary-Diffing-Suite-EBDS) - is a suite of tools for binary differential analysis, especially for reverse engineering patches as well as program updates. 
-- [myDBR](httP://www.myDBR.com) - is web-based reporting system for relational databases using Graphviz as one of its charting modules. 
-- [ADR](http://www.albertolluch.com/research/adr) - is a system for formal software design by means of graphical methods. *Alberto Lluch Lafuente* 
-- [YaST](http://lizards.opensuse.org/2009/01/19/graph-of-storage-devices/) - openSUSE installation and configuration showing a graph of storage devices with dependencies. *Arvin Schnell* 
-- [Grails class diagram plugin](http://grails.org/plugin/class-diagram/) - provides an UML-like diagram of grails domain classes. *Trygve Amundsen* 
-- [gradle-graphviz-plugin](https://github.com/jeysal/gradle-graphviz-plugin) - A Gradle plugin to make builds using Graphviz portable.
-- [PlantUML](http://plantuml.sourceforge.net/) - generates UML diagrams (classes, usecases, activities, components) - using a simple text description language. *Arnaud Roques* 
-- [javashot](http://code.google.com/p/javashot/) - captures the dynamic execution flow of a Java programa. The traces can be viewed using Graphviz. 
-- [scxml2dot](http://code.google.com/p/scxml2dot/) - a very simple conversion function in perl to plot a finite state machine written in scxml using the graphviz tools. *Fabrizio Morbini* 
-- [Erviz](http://slopjong.de/2011/02/26/whats-erviz/) - an entity-relationship diagram generator that converts plain text files to DOT-formatted graphical files for Graphviz. *Mitsuru Kono* 
-- [Symfony application-map plugin](http://www.symfony-project.org/plugins/sfApplicationMapPlugin) - an easy-to-use documentation tool for the symfony framework community. *Tomasz Ducin* 
+
+
+##### UML and Software-Design & -Modelling
+  - [Grails class diagram plugin](http://grails.org/plugin/class-diagram/) - provides an UML-like diagram of grails domain classes. *Trygve Amundsen* 
+  - [UMLGraph](http://www.umlgraph.org/) - a Java tool for the Declarative Drawing of UML diagrams which generates diagrams using dot *Diomidis Spinellis* (Diomidis also contributed code for a richer set of arrow heads for dot, which he claims were really part of a stealthy plot to have Graphviz taken over by the UML community. :-) - 
+  - [Compendium-TA](http://www.compendiumdev.co.uk/compendium-ta/default.php) - an integrated package of modelling tools which uses Graphviz for graph layouts *Alan Richardson* 
+  - [AsmL](http://research.microsoft.com/en-us/projects/asml/) - an executable specification language from Microsoft Research. 
+  - [ArgoUML Graphviz](http://argouml-graphviz.tigris.org/) - Automatically repositioning all visual elements from UML diagrams that are stored in XMI. These can be exported with DOT to PDF, SVG, PNG, etc. This XLST runs independently of ArgoUML. *Pander* 
+  - [APIviz](http://code.google.com/p/apiviz/) - is a JavaDoc doclet which extends the Java standard doclet. It generates comprehensive UML-like class and package diagrams. 
+  - [ADR](http://www.albertolluch.com/research/adr) - is a system for formal software design by means of graphical methods. *Alberto Lluch Lafuente* 
+  - [PlantUML](http://plantuml.sourceforge.net/) - generates UML diagrams (classes, usecases, activities, components) - using a simple text description language. *Arnaud Roques* 
+
+##### Documentation
+  - [doxygen](http://www.doxygen.org/) - uses graphviz to produce class hierarchies and other diagrams directly from source code *Dimitri van Heesch* 
+  - [RDOC](http://rdoc.sourceforge.net) - Ruby documentation *Dave Thomas* 
+  - [IsaViz](http://www.w3.org/2001/11/IsaViz/): A Visual Authoring Tool for RDF *Emmanuel Pietriga* 
+  - [Symfony application-map plugin](http://www.symfony-project.org/plugins/sfApplicationMapPlugin) - an easy-to-use documentation tool for the symfony framework community. *Tomasz Ducin* 
+
+##### Call Graphs
+  - [javashot](http://code.google.com/p/javashot/) - captures the dynamic execution flow of a Java programa. The traces can be viewed using Graphviz. 
+  - [Callgrind](http://kcachegrind.sourceforge.net/cgi-bin/show.cgi) - makes callgraphs from- [Valgrind](http://kcachegrind.sourceforge.net/cgi-bin/show.cgi/KcacheGrindValgrind) - *Jörg Schillin and Josef Weidendorfer* 
+  - [CodeViz](https://github.com/petersenna/codeviz) - a call graph generation utility for C/C++ that assumes dot for its back end *Mel Gorman* 
+  - [Python call graphs](http://pycallgraph.slowchop.com/en/master/) - Python Call Graph Visualisation
+
+##### Dependency
+  - [nmdepend](http://nmdepend.sourceforge.net/) - is a lightweight link-time dependency analyzer for C/C++ object files and libraries, helps manage cross-directory dependencies *Eddy Pronk* 
+  - [RPMGraph](http://freecode.com/projects/rpmgraph) - uses neato to draw a graph of dependencies between RPMs on RedHat or other RPM based systems *Andrea Lombardoni* 
+  - [LJV.java](http://www.cs.auckland.ac.nz/~j-hamer/LJV.html) - (Lightweight Java Visualizer) - is tool for visualizing Java data structures with Graphviz. It has been used to good effect in CS1 and CS2-level data structures courses. *John Hammer* 
+  - [eEye Binary Diffing Suite](http://www.eeye.com/Resources/Security-Center/Research/Tools/eEye-Binary-Diffing-Suite-EBDS) - is a suite of tools for binary differential analysis, especially for reverse engineering patches as well as program updates. 
+  - [YaST](http://lizards.opensuse.org/2009/01/19/graph-of-storage-devices/) - openSUSE installation and configuration showing a graph of storage devices with dependencies. *Arvin Schnell* 
+
+##### Schema & Database Visualisations
+  - [GraphQLviz](https://github.com/Macroz/GraphQLviz) - GraphQLviz marries GraphQL (schemas) with Graphviz.
+  - [Merisedot](http://oss.phear.org/merisedot/) - a tool to generate MCD Entity/Relation graphics of Merise. (Seulement en Français) - 
+  - [Pimentech-DbUtils](http://www.pimentech.fr/technologies/outils/) - utils for writing patterns databases in XML (Extended Entities Relationship diagram (ERA)) - and exporting them to graphviz and sql. 
+  - [Reverse Snowflake Joins](http://sourceforge.net/projects/revj) - is a tool that parses SQL Select statements and generates a diagram. 
+  - [myDBR](httP://www.myDBR.com) - is web-based reporting system for relational databases using Graphviz as one of its charting modules. 
+  - [Erviz](http://slopjong.de/2011/02/26/whats-erviz/) - an entity-relationship diagram generator that converts plain text files to DOT-formatted graphical files for Graphviz. *Mitsuru Kono* 
+
+##### Theoretical Computer Science
+  - [Ragel](http://www.complang.org/ragel/) - (think "lex") - compiles executable finite state machines from regular languages and can generate diagrams of the state machines in DOT format. 
+  - [Lambda Animator](http://thyer.name/lambda-animator/) - is a tool for demonstrating and experimenting with alternative reduction strategies in the lambda-calculus *Mike Thyer* 
+  - [Maria](http://www.tcs.hut.fi/Software/maria/index.en.html) - Modular Reachability Analyzer - a reachability analyzer for concurrent systems that uses Algebraic System Nets as its modelling formalism *Marko Mäkelä* 
+  - [Finite State Machine web visualization](http://www.let.rug.nl/vannoord/Fsa/) - interactively accepts input from a form *Gertjan van Noord* 
+  - [scxml2dot](http://code.google.com/p/scxml2dot/) - a very simple conversion function in perl to plot a finite state machine written in scxml using the graphviz tools. *Fabrizio Morbini* 
+
+##### Others
+  - [TheHat workflow engine](https://fedorahosted.org/TheHat/) - based on IRC, XMPP (Jabber) - shows workflows in auto-refreshing webpages *Dave Parker* 
+  - [anifsm](http://fmt.cs.utwente.nl/tools/torx/anifsm.1.html) - animates graphs in dot format via tcldot (part of the- [TorX](http://fmt.cs.utwente.nl/tools/torxviz/) - software visualization suite) - *Alex Belinfante and TorX consortium* 
+  - [gradle-graphviz-plugin](https://github.com/jeysal/gradle-graphviz-plugin) - A Gradle plugin to make builds using Graphviz portable.
+  - [YaccViso](http://www.lo-res.org/~aaron/yaccviso/) - YACC visualization tool 
+
  
  
 #### Bioinformatics and Cheminformatics
