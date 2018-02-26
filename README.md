@@ -72,42 +72,51 @@ See [contributing.md](contributing.md) how to pull requests.
 - [Homepage](https://graphviz.org/) - The official Homepage.
 - [sourcecode](https://gitlab.com/graphviz/graphviz/) - The master GIT Repository for graphviz.
 - [About Graph Visualisation](https://www.graphviz.org/about/) - A Summary about Graph Visualisation.
-- [Wikipedia- Graphviz](https://en.wikipedia.org/wiki/Graphviz) -  Wikipedia page about Graphviz.
-- [Wikipedia- DOT](https://en.wikipedia.org/wiki/DOT_(graph_description_language)) -  Great starter into the DOT / GV Language.
+- [Wikipedia-Graphviz](https://en.wikipedia.org/wiki/Graphviz) -  Wikipedia page about Graphviz.
+- [Wikipedia-DOT](https://en.wikipedia.org/wiki/DOT_(graph_description_language)) -  Great starter into the DOT / GV Language.
 - [Changelog](https://gitlab.com/graphviz/graphviz/blob/master/ChangeLog) - Changelog starting from March 13, 2000.
+- Translations
+  - [Romanian](http://science.webhostinggeeks.com/graphviz-about-rm) 
+  - [Russian](http://www.portablecomponentsforall.com/edu/graphviz-about-ru/) 
+  - [Serbo-Croatian](http://science.webhostinggeeks.com/graficka-vizualizacija)
+  - [Ukrainian](http://www.passadrugtestingforall.com/edu/graphviz-about-uk/)
+  - [Portuguese](https://www.homeyou.com/~edu/graphviz)
 
 #### Entities
 - [Syntax](https://graphviz.org/_pages/doc/info/lang.html) - The DOT Language.
 - [Node](https://graphviz.org/_pages/doc/info/shapes.html) - A node is the primary 1st class element in a graph.
 - [Edge](https://graphviz.org/_pages/doc/info/arrows.html) - An edge connect two nodes.
-- [Graph]() - All entities are placed within a graph or digraph (tbd).
-- [Cluster/Subgraph](https://graphviz.org/_pages/Gallery/directed/cluster.html) - Devides the graph.
+- [Graph](http://graphs.grevian.org/example) - GraphViz Pocket Reference.
+- [Cluster](https://graphviz.org/_pages/Gallery/directed/cluster.html) - Devides the graph.
+- [Subgraph](https://stackoverflow.com/questions/2012036/graphviz-how-to-connect-subgraphs) - How to connect subgraphs.
 
 #### Attributes
 - [All in One](https://graphviz.org/_pages/doc/info/attrs.html) - All Attributes of all Entities in one page.
 - [Colors](https://graphviz.org/_pages/doc/info/colors.html) - Overview of graphviz colornames.
 
 #### Layout-Types
-- [circo]() - draws graphs using a circular layout (tbd).
+- [circo](https://linux.die.net/man/1/circo) - draws graphs using a circular layout.
 - [dot](https://graphviz.org/_pages/pdf/dot.1.pdf) - draws directed graphs.
-- [fdp]() - draws undirected graphs using a 'spring' model (tbd).
+- [fdp](https://linux.die.net/man/1/fdp) - draws undirected graphs using a 'spring' model
 - [neato](https://graphviz.org/_pages/pdf/neatoguide.pdf) - draws undirected graphs using 'spring' models.
 - [osage](https://graphviz.org/_pages/pdf/osage.1.pdf) - filter for drawing clustered graphs.
 - [patchwork](https://graphviz.org/_pages/pdf/patchwork.1.pdf) - filter for drawing clustered graphs as treemaps.
-- [sfdp]() - filter for drawing large undirected graphs  (tbd).
-- [twopi]() - filter for radial layouts of graphs (tbd).
+- [sfdp](https://linux.die.net/man/1/sfdp) - filter for drawing large undirected graphs.
+- [twopi](https://linux.die.net/man/1/twopi) - filter for radial layouts of graphs.
+
+
 
 #### Tools
 - GUI
-  - [dotty]() - A Customizable Graph Editor - (tbd).
-  - [gvedit]() - simple graph editor and viewer - (tbd).
-  - [lefty]() - A Programmable Graphics Editor - (tbd).
-  - [lneato]() - Editor on top of neato & lefty - (tbd).
-  - [smyrna]() - interactive graph viewer - (tbd).
-  - [vimdot]() - Combined text editor and dot viewer - (tbd).
+  - [dotty](https://linux.die.net/man/1/dotty) - Customizable Graph Editor, see also [pdf](https://www.graphviz.org/pdf/dottyguide.pdf).
+  - [gvedit](http://204.178.9.49/content/new-gvedit-released) - Simple graph editor and viewer, Release-Notes.
+  - [lefty](https://linux.die.net/man/1/lefty) - Programmable Graphics Editor, see also [pdf](https://graphviz.gitlab.io/_pages/pdf/leftyguide.pdf).
+  - [lneato](https://linux.die.net/man/1/lneato) - Editor on top of neato & lefty, see also [pdf](https://graphviz.org/_pages/pdf/lneato.1.pdf).
+  - [smyrna-man](https://linux.die.net/man/1/smyrna) - Interactive graph viewer, see also [pdf](https://graphviz.gitlab.io/_pages/pdf/smyrna.1.pdf).
+  - [vimdot-man](https://www.mankier.com/1/vimdot) - Combined text editor and dot viewer, see also [pdf](https://graphviz.org/_pages/pdf/vimdot.1.pdf).
 
 - Graph Analysis
-  - [acyclic]() -  make directed graph acyclic  - (tbd)
+  - [acyclic](https://www.mankier.com/1/acyclic) - make directed graph acyclic  - (tbd)
   - [bcomps]() - biconnected components filter for graphs - (tbd)
   - [cluster]() - find clusters in a graph and augment the graph with this information - (tbd)
   - [ccomps]() - connected components filter for graphs - (tbd)
@@ -193,15 +202,16 @@ See [contributing.md](contributing.md) how to pull requests.
 ### Graphical Interfaces
 
 #### Web-Interface
-- [Viz-Js](http://ushiroad.com/jsviz/) - DHTML-based interactive viewer for Graphviz *Satoshi Ueyama*
-- [GraphvizOnline](http://dreampuf.github.io/GraphvizOnline/) - Online Editor with Syntax Higlighting
-- [Graphviz.it](http://graphviz.it) - Online-Editor with all the standard examples, based on [graph-viz-d3-js](#graph-viz-d3-js)
-- [Canviz](http://www.ryandesign.com/canviz/) - an HTML5/Javascript canvas viewer (beta). *Ryan Schmidt* 
-- [Graphviz Test Tool](https://sites.google.com/site/kuabus/programming-by-hu/graphviz-test-tool) - a GUI front-end for Graphviz *Hansuli Anderegg * 
-- [GraphvizFiddle](https://stamm-wilbrandt.de/GraphvizFiddle/) - a dual-view Graphviz editor *Hermann Stamm-Wilbrandt* 
-- [jQuery.Graphviz](https://github.com/goinnn/jquery.graphviz) - a jQuery based interactive graph viewer for graphviz svg *Pablo Martín* 
-- [an AJAX viewer](https://ashitani.jp/gv/) written with Rico *T. Ashitani* 
-- [Online Graphviz Generator](http://fiane.mooo.com:8080/graphviz/) - Simple Online Generator with Go Server
+- [Viz-Js](http://ushiroad.com/jsviz/) - DHTML-based interactive viewer for Graphviz *Satoshi Ueyama*.
+- [GraphvizOnline](http://dreampuf.github.io/GraphvizOnline/) - Online Editor with Syntax Higlighting.
+- [Graphviz.it](http://graphviz.it) - Online-Editor with all the standard examples, based on [graph-viz-d3-js](#graph-viz-d3-js).
+- [Canviz](http://www.ryandesign.com/canviz/) - an HTML5/Javascript canvas viewer (beta). *Ryan Schmidt*.
+- [Graphviz Test Tool](https://sites.google.com/site/kuabus/programming-by-hu/graphviz-test-tool) - a GUI front-end for Graphviz *Hansuli Anderegg *.
+- [GraphvizFiddle](https://stamm-wilbrandt.de/GraphvizFiddle/) - a dual-view Graphviz editor *Hermann Stamm-Wilbrandt*.
+- [jQuery.Graphviz](https://github.com/goinnn/jquery.graphviz) - a jQuery based interactive graph viewer for graphviz svg *Pablo Martín*.
+- [an AJAX viewer](https://ashitani.jp/gv/) written with Rico *T. Ashitani*.
+- [Online Graphviz Generator](http://fiane.mooo.com:8080/graphviz/) - Simple Online Generator with Go Server.
+- [webgraphviz](http://www.webgraphviz.com/) - WebGraphviz is Graphviz in the Browser.
 
 #### Editor Addons
 - [Graphviz for vscode](https://marketplace.visualstudio.com/items?itemName=Stephanvs.dot) - Graphviz (dot) Syntax Highlight and snippets for Visual Studio Code *Stephanvs*
