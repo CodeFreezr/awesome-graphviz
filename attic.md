@@ -25,13 +25,20 @@ Find here broken links or changed targets which needs further investigation to b
 #### AI and Language Tools 
 - [DAWG CREATOR](http://www.webhostingtalk.com) - a C++ class for creating a prefix tree representation of a given lexicon. 
 - [FcaStone](http://fcastone.sourceforge.net/) - lays out algebraic lattices in the sense of Formal Concept Analysis. (Try the- [demo](http://www.upriss.org.uk/fca/fcademo.html) - or the- [lattice visualisations of Roget's Thesaurus](http://www.ketlab.org.uk/roget.html)). *Uta Priss* 
+- [CanooNet](http://www.canoo.net/services/WordformationDictionary/Controller) - , a German word formation dictionary. (Try- [_Blockflöte_](http://www.canoo.net/services/WordformationDictionary/Controller?asp=1&input=blockfl%F6te&features=%28Cat+N%29%28Gender+F%29&lang=de&country=CH&lookup=caseInSensitive),- [_Hochschule_](http://www.canoo.net/services/WordformationDictionary/Controller?asp=1&input=hochschule&features=%28Cat+N%29%28Gender+F%29&lang=de&country=CH&lookup=caseInSensitive) or [_Massanzug_](http://www.canoo.net/services/WordformationDictionary/Controller?asp=1&input=massanzug&features=%28Cat+N%29%28Gender+M%29&lang=de&country=CH&lookup=caseInSensitive) in the entry field).
 #### Transform data sources and formats into Graphviz. 
 - [SQL Fairy](http://sqlfairy.sourceforge.net/) - a group of Perl modules that manipulate structure data definitions (mostly database schemas) - in interesting ways, such as visualizations of schemas (pseudo-ER diagrams Graphviz or GD) - *Szilárd Vajda* 
 - [SchemaSpy](http://schemaspy.sourceforge.net/) - analyzes and displays metadata for any database via JDBC, letting you click through a hierarchy of tables *John Currier* 
+- [SqlPP](https://www.codeproject.com/Articles/4603/A-scripted-SQL-query-generation-framework-with-IDE) - a scripted SQL query generation framework that generates graphviz 
+#### Social Networking and Collaborative Work 
+- [Proximity Subgraphs](http://www.research.att.com/people/Volinsky_Christopher_T/custom_index.html) - visualize communities in the Internet Movie Database 
+- [Hammond Jazz Inventory](http://www.hammondjazz.net/index.php?page=article&task=current&mode=detail&section=News&target=70) - show graphical representation of musicians related by recordings in which the Hammond organ plays a significant role (orghammograms!) - 
 
 
 #### Bioinformatics and Cheminformatics
 - [cancer.gov](http://cmap.nci.nih.gov/): National Cancer Institute (NIH) - pathway interaction database (CMAP) -  *Kotien Wu* 
+- [protein database visualization](http://stke.sciencemag.org/) -  *American Association for the Advancement of Science (AAAS) - and Stanford University Digital Libraries Project* 
+- [Pubgene](https://www.pubgene.com/) - Bioinformatic Solutions and Databases for Genomics, Proteomics, and Drug Discovery (go- [here](http://www.pubgene.org) - for original academic web site)
 
 ##### Dependency
 - [RPMGraph](https://sourceforge.net/projects/freshmeat/) - uses neato to draw a graph of dependencies between RPMs on RedHat or other RPM based systems *Andrea Lombardoni* 
@@ -72,6 +79,7 @@ Find here broken links or changed targets which needs further investigation to b
 #### Others
 - [xdot.py](https://sourceforge.net/projects/freshmeat/) - an interactive viewer for graphs. *Jose Fonseca* 
 - [ZGRViewer](http://zvtm.sourceforge.net/zgrviewer.html) - an SVG-based zooming graph viewer for large graphs *Emmanuel Pietriga* 
+
 
 
 
