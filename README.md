@@ -47,13 +47,13 @@ You're welcome to add new stuff or report glitches. See [contributing.md](contri
     * [AI and Language Tools](#ai-and-language-tools)
     * [Network and Web Engineering Tools](#network-and-web-engineering-tools)
     * [Programming and Software Engineering Tools](#programming-and-software-engineering-tools)
-    * [UML and Software\-Design &amp; \-Modelling](#uml-and-software-design---modelling)
-    * [Documentation](#documentation)
-    * [Call Graphs](#call-graphs)
-    * [Dependency](#dependency)
-    * [Schema &amp; Database Visualisations](#schema--database-visualisations)
-    * [Theoretical Computer Science](#theoretical-computer-science)
-    * [Others](#others-1)
+      * [UML and Software\-Design &amp; \-Modelling](#uml-and-software-design---modelling)
+      * [Documentation](#documentation)
+      * [Call Graphs](#call-graphs)
+      * [Dependency](#dependency)
+      * [Schema &amp; Database Visualisations](#schema--database-visualisations)
+      * [Theoretical Computer Science](#theoretical-computer-science)
+      * [Others](#others-1)
     * [Bioinformatics and Cheminformatics](#bioinformatics-and-cheminformatics)
     * [Document preparation](#document-preparation)
     * [Social Networking and Collaborative Work](#social-networking-and-collaborative-work)
@@ -241,6 +241,7 @@ You're welcome to add new stuff or report glitches. See [contributing.md](contri
 - [idot](https://code.google.com/archive/p/idot) - an incremental Graphviz viewer (Java ≥ 1.5 with the excellent 
 - [Yoix](http://www.2uwebhosting.com/) a scripting language implemented in Java with a data visualization module called YDAT that provides interactive display of GraphViz files (use -Txdot -y) *John Mocenigo* 
 - [TINTFU](https://www.openhub.net/p/tintfu) - a Java-based editor for .dot graph files. *Walter Stroebel* 
+- [graphviz4j](https://github.com/shevek/graphviz4j) - A Java GraphViz graph builder and parser.
 
 #### Other
 - [prefuse](http://prefuse.org/) toolkit). *Mikko Vinni* 
@@ -345,7 +346,6 @@ You're welcome to add new stuff or report glitches. See [contributing.md](contri
 - [DOTML](http://www.martin-loetzsch.de/DOTML/) - XML markup to mirror dot language. Includes scripts and XSLT to transform and render *Martin Loetzsch* 
 - [S-DOT](http://www.martin-loetzsch.de/S-DOT/) - a Common Lisp interface to dot *also Martin Loetzsch* 
 - [SqlPP](https://www.codeproject.com/Articles/4603/A-scripted-SQL-query-generation-framework-with-IDE) - a scripted SQL query generation framework that generates graphviz 
-
 - [DBGraphNav](https://code.google.com/archive/p/dbgraphnav) - a tool to facilitate the browsing of data within relational databases. *Paul McMillan* 
 - [EMF To Graphviz](https://sourceforge.net/projects/emf2gv/) - an Eclipse plugin that helps to transform an EMF model into a diagram using Graphviz. 
 
@@ -393,7 +393,7 @@ You're welcome to add new stuff or report glitches. See [contributing.md](contri
   - [Python call graphs](http://pycallgraph.slowchop.com/en/master/) - Python Call Graph Visualisation
 
 ##### Dependency
-    - [LJV.java](https://www.cs.auckland.ac.nz/~j-hamer/LJV.html) - (Lightweight Java Visualizer) - is tool for visualizing Java data structures with Graphviz. It has been used to good effect in CS1 and CS2-level data structures courses. *John Hammer* 
+  - [LJV.java](https://www.cs.auckland.ac.nz/~j-hamer/LJV.html) - (Lightweight Java Visualizer) - is tool for visualizing Java data structures with Graphviz. It has been used to good effect in CS1 and CS2-level data structures courses. *John Hammer* 
   - [eEye Binary Diffing Suite](https://www.beyondtrust.com/) - is a suite of tools for binary differential analysis, especially for reverse engineering patches as well as program updates. 
   - [YaST](https://lizards.opensuse.org/2009/01/19/graph-of-storage-devices/) - openSUSE installation and configuration showing a graph of storage devices with dependencies. *Arvin Schnell* 
 
@@ -428,7 +428,6 @@ You're welcome to add new stuff or report glitches. See [contributing.md](contri
 - [dot2tex](https://dot2tex.readthedocs.io/en/latest/) - is a LaTeX-friendly converter from Graphviz (xdot) - to converting xdot PSTricks or PGF/TikZ commands, with support for LaTeX labels and arrows. *Kjell Magne Fauske* 
 - [graphviz mode for emacs](http://ppareit.github.io/graphviz-dot-mode/) - (or- [here](https://graphviz.org/_pages/Misc/graphviz-dot-mode.el)). 
 - [Ladot](http://brighten.bigw.org/projects/ladot/): scripts for including LaTeX in your Graphviz files *Brighten Godfrey* 
-
 - [TeXmacs](http://www.texmacs.org/tmweb/home/welcome.en.html) - a scientific text editor, inspired by TeX and GNU Emacs, has a Graphviz interface *Joris van der Hoeven* 
 - [Visustin flow chart generator](http://www.aivosto.com/visustin.html)*Aivosto* 
 - [Mac OmniGraffle](https://www.omnigroup.com/omnigraffle/) - *Omni Group* 
@@ -440,7 +439,6 @@ You're welcome to add new stuff or report glitches. See [contributing.md](contri
 - [Hammond Jazz Inventory](http://www.hammondjazz.net/index.php?page=article&task=current&mode=detail&section=News&target=70) - show graphical representation of musicians related by recordings in which the Hammond organ plays a significant role (orghammograms!) - 
  
 #### Third-Party Distributions 
-- [RPM Find](http://fr2.rpmfind.net/linux/rpm2html/search.php?query=graphviz&submit=Search+...&system=&arch=) - many distros and architectures. 
 - [Debian](https://packages.debian.org/search?suite=all&searchon=names&keywords=graphviz) - Linux packages for several architectures. 
 - [Gentoo](https://packages.gentoo.org/packages/media-gfx/graphviz) - Linux packages. 
 - [SuSE](https://software.opensuse.org/search?q=graphviz) - rpms for Novell/SuSE distributions for many architectures. 
@@ -448,13 +446,14 @@ You're welcome to add new stuff or report glitches. See [contributing.md](contri
 
 ### Package Search and Further Collections
 #### Packages
-- [libraries.io](https://libraries.io/search?q=graphviz) - Meta Package Serach
-- [npm packages](https://www.npmjs.com/browse/keyword/graphviz) - npm packages with keyword ‘graphviz’
-- [CPAN](http://search.cpan.org/search?query=graphviz&mode=all) - The ultimative PERL Source
-- [rpmfind](https://rpmfind.net/linux/rpm2html/search.php?query=graphviz&submit=Search+...&system=&arch=) - RPM resource graphviz on rpmfind
-- [GoLangLibs](https://golanglibs.com/search?q=graphviz) - Three pages full of Go Packages incorporated graphviz
-- [Go Search](http://go-search.org/search?q=graphviz) - Searching in over 700k Golang Files and Packages
-- [GoDoc](https://godoc.org/?q=graphviz) - Query through all the Go Package Documentation
+- [libraries.io](https://libraries.io/search?q=graphviz) - Meta Package Search
+- [npm packages](https://www.npmjs.com/browse/keyword/graphviz) - npm packages.
+- [CPAN](http://search.cpan.org/search?query=graphviz&mode=all) - The ultimative PERL Source.
+- [RPM Find](http://fr2.rpmfind.net/linux/rpm2html/search.php?query=graphviz&submit=Search+...&system=&arch=) - many distros and architectures.
+- [GoLangLibs](https://golanglibs.com/search?q=graphviz) - Three pages full of Go Packages.
+- [Go Search](http://go-search.org/search?q=graphviz) - Searching in over 700k Golang Files and Packages.
+- [GoDoc](https://godoc.org/?q=graphviz) - Query through all the Go Package Documentation.
+- [Maven Central](https://search.maven.org/#search%7Cga%7C1%7Cgraphviz) - Find the most actual Jar-Files.
 
 #### More to find
 - [Stack Overflow](https://stackoverflow.com/search?q=graphviz) - Found thousands Questions & Answers for graphviz
