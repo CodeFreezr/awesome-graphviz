@@ -32,6 +32,7 @@ Find here broken links or changed targets which needs further investigation to b
 ##### Dependency
 - [RPMGraph](https://sourceforge.net/projects/freshmeat/) - uses neato to draw a graph of dependencies between RPMs on RedHat or other RPM based systems *Andrea Lombardoni* 
 - [nmdepend](http://nmdepend.sourceforge.net/) - is a lightweight link-time dependency analyzer for C/C++ object files and libraries, helps manage cross-directory dependencies *Eddy Pronk* 
+- [eEye Binary Diffing Suite](https://www.beyondtrust.com/) - is a suite of tools for binary differential analysis, especially for reverse engineering patches as well as program updates. 
 
 #### Document preparation 
 - [graphviz.tex](http://code.google.com/p/hamake/source/browse/trunk/doc/whitepaper/graphviz.tex?r=452): macros for including Graphviz in your LaTeX files *Derek Rayside* 
