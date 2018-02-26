@@ -13,42 +13,42 @@ See [contributing.md](contributing.md) how to pull requests.
 
 
 ## Table of Content
+
 * [Graphviz Distribution](#graphviz-distribution)
-  * [Introductions](#introductions)
-  * [Entities](#entities)
-  * [Attributes](#attributes)
-  * [Layout\-Types](#layout-types)
-  * [Tools](#tools)
-  * [API](#api)
-* [Theory &amp; Publication (tbd)](#theory--publication-tbd)
-  * [Graphviz Papers (tbd)](#graphviz-papers-tbd)
-  * [Graph Drawing (tbd)](#graph-drawing-tbd)
-  * [Information Visualization (tbd)](#information-visualization-tbd)
+    * [Introductions](#introductions)
+    * [Entities](#entities)
+    * [Attributes](#attributes)
+    * [Layout / Output](#layout--output)
+    * [Tools](#tools)
+    * [API](#api)
+* [Theory &amp; Publications](#theory--publications)
+    * [Graphviz Papers](#graphviz-papers)
+    * [Graph Drawing](#graph-drawing)
+    * [Information Visualization](#information-visualization)
 * [Graphical Interfaces](#graphical-interfaces)
-  * [Web\-Interface](#web-interface)
-  * [Editor Addons](#editor-addons)
-  * [\.NET / C\#](#net--c)
-  * [Mac OS](#mac-os)
-  * [Java](#java)
-  * [Other](#other)
-  * [Online Platforms](#online-platforms)
+    * [Web\-Interface](#web-interface)
+    * [Editor Addons](#editor-addons)
+    * [\.NET / C\#](#net--c)
+    * [Mac OS](#mac-os)
+    * [Java](#java)
+    * [Other](#other)
+    * [Online Platforms](#online-platforms)
 * [Language Bindings](#language-bindings)
-  * [Libs for Node / JS / JQuery / D3](#libs-for-node--js--jquery--d3)
-  * [Libs for Python](#libs-for-python)
-  * [Libs for Django](#libs-for-django)
-  * [Libs for Go](#libs-for-go)
-  * [Libs for Java](#libs-for-java)
-  * [Libs for C\# and \.NET](#libs-for-c-and-net)
-  * [Libs for Perl](#libs-for-perl)
-  * [Libs for Ruby:](#libs-for-ruby)
-  * [Others:](#others)
-  * [Confluence/Jira:](#confluencejira)
-  * [CMS (Wiki/Blog):](#cms-wikiblog)
+    * [Libs for Node / JS / JQuery / D3](#libs-for-node--js--jquery--d3)
+    * [Libs for Python](#libs-for-python)
+    * [Libs for Django](#libs-for-django)
+    * [Libs for Go](#libs-for-go)
+    * [Libs for Java](#libs-for-java)
+    * [Libs for C\# and \.NET](#libs-for-c-and-net)
+    * [Libs for Perl](#libs-for-perl)
+    * [Others:](#others)
+    * [Confluence/Jira:](#confluencejira)
+    * [CMS (Wiki/Blog):](#cms-wikiblog)
 * [Generators and Translators](#generators-and-translators)
-  * [Transform data sources and formats into Graphviz\.](#transform-data-sources-and-formats-into-graphviz)
-  * [AI and Language Tools](#ai-and-language-tools)
-  * [Network and Web Engineering Tools](#network-and-web-engineering-tools)
-  * [Programming and Software Engineering Tools](#programming-and-software-engineering-tools)
+    * [Transform data sources and formats into Graphviz\.](#transform-data-sources-and-formats-into-graphviz)
+    * [AI and Language Tools](#ai-and-language-tools)
+    * [Network and Web Engineering Tools](#network-and-web-engineering-tools)
+    * [Programming and Software Engineering Tools](#programming-and-software-engineering-tools)
     * [UML and Software\-Design &amp; \-Modelling](#uml-and-software-design---modelling)
     * [Documentation](#documentation)
     * [Call Graphs](#call-graphs)
@@ -56,13 +56,13 @@ See [contributing.md](contributing.md) how to pull requests.
     * [Schema &amp; Database Visualisations](#schema--database-visualisations)
     * [Theoretical Computer Science](#theoretical-computer-science)
     * [Others](#others-1)
-  * [Bioinformatics and Cheminformatics](#bioinformatics-and-cheminformatics)
-  * [Document preparation with Graphviz](#document-preparation-with-graphviz)
-  * [Social Networking and Collaborative Work](#social-networking-and-collaborative-work)
-  * [Third\-Party Distributions](#third-party-distributions)
+    * [Bioinformatics and Cheminformatics](#bioinformatics-and-cheminformatics)
+    * [Document preparation](#document-preparation)
+    * [Social Networking and Collaborative Work](#social-networking-and-collaborative-work)
+    * [Third\-Party Distributions](#third-party-distributions)
 * [Package Search and Further Collections](#package-search-and-further-collections)
-  * [Packages](#packages)
-  * [More to find](#more-to-find)
+    * [Packages](#packages)
+    * [More to find](#more-to-find)
 
 ## Content
 
@@ -75,6 +75,7 @@ See [contributing.md](contributing.md) how to pull requests.
 - [Wikipedia-Graphviz](https://en.wikipedia.org/wiki/Graphviz) -  Wikipedia page about Graphviz.
 - [Wikipedia-DOT](https://en.wikipedia.org/wiki/DOT_(graph_description_language)) -  Great starter into the DOT / GV Language.
 - [Changelog](https://gitlab.com/graphviz/graphviz/blob/master/ChangeLog) - Changelog starting from March 13, 2000.
+- [Wish List](https://graphviz.org/_pages/doc/todo.html) - Graphviz Wish List
 - Translations
   - [Romanian](http://science.webhostinggeeks.com/graphviz-about-rm) 
   - [Russian](http://www.portablecomponentsforall.com/edu/graphviz-about-ru/) 
@@ -94,7 +95,9 @@ See [contributing.md](contributing.md) how to pull requests.
 - [All in One](https://graphviz.org/_pages/doc/info/attrs.html) - All Attributes of all Entities in one page.
 - [Colors](https://graphviz.org/_pages/doc/info/colors.html) - Overview of graphviz colornames.
 
-#### Layout-Types
+#### Layout / Output
+- [Output Formats](https://graphviz.org/_pages/doc/info/output.html) - Overview of all possible output formats.
+- [Command-line Invocation](https://graphviz.org/_pages/doc/info/command.html) - All Graphviz programs have a similar invocation.
 - [circo](https://linux.die.net/man/1/circo) - draws graphs using a circular layout.
 - [dot](https://graphviz.org/_pages/pdf/dot.1.pdf) - draws directed graphs.
 - [fdp](https://linux.die.net/man/1/fdp) - draws undirected graphs using a 'spring' model
@@ -105,62 +108,73 @@ See [contributing.md](contributing.md) how to pull requests.
 - [twopi](https://linux.die.net/man/1/twopi) - filter for radial layouts of graphs.
 
 
-
 #### Tools
 - GUI
   - [dotty](https://linux.die.net/man/1/dotty) - Customizable Graph Editor, see also [pdf](https://www.graphviz.org/pdf/dottyguide.pdf).
-  - [gvedit](http://204.178.9.49/content/new-gvedit-released) - Simple graph editor and viewer, Release-Notes.
-  - [lefty](https://linux.die.net/man/1/lefty) - Programmable Graphics Editor, see also [pdf](https://graphviz.gitlab.io/_pages/pdf/leftyguide.pdf).
+  - [gvedit](http://204.178.9.49/content/new-gvedit-released) - Simple graph editor and viewer, Release-Notes. See als [pdf](https://graphviz.org/_pages/pdf/gvedit.1.pdf).
+  - [lefty](https://linux.die.net/man/1/lefty) - Programmable Graphics Editor, see also [pdf](https://graphviz.org/_pages/pdf/leftyguide.pdf).
   - [lneato](https://linux.die.net/man/1/lneato) - Editor on top of neato & lefty, see also [pdf](https://graphviz.org/_pages/pdf/lneato.1.pdf).
-  - [smyrna](https://linux.die.net/man/1/smyrna) - Interactive graph viewer, see also [pdf](https://graphviz.gitlab.io/_pages/pdf/smyrna.1.pdf).
+  - [smyrna](https://linux.die.net/man/1/smyrna) - Interactive graph viewer, see also [pdf](https://graphviz.org/_pages/pdf/smyrna.1.pdf).
   - [vimdot](https://www.mankier.com/1/vimdot) - Combined text editor and dot viewer, see also [pdf](https://graphviz.org/_pages/pdf/vimdot.1.pdf).
 
 - Graph Analysis
-  - [acyclic](https://www.mankier.com/1/acyclic) - make directed graph acyclic, see also [pdf](https://graphviz.gitlab.io/_pages/pdf/acyclic.1.pdf).
-  - [bcomps](https://www.mankier.com/1/bcomps) - biconnected components filter for graphs, see also [pdf](https://graphviz.gitlab.io/_pages/pdf/bcomps.1.pdf).
-  - [cluster](https://www.mankier.com/1/cluster) - find clusters in a graph and augment the graph with this information, see also [pdf](https://graphviz.gitlab.io/_pages/pdf/cluster.1.pdf).
-  - [ccomps](https://www.mankier.com/1/ccomps) - connected components filter for graphs, see also [pdf](https://graphviz.gitlab.io/_pages/pdf/ccomps.1.pdf).
-  - [diffimg](https://www.mankier.com/1/diffimg) - Calculates intersection between two images, see also [pdf](https://graphviz.gitlab.io/_pages/pdf/diffimg.1.pdf).
-  - [dijkstra](https://www.mankier.com/1/dijkstra) - single-source distance filter, see also [pdf](https://graphviz.gitlab.io/_pages/pdf/dijkstra.1.pdf).
-  - [edgepaint](https://www.mankier.com/1/edgepaint) - edge coloring to disambiguate crossing edges, see also [pdf](https://graphviz.gitlab.io/_pages/pdf/edgepaint.1.pdf).
-  - [gc](https://www.mankier.com/1/gc) - count graph components, see also [pdf](https://graphviz.gitlab.io/_pages/pdf/gc.1.pdf).
-  - [gvcolor](https://www.mankier.com/1/gvcolor) - flow colors through a ranked digraph, see also [pdf](https://graphviz.gitlab.io/_pages/pdf/gvcolor.1.pdf).
-  - [gvgen](https://www.mankier.com/1/gvgen) - generate graphs, see also [pdf](https://graphviz.gitlab.io/_pages/pdf/gvgen.1.pdf).
-  - [gvmap](https://www.mankier.com/1/gvmap) - find clusters and create a geographical map highlighting clusters, see also [pdf](https://graphviz.gitlab.io/_pages/pdf/gvmap.1.pdf).
-  - [gvpack](https://www.mankier.com/1/gvpack) - merge and pack disjoint graphs, see also [pdf](https://graphviz.gitlab.io/_pages/pdf/gvpack.1.pdf).
-  - [gvpr](https://www.mankier.com/1/gvpr) - graph pattern scanning and processing language, see also [pdf](https://graphviz.gitlab.io/_pages/pdf/gvpr.1.pdf).
-  - [mingle](https://www.mankier.com/1/mingle) - fast edge bundling, see also [pdf](https://graphviz.gitlab.io/_pages/pdf/mingle.1.pdf).
-  - [nop](https://www.mankier.com/1/nop) - pretty-print graph file, see also [pdf](https://graphviz.gitlab.io/_pages/pdf/nop.1.pdf).
-  - [sccmap](https://www.mankier.com/1/sccmap) - extract strongly connected components of directed graphs, see also [pdf](https://graphviz.gitlab.io/_pages/pdf/sccmap.1.pdf).
-  - [tred](https://www.mankier.com/1/tred) - transitive reduction filter for directed graphs, see also [pdf](https://graphviz.gitlab.io/_pages/pdf/tred.1.pdf).
-  - [unflatten](https://www.mankier.com/1/unflatten) - adjust directed graphs to improve layout aspect ratio, see also [pdf](https://graphviz.gitlab.io/_pages/pdf/unflatten.1.pdf).
+  - [acyclic](https://www.mankier.com/1/acyclic) - make directed graph acyclic, see also [pdf](https://graphviz.org/_pages/pdf/acyclic.1.pdf).
+  - [bcomps](https://www.mankier.com/1/bcomps) - biconnected components filter for graphs, see also [pdf](https://graphviz.org/_pages/pdf/bcomps.1.pdf).
+  - [cluster](https://www.mankier.com/1/cluster) - find clusters in a graph and augment the graph with this information, see also [pdf](https://graphviz.org/_pages/pdf/cluster.1.pdf).
+  - [ccomps](https://www.mankier.com/1/ccomps) - connected components filter for graphs, see also [pdf](https://graphviz.org/_pages/pdf/ccomps.1.pdf).
+  - [diffimg](https://www.mankier.com/1/diffimg) - Calculates intersection between two images, see also [pdf](https://graphviz.org/_pages/pdf/diffimg.1.pdf).
+  - [dijkstra](https://www.mankier.com/1/dijkstra) - single-source distance filter, see also [pdf](https://graphviz.org/_pages/pdf/dijkstra.1.pdf).
+  - [edgepaint](https://www.mankier.com/1/edgepaint) - edge coloring to disambiguate crossing edges, see also [pdf](https://graphviz.org/_pages/pdf/edgepaint.1.pdf).
+  - [gc](https://www.mankier.com/1/gc) - count graph components, see also [pdf](https://graphviz.org/_pages/pdf/gc.1.pdf).
+  - [gvcolor](https://www.mankier.com/1/gvcolor) - flow colors through a ranked digraph, see also [pdf](https://graphviz.org/_pages/pdf/gvcolor.1.pdf).
+  - [gvgen](https://www.mankier.com/1/gvgen) - generate graphs, see also [pdf](https://graphviz.org/_pages/pdf/gvgen.1.pdf).
+  - [gvmap](https://www.mankier.com/1/gvmap) - find clusters and create a geographical map highlighting clusters, see also [pdf](https://graphviz.org/_pages/pdf/gvmap.1.pdf).
+  - [gvpack](https://www.mankier.com/1/gvpack) - merge and pack disjoint graphs, see also [pdf](https://graphviz.org/_pages/pdf/gvpack.1.pdf).
+  - [gvpr](https://www.mankier.com/1/gvpr) - graph pattern scanning and processing language, see also [pdf](https://graphviz.org/_pages/pdf/gvpr.1.pdf).
+  - [mingle](https://www.mankier.com/1/mingle) - fast edge bundling, see also [pdf](https://graphviz.org/_pages/pdf/mingle.1.pdf).
+  - [nop](https://www.mankier.com/1/nop) - pretty-print graph file, see also [pdf](https://graphviz.org/_pages/pdf/nop.1.pdf).
+  - [sccmap](https://www.mankier.com/1/sccmap) - extract strongly connected components of directed graphs, see also [pdf](https://graphviz.org/_pages/pdf/sccmap.1.pdf).
+  - [tred](https://www.mankier.com/1/tred) - transitive reduction filter for directed graphs, see also [pdf](https://graphviz.org/_pages/pdf/tred.1.pdf).
+  - [unflatten](https://www.mankier.com/1/unflatten) - adjust directed graphs to improve layout aspect ratio, see also [pdf](https://graphviz.org/_pages/pdf/unflatten.1.pdf).
     
-- Converter
-  - [mm2gv](https://www.mankier.com/1/mm2gv) - Matrix Market-DOT converters, see also [pdf]().
-  - [gxl2gv](https://www.mankier.com/1/gxl2gv) - GXL-GV converters, see also [pdf]().
-  - [gml2gv](https://www.mankier.com/1/gml2gv) - GML-DOTconverters, see also [pdf]().
-  - [graphml2gv](https://www.mankier.com/1/graphml2gv) - GRAPHML-DOT converter, see also [pdf]().
+- Converters
+  - [mm2gv](https://www.mankier.com/1/mm2gv) - Matrix Market-DOT converters, see also [pdf](https://graphviz.org/_pages/pdf/mm2gv.1.pdf).
+  - [gxl2gv](https://www.mankier.com/1/gxl2gv) - GXL-GV converters, see also [pdf](https://graphviz.org/_pages/pdf/gxl2gv.1.pdf).
+  - [gml2gv](https://www.mankier.com/1/gml2gv) - GML-DOTconverters, see also [pdf](https://graphviz.org/_pages/pdf/gml2gv.1.pdf).
+  - [graphml2gv](https://www.mankier.com/1/graphml2gv) - GRAPHML-DOT converter, see also [pdf](https://graphviz.org/_pages/pdf/graphml2gv.1.pdf).
 
 #### API
 - Language Bindings
-  - [C-Code Samples]() - (tbd)
-  - C libraries
-    - [cdt](https://graphviz.org/_pages/pdf/cdt.3.pdf) - container data types
-    - [cgraph](https://graphviz.org/_pages/pdf/cgraph.pdf) - Cgraph Tutorial
-    - [gvc]() - (tbd)
-    - [pack]() - (tbd)
-    - [pathplan]() - (tbd)
-    - [xdot]() - (tbd)
-  - [Guile]() - (tbd)
-  - [Java]() - (tbd)
-  - [Perl]() - (tbd)
-  - [PHP]() - (tbd)
-  - [Python]() - (tbd)
-  - [Ruby]() - (tbd)
-  - [TCL/TK libraries]() - (tbd)
+  - C 
+    - Libraries
+      - [cdt](https://graphviz.org/_pages/pdf/cdt.3.pdf) - container data types.
+      - [cgraph](https://graphviz.org/_pages/pdf/cgraph.pdf) - Cgraph Tutorial.
+      - [gvc](https://graphviz.org/_pages/pdf/gvc.3.pdf) - Graphviz context library.
+      - [pack](https://graphviz.org/_pages/pdf/pack.3.pdf) - support for connected components.
+      - [pathplan](https://graphviz.org/_pages/pdf/pathplan.3.pdf) - ﬁnds and smooths shortest paths.
+      - [xdot](https://graphviz.org/_pages/pdf/xdot.3.pdf) - parsing and deparsing of xdot operations.
+    - Sample Programs
+      - [demo.c](https://graphviz.org/_pages/dot.demo/demo.c)
+      - [dot.c](https://graphviz.org/_pages/dot.demo/dot.c) 
+      - [example.c](https://graphviz.org/_pages/dot.demo/example.c)
+      - [simple.c](https://graphviz.org/_pages/dot.demo/simple.c)
+      - [Makefile](https://graphviz.org/_pages/dot.demo/Makefile)
+  - TCL/TK libraries
+    - [gdtclft.3tcl](https://graphviz.org/_pages/pdf/gdtclft.3tcl.pdf) - render images in various bitmap formats (GD, GD2, GIF,JPEG, PNG, WBMP,XBM).
+    - [tcldot.3tcl](https://graphviz.org/_pages/pdf/tcldot.3tcl.pdf) - graph manipulation in tcl.
+    - [tkspline.3tk](https://graphviz.org/_pages/pdf/tkspline.3tk.pdf) - additional smoothing method for canvasitems.
+  - [Guile](https://graphviz.org/_pages/pdf/gv.3guile.pdf) - graph manipulation in guile.
+  - [Java](https://graphviz.org/_pages/pdf/gv.3java.pdf) - graph manipulation in java.
+  - [Perl](https://graphviz.org/_pages/pdf/gv.3perl.pdf) - graph manipulation in perl.
+  - [PHP](https://graphviz.org/_pages/pdf/gv.3php.pdf) - graph manipulation in php.
+  - [Python](https://graphviz.org/_pages/pdf/gv.3python.pdf) - graph manipulation in python.
+  - [Ruby](https://graphviz.org/_pages/pdf/gv.3ruby.pdf) - graph manipulation in ruby.
+  - [TCL](https://graphviz.org/_pages/pdf/gv.3tcl.pdf) - graph manipulation in tcl.
+  
 - Misc
-  - [Build Notes](https://graphviz.org/doc/build.html) - Information on Building the sourcecode
-  - [Schema Files]() - (tbd)
+  - [Build Notes](https://graphviz.org/doc/build.html) - Information on Building the sourcecode.
+  - [JSON - Schema](https://graphviz.org/_pages/doc/info/graphviz_json_schema.json) - Plain JSON representation of a graph encoding xdot attributes.
+  - [JSON - Output](https://graphviz.org/_pages/doc/info/output.html#d:json) - Explanation of the JSON-Output.
 
 ### Theory & Publications
 #### Graphviz Papers
@@ -446,7 +460,8 @@ See [contributing.md](contributing.md) how to pull requests.
 - [GoDoc](https://godoc.org/?q=graphviz) - Query through all the Go Package Documentation
 
 #### More to find
+- [Stack Overflow](https://stackoverflow.com/search?q=graphviz) - Found thousands Questions & Answers for graphviz
 - [Google Code](https://code.google.com/archive/search?q=graphviz) - Over 100 more references
 - [DMOZ Graph Drawing](https://dmoztools.net/Science/Math/Combinatorics/Software/Graph_Drawing/) - DMOZ Category Science > Math > Combinatorics > Software > Graph Drawing 
 - [DMOZ Graph Theory](https://dmoztools.net/Science/Math/Combinatorics/Graph_Theory/) - Science > Math > Combinatorics > Graph Theory 
-- [stackoverflow](https://stackoverflow.com/search?q=graphviz) - Found over 1000 Questions & Answers for graphviz
+
