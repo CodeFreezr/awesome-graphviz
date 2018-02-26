@@ -4,6 +4,7 @@ Find here broken links or changed targets which needs further investigation to b
 #### Programming and Software Engineering Tools
 ##### UML and Software-Design
   - [ADR](http://www.albertolluch.com/research/adr) - is a system for formal software design by means of graphical methods. *Alberto Lluch Lafuente* 
+  - [UMLGraph](http://www.umlgraph.org/) - a Java tool for the Declarative Drawing of UML diagrams which generates diagrams using dot *Diomidis Spinellis* (Diomidis also contributed code for a richer set of arrow heads for dot, which he claims were really part of a stealthy plot to have Graphviz taken over by the UML community. :-) -   
 
 ##### Call Graphs
   - [Callgrind](http://kcachegrind.sourceforge.net/cgi-bin/show.cgi) - makes callgraphs *Jörg Schillin* and *Josef Weidendorfer* 
