@@ -2,6 +2,9 @@
 Find here broken links or changed targets which needs further investigation to be deleted to bring back on the main page.
 
 #### Programming and Software Engineering Tools
+##### UML and Software-Design
+  - [ADR](http://www.albertolluch.com/research/adr) - is a system for formal software design by means of graphical methods. *Alberto Lluch Lafuente* 
+
 ##### Call Graphs
   - [Callgrind](http://kcachegrind.sourceforge.net/cgi-bin/show.cgi) - makes callgraphs *Jörg Schillin* and *Josef Weidendorfer* 
 ##### Documentation
@@ -40,6 +43,7 @@ Find here broken links or changed targets which needs further investigation to b
 ### Language Bindings 
 #### Libs for Perl
 - [GraphViz::DBI](http://search.cpan.org/search?dist=GraphViz-DBI) - graph database tables and their relationships *Marcel Grunauer* 
+- [webdot.pl](???) in perl *Stephen North*, with a huge assist from *John Linderman* (tbd)
 #### Libs for Ruby: 
 - [GraphR](http://rockit.sourceforge.net/subprojects/graphr/) Graph-related Ruby classes using graphviz *Robert Feldt* 
 #### Libs for Java
@@ -48,7 +52,8 @@ Find here broken links or changed targets which needs further investigation to b
  - [yapgvb](http://yapgvb.sourceforge.net/) Yet Another Graphviz Python Binding *Lonnie Princehouse* 
 #### Libs for C# and .NET
 - [WinGraphviz](http://wingraphviz.sourceforge.net/wingraphviz/) component *Ood Tsen* 
-
+#### Other
+- [R-Graphviz](#Rgraphviz) (tbd)
 
 ### Package Search and Further Collections
 #### Third-Party Distributions 

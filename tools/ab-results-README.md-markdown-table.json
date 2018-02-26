@@ -1,5 +1,0 @@
-{
-  "error": true,
-  "title": "Found 5 link issues",
-  "message": "#### Link issues by [`awesome_bot`](https://github.com/dkhamsing/awesome_bot)\n\n  Line | Status | Link\n| ---: | :----: | --- |\n1 | [302](https://httpstatuses.com/302) | https://awesome.re redirects to<br>https://github.com/sindresorhus/awesome\n204 | Dupe | http://fiane.mooo.com:8080/graphviz/ \n297 | [302](https://httpstatuses.com/302) | http://de.mathworks.com/matlabcentral/fileexchange/4518?requestedDomain=true redirects to<br>http://de.mathworks.com/matlabcentral/fileexchange/4518?requestedDomain=true&nocookie=true\n401 | [302](https://httpstatuses.com/302) | http://pubs.acs.org/doi/abs/10.1021/ci4004464 redirects to<br>http://pubs.acs.org/doi/abs/10.1021/ci4004464?cookieSet=1\n408 | Error | http://ppareit.github.io/graphviz-dot-mode/ <br> Failed to open TCP connection to ppareit.github.io:80 (getaddrinfo: Der angegebene Host ist unbekannt. )\n"
-}

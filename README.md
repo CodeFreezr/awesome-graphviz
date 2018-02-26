@@ -13,54 +13,54 @@ You're welcome to add new stuff or report glitches. See [contributing.md](contri
 
 ## Table of Content
 * [Graphviz Distribution](#graphviz-distribution)
-    * [Introductions](#introductions)
-    * [Entities](#entities)
-    * [Attributes](#attributes)
-    * [Layout / Output](#layout--output)
-    * [Tools](#tools)
-    * [API](#api)
+  * [Introductions](#introductions)
+  * [Entities](#entities)
+  * [Attributes](#attributes)
+  * [Layout / Output](#layout--output)
+  * [Tools](#tools)
+  * [API](#api)
 * [Theory &amp; Publications](#theory--publications)
-    * [Graphviz Papers](#graphviz-papers)
-    * [Graph Drawing](#graph-drawing)
-    * [Information Visualization](#information-visualization)
+  * [Graphviz Papers](#graphviz-papers)
+  * [Graph Drawing](#graph-drawing)
+  * [Information Visualization](#information-visualization)
 * [Graphical Interfaces](#graphical-interfaces)
-    * [Web\-Interface](#web-interface)
-    * [Editor Addons](#editor-addons)
-    * [\.NET / C\#](#net--c)
-    * [Mac OS](#mac-os)
-    * [Java](#java)
-    * [Other](#other)
-    * [Online Platforms](#online-platforms)
+  * [Web\-Interface](#web-interface)
+  * [Editor Addons](#editor-addons)
+  * [\.NET / C\#](#net--c)
+  * [Mac OS](#mac-os)
+  * [Java](#java)
+  * [Online Platforms](#online-platforms)
+  * [Other](#other)
 * [Language Bindings](#language-bindings)
-    * [Libs for Node / JS / JQuery / D3](#libs-for-node--js--jquery--d3)
-    * [Libs for Python](#libs-for-python)
-    * [Libs for Django](#libs-for-django)
-    * [Libs for Go](#libs-for-go)
-    * [Libs for Java](#libs-for-java)
-    * [Libs for C\# and \.NET](#libs-for-c-and-net)
-    * [Libs for Perl](#libs-for-perl)
-    * [Others:](#others)
-    * [Confluence/Jira:](#confluencejira)
-    * [CMS (Wiki/Blog):](#cms-wikiblog)
+  * [Libs for Node / JS / JQuery / D3](#libs-for-node--js--jquery--d3)
+  * [Libs for Python](#libs-for-python)
+  * [Libs for Django](#libs-for-django)
+  * [Libs for Go](#libs-for-go)
+  * [Libs for Java](#libs-for-java)
+  * [Libs for C\# and \.NET](#libs-for-c-and-net)
+  * [Libs for Perl](#libs-for-perl)
+  * [Others:](#others)
+  * [Confluence/Jira:](#confluencejira)
+  * [CMS (Wiki/Blog):](#cms-wikiblog)
 * [Generators and Translators](#generators-and-translators)
-    * [Transform data sources and formats into Graphviz\.](#transform-data-sources-and-formats-into-graphviz)
-    * [AI and Language Tools](#ai-and-language-tools)
-    * [Network and Web Engineering Tools](#network-and-web-engineering-tools)
-    * [Programming and Software Engineering Tools](#programming-and-software-engineering-tools)
-      * [UML and Software\-Design &amp; \-Modelling](#uml-and-software-design---modelling)
-      * [Documentation](#documentation)
-      * [Call Graphs](#call-graphs)
-      * [Dependency](#dependency)
-      * [Schema &amp; Database Visualisations](#schema--database-visualisations)
-      * [Theoretical Computer Science](#theoretical-computer-science)
-      * [Others](#others-1)
-    * [Bioinformatics and Cheminformatics](#bioinformatics-and-cheminformatics)
-    * [Document preparation](#document-preparation)
-    * [Social Networking and Collaborative Work](#social-networking-and-collaborative-work)
-    * [Third\-Party Distributions](#third-party-distributions)
+  * [Transform data sources and formats into Graphviz\.](#transform-data-sources-and-formats-into-graphviz)
+  * [AI and Language Tools](#ai-and-language-tools)
+  * [Network and Web Engineering Tools](#network-and-web-engineering-tools)
+  * [Programming and Software Engineering Tools](#programming-and-software-engineering-tools)
+    * [UML and Software\-Design](#uml-and-software-design)
+    * [Documentation](#documentation)
+    * [Call Graphs](#call-graphs)
+    * [Dependency](#dependency)
+    * [Schema &amp; Datastructure](#schema--datastructure)
+    * [Theoretical Computer Science](#theoretical-computer-science)
+    * [Others](#others-1)
+  * [Bioinformatics and Cheminformatics](#bioinformatics-and-cheminformatics)
+  * [Document preparation](#document-preparation)
+  * [Social Networking and Collaborative Work](#social-networking-and-collaborative-work)
+  * [Linux Distributions](#linux-distributions)
 * [Package Search and Further Collections](#package-search-and-further-collections)
-    * [Packages](#packages)
-    * [More to find](#more-to-find)
+  * [Packages](#packages)
+  * [More to find](#more-to-find)
 
 
 ## Content
@@ -115,24 +115,25 @@ You're welcome to add new stuff or report glitches. See [contributing.md](contri
   - [vimdot](https://www.mankier.com/1/vimdot) - Combined text editor and dot viewer, see also [pdf](https://graphviz.org/_pages/pdf/vimdot.1.pdf).
 
 - Graph Analysis
-  - [acyclic](https://www.mankier.com/1/acyclic) - make directed graph acyclic, see also [pdf](https://graphviz.org/_pages/pdf/acyclic.1.pdf).
-  - [bcomps](https://www.mankier.com/1/bcomps) - biconnected components filter for graphs, see also [pdf](https://graphviz.org/_pages/pdf/bcomps.1.pdf).
-  - [cluster](https://www.mankier.com/1/cluster) - find clusters in a graph and augment the graph with this information, see also [pdf](https://graphviz.org/_pages/pdf/cluster.1.pdf).
-  - [ccomps](https://www.mankier.com/1/ccomps) - connected components filter for graphs, see also [pdf](https://graphviz.org/_pages/pdf/ccomps.1.pdf).
+  - [acyclic](https://www.mankier.com/1/acyclic) - Make directed graph acyclic, see also [pdf](https://graphviz.org/_pages/pdf/acyclic.1.pdf).
+  - [bcomps](https://www.mankier.com/1/bcomps) - Biconnected components filter for graphs, see also [pdf](https://graphviz.org/_pages/pdf/bcomps.1.pdf).
+  - [cluster](https://www.mankier.com/1/cluster) - Find clusters in a graph and augment the graph with this information, see also [pdf](https://graphviz.org/_pages/pdf/cluster.1.pdf).
+  - [ccomps](https://www.mankier.com/1/ccomps) - Connected components filter for graphs, see also [pdf](https://graphviz.org/_pages/pdf/ccomps.1.pdf).
   - [diffimg](https://www.mankier.com/1/diffimg) - Calculates intersection between two images, see also [pdf](https://graphviz.org/_pages/pdf/diffimg.1.pdf).
-  - [dijkstra](https://www.mankier.com/1/dijkstra) - single-source distance filter, see also [pdf](https://graphviz.org/_pages/pdf/dijkstra.1.pdf).
-  - [edgepaint](https://www.mankier.com/1/edgepaint) - edge coloring to disambiguate crossing edges, see also [pdf](https://graphviz.org/_pages/pdf/edgepaint.1.pdf).
-  - [gc](https://www.mankier.com/1/gc) - count graph components, see also [pdf](https://graphviz.org/_pages/pdf/gc.1.pdf).
-  - [gvcolor](https://www.mankier.com/1/gvcolor) - flow colors through a ranked digraph, see also [pdf](https://graphviz.org/_pages/pdf/gvcolor.1.pdf).
-  - [gvgen](https://www.mankier.com/1/gvgen) - generate graphs, see also [pdf](https://graphviz.org/_pages/pdf/gvgen.1.pdf).
-  - [gvmap](https://www.mankier.com/1/gvmap) - find clusters and create a geographical map highlighting clusters, see also [pdf](https://graphviz.org/_pages/pdf/gvmap.1.pdf).
-  - [gvpack](https://www.mankier.com/1/gvpack) - merge and pack disjoint graphs, see also [pdf](https://graphviz.org/_pages/pdf/gvpack.1.pdf).
-  - [gvpr](https://www.mankier.com/1/gvpr) - graph pattern scanning and processing language, see also [pdf](https://graphviz.org/_pages/pdf/gvpr.1.pdf).
-  - [mingle](https://www.mankier.com/1/mingle) - fast edge bundling, see also [pdf](https://graphviz.org/_pages/pdf/mingle.1.pdf).
-  - [nop](https://www.mankier.com/1/nop) - pretty-print graph file, see also [pdf](https://graphviz.org/_pages/pdf/nop.1.pdf).
-  - [sccmap](https://www.mankier.com/1/sccmap) - extract strongly connected components of directed graphs, see also [pdf](https://graphviz.org/_pages/pdf/sccmap.1.pdf).
-  - [tred](https://www.mankier.com/1/tred) - transitive reduction filter for directed graphs, see also [pdf](https://graphviz.org/_pages/pdf/tred.1.pdf).
-  - [unflatten](https://www.mankier.com/1/unflatten) - adjust directed graphs to improve layout aspect ratio, see also [pdf](https://graphviz.org/_pages/pdf/unflatten.1.pdf).
+  - [dijkstra](https://www.mankier.com/1/dijkstra) - Single-source distance filter, see also [pdf](https://graphviz.org/_pages/pdf/dijkstra.1.pdf).
+  - [edgepaint](https://www.mankier.com/1/edgepaint) - Edge coloring to disambiguate crossing edges, see also [pdf](https://graphviz.org/_pages/pdf/edgepaint.1.pdf).
+  - [gc](https://www.mankier.com/1/gc) - Count graph components, see also [pdf](https://graphviz.org/_pages/pdf/gc.1.pdf).
+  - [gvcolor](https://www.mankier.com/1/gvcolor) - Flow colors through a ranked digraph, see also [pdf](https://graphviz.org/_pages/pdf/gvcolor.1.pdf).
+  - [gvgen](https://www.mankier.com/1/gvgen) - Generate graphs, see also [pdf](https://graphviz.org/_pages/pdf/gvgen.1.pdf).
+  - [gvmap](https://www.mankier.com/1/gvmap) - Find clusters and create a geographical map highlighting clusters, see also [pdf](https://graphviz.org/_pages/pdf/gvmap.1.pdf).
+  - [gvpack](https://www.mankier.com/1/gvpack) - Merge and pack disjoint graphs, see also [pdf](https://graphviz.org/_pages/pdf/gvpack.1.pdf).
+  - [gvpr](https://www.mankier.com/1/gvpr) - Graph pattern scanning and processing language, see also [pdf](https://graphviz.org/_pages/pdf/gvpr.1.pdf).
+  - [mingle](https://www.mankier.com/1/mingle) - Fast edge bundling, see also [pdf](https://graphviz.org/_pages/pdf/mingle.1.pdf).
+  - [nop](https://www.mankier.com/1/nop) - Pretty-print graph file, see also [pdf](https://graphviz.org/_pages/pdf/nop.1.pdf).
+  - [sccmap](https://www.mankier.com/1/sccmap) - Extract strongly connected components of directed graphs, see also [pdf](https://graphviz.org/_pages/pdf/sccmap.1.pdf).
+  - [tred](https://www.mankier.com/1/tred) - Transitive reduction filter for directed graphs, see also [pdf](https://graphviz.org/_pages/pdf/tred.1.pdf).
+  - [unflatten](https://www.mankier.com/1/unflatten) - Adjust directed graphs to improve layout aspect ratio, see also [pdf](https://graphviz.org/_pages/pdf/unflatten.1.pdf).
+  - [gvrank](https://github.com/aaronjarecki/gvrank) - External pageRank algorithm that uses graphviz files as input written in go.
     
 - Converters
   - [mm2gv](https://www.mankier.com/1/mm2gv) - Matrix Market-DOT converters, see also [pdf](https://graphviz.org/_pages/pdf/mm2gv.1.pdf).
@@ -241,7 +242,12 @@ You're welcome to add new stuff or report glitches. See [contributing.md](contri
 - [idot](https://code.google.com/archive/p/idot) - an incremental Graphviz viewer (Java ≥ 1.5 with the excellent 
 - [Yoix](http://www.2uwebhosting.com/) a scripting language implemented in Java with a data visualization module called YDAT that provides interactive display of GraphViz files (use -Txdot -y) *John Mocenigo* 
 - [TINTFU](https://www.openhub.net/p/tintfu) - a Java-based editor for .dot graph files. *Walter Stroebel* 
-- [graphviz4j](https://github.com/shevek/graphviz4j) - A Java GraphViz graph builder and parser.
+
+#### Online Platforms
+- [Gephi](https://gephi.org/) - The Open Graph Viz Platform *Mathieu Bastian*
+- [IdeaTree](https://www.ideatreelive.com:443) - a platform for concurrent, shared knowledge mapping
+- [Observable](https://beta.observablehq.com/) - Common Map, Chart & Diagram creation with graphviz support
+- [Bl.ock](https://bl.ocks.org/) - Common Mapp, Chart & Diagram creation with graphviz support
 
 #### Other
 - [prefuse](http://prefuse.org/) toolkit). *Mikko Vinni* 
@@ -251,15 +257,8 @@ You're welcome to add new stuff or report glitches. See [contributing.md](contri
 - [EasyGraphViz](http://wiki.cyze.jp/wiki.cgi/software?page=EasyGraphViz) - a Japanese editor for Graphviz. *Nikolaos Kavvadias*
 - [NodeViz](https://code.google.com/archive/p/nodeviz) - a php framework for mapping relational data to highly styled Graphviz and displaying interactively in web clients *Greg Michalec and Skye Bender-deMoll* 
 
-#### Online Platforms
-- [Gephi](https://gephi.org/) - The Open Graph Viz Platform *Mathieu Bastian*
-- [IdeaTree](https://www.ideatreelive.com:443) - a platform for concurrent, shared knowledge mapping
-- [Observable](https://beta.observablehq.com/) - Common Map, Chart & Diagram creation with graphviz support
-- [Bl.ock](https://bl.ocks.org/) - Common Mapp, Chart & Diagram creation with graphviz support
 
-
-### Language Bindings 
- 
+### Language Bindings  
 #### Libs for Node / JS / JQuery / D3
 - [viz.js](https://github.com/mdaines/viz.js/) - This project builds Graphviz with Emscripten and provides a simple wrapper for using it in the browser.
 - [d3-graphviz](https://github.com/magjac/d3-graphviz) - Renders SVG from graphs described in the DOT language using the Viz.js port of Graphviz and does animated transitions between graphs. *Magnus Jacobsson*
@@ -291,21 +290,23 @@ You're welcome to add new stuff or report glitches. See [contributing.md](contri
  - [graphspace](https://github.com/sigmonsays/graphspace) - graphviz workspace incl. sql-db / wb-gui for making dot graphs
  - [graph](https://github.com/lpadukana/graph) - Graphviz as a service 
  - [dotgraph](https://github.com/windler/dotgraph) - Go package to create and render graphviz dot graphs 
- - [Online Graphviz Generator](https://github.com/noselasd/gvweb) - Type in Graphviz graph language and display the generated image, see example: [web](http://fiane.mooo.com:8080/graphviz/)
+ - [Online Graphviz Generator](https://github.com/noselasd/gvweb) - Type in Graphviz graph language and display the generated image.
  - [Graphviz as a Service](https://github.com/djmattyg007/graphviz-server) - a webserver that responds rendered graphs in PNG format.
+ - [dot](https://github.com/emicklei/dot) - Little helper package in Go for the graphviz dot language.
+ - [GoGraphviz](https://github.com/mzohreva/GoGraphviz) - GoGraphviz provides an easy-to-use API for visualizing graphs using Graphviz
  
 #### Libs for Java
  - [Eclipse plugin](https://sourceforge.net/#!/projects/eclipsegraphviz/) 
  - [JPGD](http://www.alexander-merz.com/graphviz/): A Java parser for Graphviz documents *Alexander Merz* 
  - [Java API](https://github.com/jabbalaci/graphviz-java-api) *Laszlo Szathmary* 
- 
+ - [graphviz4j](https://github.com/shevek/graphviz4j) - A Java GraphViz graph builder and parser.
+
 #### Libs for C# and .NET
  - [graphviznet](https://code.google.com/archive/p/graphviznet) 
  - [CodePlex QuickGraph](https://archive.codeplex.com/) 
  - [Tigris QuickGraph](http://quickgraph.tigris.org/source/browse/quickgraph/trunk/src/) 
 
 #### Libs for Perl
-- [webdot.pl](???) in perl *Stephen North*, with a huge assist from *John Linderman* (tbd)
 - [Graphviz2](https://metacpan.org/release/GraphViz2) - perl interface, supports new options *Ron Savage* 
 - [GraphViz2::Marpa](https://metacpan.org/release/GraphViz2-Marpa) - a Marpa-based parser for DOT files. *Ron Savage* 
 - [A Perl interface to Graphviz](http://search.cpan.org/~lbrocard/GraphViz-2.02/lib/GraphViz.pm) *Leon Brocard* 
@@ -316,9 +317,9 @@ You're welcome to add new stuff or report glitches. See [contributing.md](contri
  
 #### Others: 
 - [Ruby-Graphviz](https://github.com/glejeune/Ruby-Graphviz/) - Ruby interface to Graphviz *Grégoire Lejeune* 
-- [MatLab](http://de.mathworks.com/matlabcentral/fileexchange/4518?requestedDomain=true) *Leon Peshkin* 
-- [R-Graphviz](#Rgraphviz) (tbd)
-- [webdot](https://gitlab.com/graphviz/webdot) in TCL *John Ellson*  
+- [MatLab](http://de.mathworks.com/matlabcentral/fileexchange/4518?requestedDomain=true&nocookie=true) *Leon Peshkin* 
+- [webdot](https://gitlab.com/graphviz/webdot) TCL *John Ellson*  
+- [Image_Graphviz](http://pear.php.net/package/Image_GraphViz) - class in PHP by *Sebastian Bergmann* 
  
 #### Confluence/Jira: 
 - [Graphviz Diagrams for Confluence](https://marketplace.atlassian.com/plugins/com.atlassian.confluence.extra.graphviz/server/overview) - Generate and display graphs based on Graph Visualization Software (Graphviz) and the DOT language. *Bob Swift*
@@ -348,6 +349,8 @@ You're welcome to add new stuff or report glitches. See [contributing.md](contri
 - [SqlPP](https://www.codeproject.com/Articles/4603/A-scripted-SQL-query-generation-framework-with-IDE) - a scripted SQL query generation framework that generates graphviz 
 - [DBGraphNav](https://code.google.com/archive/p/dbgraphnav) - a tool to facilitate the browsing of data within relational databases. *Paul McMillan* 
 - [EMF To Graphviz](https://sourceforge.net/projects/emf2gv/) - an Eclipse plugin that helps to transform an EMF model into a diagram using Graphviz. 
+- [graphstk](https://github.com/dgnorton/graphstk) - Generate graphviz from golang stack trace
+- [node-it](https://github.com/cfstras/node-it) - subreddit grapher with graphviz written in golang.
 
 #### AI and Language Tools 
 - [txt2graph](http://andreas-romeyke.de/txt2graph/txt2graph.html) - visualize the structure and dependencies of a text read from stdin and generates a dot-File for graphviz to stdout *Andreas Romeyke* 
@@ -361,7 +364,6 @@ You're welcome to add new stuff or report glitches. See [contributing.md](contri
 - [SMART](https://sourceforge.net/projects/safemap/) - passive network flow visualization tool *Cisco's Critical Infrastructure Assurance Group (CIAG) - Research team* 
 - [CSO Online](https://www.csoonline.com/article/2122766/malware-cybercrime/what-a-botnet-looks-like.html): What a Botnet Looks like (Flash) - *David Vorel* 
 - [EFnet](http://map.efnet.net) - IRC Network server routing maps *Douglas Boldt* 
-- [Image_Graphviz](http://pear.php.net/package-info.php?package=Image_Graphviz) - class in PHP - *Sebastian Bergmann* 
 - [phpOpenTracker](http://www.phpopentracker.de/) - provides a framework solution for the analysis of website traffic and visitor analysis. *Sebastian Bergmann* 
 - [apache2dot](http://www.chaosreigns.com/code/apache2dot/) - Apache log file visualizer 
 - [sig2dot](http://www.chaosreigns.com/code/sig2dot/) - generates a graph of all of the signature relationships in a GPG/PGP keyring 
@@ -369,18 +371,22 @@ You're welcome to add new stuff or report glitches. See [contributing.md](contri
 - [DNS server visualization](http://www.zonecut.net/dns/) - Visual DNS Server.lich
 - [Visitors, a fast web log analyzer](http://www.hping.org/visitors/) - uses graphviz to display usage patterns showing how users are using your web site. *Salvatore Sanfilippo* 
 - [graph-tool](https://graph-tool.skewed.de/) - an efficient python module for manipulation and statistical analysis of graphs, which includes an interface to GraphViz, via its python bindings. *Tiago de Paula Peixoto* 
-  
+- [dockviz](https://github.com/justone/dockviz/) - Visualizing Docker Data.
+- [docker-compose-graphviz](https://github.com/abesto/docker-compose-graphviz) - Turn a docker-compose.yml files into Graphviz .dot files in go.
+- [docker-compose-dot](https://github.com/digibib/docker-compose-dot) - Convert docker-compose yaml files to graphviz dot files in go.
+- [Dotler](https://github.com/ronin13/dotler) - Dotler is a web crawler and graph generator written in go.
  
 #### Programming and Software Engineering Tools 
-##### UML and Software-Design & -Modelling
+##### UML and Software-Design
   - [Grails class diagram plugin](http://grails.org/plugin/class-diagram/) - provides an UML-like diagram of grails domain classes. *Trygve Amundsen* 
   - [UMLGraph](http://www.umlgraph.org/) - a Java tool for the Declarative Drawing of UML diagrams which generates diagrams using dot *Diomidis Spinellis* (Diomidis also contributed code for a richer set of arrow heads for dot, which he claims were really part of a stealthy plot to have Graphviz taken over by the UML community. :-) - 
   - [Compendium-TA](https://www.compendiumdev.co.uk/page.php?title=compendiumta) - an integrated package of modelling tools which uses Graphviz for graph layouts *Alan Richardson* 
   - [AsmL](https://www.microsoft.com/en-us/research/project/asml-abstract-state-machine-language/?from=http%3A%2F%2Fresearch.microsoft.com%2Fen-us%2Fprojects%2Fasml%2F) - an executable specification language from Microsoft Research. 
   - [ArgoUML Graphviz](http://argouml-graphviz.tigris.org/) - Automatically repositioning all visual elements from UML diagrams that are stored in XMI. These can be exported with DOT to PDF, SVG, PNG, etc. This XLST runs independently of ArgoUML. *Pander* 
   - [APIviz](https://code.google.com/archive/p/apiviz) - is a JavaDoc doclet which extends the Java standard doclet. It generates comprehensive UML-like class and package diagrams. 
-  - [ADR](http://www.albertolluch.com/research/adr) - is a system for formal software design by means of graphical methods. *Alberto Lluch Lafuente* 
+
   - [PlantUML](http://plantuml.com/) - generates UML diagrams (classes, usecases, activities, components) - using a simple text description language. *Arnaud Roques* 
+  - [tags2uml](https://github.com/ruben2020/tags2uml) - Generates UML class diagrams, from source code with go.
 
 ##### Documentation
   - [doxygen](http://www.stack.nl/~dimitri/doxygen/) - uses graphviz to produce class hierarchies and other diagrams directly from source code *Dimitri van Heesch* 
@@ -388,22 +394,27 @@ You're welcome to add new stuff or report glitches. See [contributing.md](contri
   - [Symfony application-map plugin](https://symfony.com/legacy) - an easy-to-use documentation tool for the symfony framework community. *Tomasz Ducin* 
 
 ##### Call Graphs
-  - [javashot](https://code.google.com/archive/p/javashot) - captures the dynamic execution flow of a Java programa. The traces can be viewed using Graphviz. 
-  - [CodeViz](https://github.com/petersenna/codeviz) - a call graph generation utility for C/C++ that assumes dot for its back end *Mel Gorman* 
-  - [Python call graphs](http://pycallgraph.slowchop.com/en/master/) - Python Call Graph Visualisation
+  - [javashot](https://code.google.com/archive/p/javashot) - captures the dynamic execution flow of a Java programa. The traces can be viewed using Graphviz.
+  - [CodeViz](https://github.com/petersenna/codeviz) - a call graph generation utility for C/C++ that assumes dot for its back end *Mel Gorman*.
+  - [Python call graphs](http://pycallgraph.slowchop.com/en/master/) - Python Call Graph Visualisation.
+  - [go-callvis](https://github.com/TrueFurby/go-callvis) - Visualize call graph of your Go program.
 
 ##### Dependency
   - [LJV.java](https://www.cs.auckland.ac.nz/~j-hamer/LJV.html) - (Lightweight Java Visualizer) - is tool for visualizing Java data structures with Graphviz. It has been used to good effect in CS1 and CS2-level data structures courses. *John Hammer* 
   - [eEye Binary Diffing Suite](https://www.beyondtrust.com/) - is a suite of tools for binary differential analysis, especially for reverse engineering patches as well as program updates. 
   - [YaST](https://lizards.opensuse.org/2009/01/19/graph-of-storage-devices/) - openSUSE installation and configuration showing a graph of storage devices with dependencies. *Arvin Schnell* 
+  - [chefviz](https://github.com/tom--bo/chefviz) - Chefviz creates the dot files of recipes dependency-graph for graphviz.
+  - [go-erd](https://github.com/gmarik/go-erd) - Visualize package's types and their inter-relationships to aid exploring and studying source code.
 
-##### Schema & Database Visualisations
+##### Schema & Datastructure
   - [Merisedot](http://oss.phear.org/merisedot/) - a tool to generate MCD Entity/Relation graphics of Merise. (Seulement en Français) - 
   - [Pimentech-DbUtils](http://www.pimentech.fr) - utils for writing patterns databases in XML (Extended Entities Relationship diagram (ERA)) - and exporting them to graphviz and sql. 
   - [Reverse Snowflake Joins](https://sourceforge.net/projects/revj/files/) - is a tool that parses SQL Select statements and generates a diagram. 
   - [myDBR](httP://www.myDBR.com) - is web-based reporting system for relational databases using Graphviz as one of its charting modules. 
   - [Erviz](http://slopjong.de/2011/02/26/whats-erviz/) - an entity-relationship diagram generator that converts plain text files to DOT-formatted graphical files for Graphviz. *Mitsuru Kono* 
   - [GraphQLviz](https://github.com/Macroz/GraphQLviz) - GraphQLviz marries GraphQL (schemas) with Graphviz.
+  - [memviz](https://github.com/bradleyjkemp/memviz) - Visualize your data structures using graphviz 
+  - [sqliterd](https://github.com/gwenn/sqliterd) - Tool to create a Graphviz dot file from SQLite database schema written in go.
 
 ##### Theoretical Computer Science
   - [Ragel](http://www.colm.net/open-source/ragel/) - (think "lex") - compiles executable finite state machines from regular languages and can generate diagrams of the state machines in DOT format. 
@@ -438,7 +449,7 @@ You're welcome to add new stuff or report glitches. See [contributing.md](contri
 - [Proximity Subgraphs](http://www.research.att.com/people/Volinsky_Christopher_T/custom_index.html) - visualize communities in the Internet Movie Database 
 - [Hammond Jazz Inventory](http://www.hammondjazz.net/index.php?page=article&task=current&mode=detail&section=News&target=70) - show graphical representation of musicians related by recordings in which the Hammond organ plays a significant role (orghammograms!) - 
  
-#### Third-Party Distributions 
+#### Linux Distributions 
 - [Debian](https://packages.debian.org/search?suite=all&searchon=names&keywords=graphviz) - Linux packages for several architectures. 
 - [Gentoo](https://packages.gentoo.org/packages/media-gfx/graphviz) - Linux packages. 
 - [SuSE](https://software.opensuse.org/search?q=graphviz) - rpms for Novell/SuSE distributions for many architectures. 
