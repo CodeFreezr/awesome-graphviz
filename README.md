@@ -112,34 +112,34 @@ See [contributing.md](contributing.md) how to pull requests.
   - [gvedit](http://204.178.9.49/content/new-gvedit-released) - Simple graph editor and viewer, Release-Notes.
   - [lefty](https://linux.die.net/man/1/lefty) - Programmable Graphics Editor, see also [pdf](https://graphviz.gitlab.io/_pages/pdf/leftyguide.pdf).
   - [lneato](https://linux.die.net/man/1/lneato) - Editor on top of neato & lefty, see also [pdf](https://graphviz.org/_pages/pdf/lneato.1.pdf).
-  - [smyrna-man](https://linux.die.net/man/1/smyrna) - Interactive graph viewer, see also [pdf](https://graphviz.gitlab.io/_pages/pdf/smyrna.1.pdf).
-  - [vimdot-man](https://www.mankier.com/1/vimdot) - Combined text editor and dot viewer, see also [pdf](https://graphviz.org/_pages/pdf/vimdot.1.pdf).
+  - [smyrna](https://linux.die.net/man/1/smyrna) - Interactive graph viewer, see also [pdf](https://graphviz.gitlab.io/_pages/pdf/smyrna.1.pdf).
+  - [vimdot](https://www.mankier.com/1/vimdot) - Combined text editor and dot viewer, see also [pdf](https://graphviz.org/_pages/pdf/vimdot.1.pdf).
 
 - Graph Analysis
-  - [acyclic](https://www.mankier.com/1/acyclic) - make directed graph acyclic  - (tbd)
-  - [bcomps]() - biconnected components filter for graphs - (tbd)
-  - [cluster]() - find clusters in a graph and augment the graph with this information - (tbd)
-  - [ccomps]() - connected components filter for graphs - (tbd)
-  - [diffimg]() - Calculates intersection between two images - (tbd)
-  - [dijkstra]() - single-source distance filter - (tbd)
-  - [edgepaint]() - edge coloring to disambiguate crossing edges - (tbd)
-  - [gc]() - count graph components - (tbd)
-  - [gvcolor]() - flow colors through a ranked digraph - (tbd)
-  - [gvgen]() - generate graphs - (tbd)
-  - [gvmap]() - find clusters and create a geographical map highlighting clusters - (tbd)
-  - [gvpack]() - merge and pack disjoint graphs - (tbd)
-  - [gvpr]() - graph pattern scanning and processing language - (tbd)
-  - [mingle]() - fast edge bundling - (tbd)
-  - [nop]() - pretty-print graph file - (tbd)
-  - [sccmap]() - extract strongly connected components of directed graphs - (tbd)
-  - [tred]() - transitive reduction filter for directed graphs - (tbd)
-  - [unflatten]() - adjust directed graphs to improve layout aspect ratio - (tbd)
+  - [acyclic](https://www.mankier.com/1/acyclic) - make directed graph acyclic, see also [pdf](https://graphviz.gitlab.io/_pages/pdf/acyclic.1.pdf).
+  - [bcomps](https://www.mankier.com/1/bcomps) - biconnected components filter for graphs, see also [pdf](https://graphviz.gitlab.io/_pages/pdf/bcomps.1.pdf).
+  - [cluster](https://www.mankier.com/1/cluster) - find clusters in a graph and augment the graph with this information, see also [pdf](https://graphviz.gitlab.io/_pages/pdf/cluster.1.pdf).
+  - [ccomps](https://www.mankier.com/1/ccomps) - connected components filter for graphs, see also [pdf](https://graphviz.gitlab.io/_pages/pdf/ccomps.1.pdf).
+  - [diffimg](https://www.mankier.com/1/diffimg) - Calculates intersection between two images, see also [pdf](https://graphviz.gitlab.io/_pages/pdf/diffimg.1.pdf).
+  - [dijkstra](https://www.mankier.com/1/dijkstra) - single-source distance filter, see also [pdf](https://graphviz.gitlab.io/_pages/pdf/dijkstra.1.pdf).
+  - [edgepaint](https://www.mankier.com/1/edgepaint) - edge coloring to disambiguate crossing edges, see also [pdf](https://graphviz.gitlab.io/_pages/pdf/edgepaint.1.pdf).
+  - [gc](https://www.mankier.com/1/gc) - count graph components, see also [pdf](https://graphviz.gitlab.io/_pages/pdf/gc.1.pdf).
+  - [gvcolor](https://www.mankier.com/1/gvcolor) - flow colors through a ranked digraph, see also [pdf](https://graphviz.gitlab.io/_pages/pdf/gvcolor.1.pdf).
+  - [gvgen](https://www.mankier.com/1/gvgen) - generate graphs, see also [pdf](https://graphviz.gitlab.io/_pages/pdf/gvgen.1.pdf).
+  - [gvmap](https://www.mankier.com/1/gvmap) - find clusters and create a geographical map highlighting clusters, see also [pdf](https://graphviz.gitlab.io/_pages/pdf/gvmap.1.pdf).
+  - [gvpack](https://www.mankier.com/1/gvpack) - merge and pack disjoint graphs, see also [pdf](https://graphviz.gitlab.io/_pages/pdf/gvpack.1.pdf).
+  - [gvpr](https://www.mankier.com/1/gvpr) - graph pattern scanning and processing language, see also [pdf](https://graphviz.gitlab.io/_pages/pdf/gvpr.1.pdf).
+  - [mingle](https://www.mankier.com/1/mingle) - fast edge bundling, see also [pdf](https://graphviz.gitlab.io/_pages/pdf/mingle.1.pdf).
+  - [nop](https://www.mankier.com/1/nop) - pretty-print graph file, see also [pdf](https://graphviz.gitlab.io/_pages/pdf/nop.1.pdf).
+  - [sccmap](https://www.mankier.com/1/sccmap) - extract strongly connected components of directed graphs, see also [pdf](https://graphviz.gitlab.io/_pages/pdf/sccmap.1.pdf).
+  - [tred](https://www.mankier.com/1/tred) - transitive reduction filter for directed graphs, see also [pdf](https://graphviz.gitlab.io/_pages/pdf/tred.1.pdf).
+  - [unflatten](https://www.mankier.com/1/unflatten) - adjust directed graphs to improve layout aspect ratio, see also [pdf](https://graphviz.gitlab.io/_pages/pdf/unflatten.1.pdf).
     
 - Converter
-  - [mm2gv]() - Matrix Market-DOT converters - (tbd)
-  - [gxl2gv]() - GXL-GV converters - (tbd)
-  - [gml2gv]() - GML-DOTconverters - (tbd)
-  - [graphml2gv]() - GRAPHML-DOT converter - (tbd)
+  - [mm2gv](https://www.mankier.com/1/mm2gv) - Matrix Market-DOT converters, see also [pdf]().
+  - [gxl2gv](https://www.mankier.com/1/gxl2gv) - GXL-GV converters, see also [pdf]().
+  - [gml2gv](https://www.mankier.com/1/gml2gv) - GML-DOTconverters, see also [pdf]().
+  - [graphml2gv](https://www.mankier.com/1/graphml2gv) - GRAPHML-DOT converter, see also [pdf]().
 
 #### API
 - Language Bindings
