@@ -74,6 +74,8 @@ Find here broken links or changed targets which needs further investigation to b
 - [Axel Thimm](http://atrpms.net/name/graphviz/) - rpms for some RedHat Linux distributions ("atrpms"). 
 
 ### Graphical Interfaces
+#### Editor Addons
+- [Eclipse plugin](https://sourceforge.net/#!/projects/eclipsegraphviz/) - Plugin for the Eclipse-IDE
 #### .NET / C#
 - [GraphSpe](http://www.graphspe.com/#/Home) - includes a converter for Microsoft Silverlight Xaml (SVG based) *Ceyhun Ciper* 
 #### Others
