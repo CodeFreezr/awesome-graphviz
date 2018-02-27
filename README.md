@@ -352,10 +352,12 @@ You're welcome to add new stuff or report glitches. See [contributing.md](contri
 - [txt2graph](http://andreas-romeyke.de/txt2graph/txt2graph.html) - visualize the structure and dependencies of a text read from stdin and generates a dot-File for graphviz to stdout *Andreas Romeyke* 
 - [Ontoviz](https://protegewiki.stanford.edu/wiki/OntoViz) - is a plugin for displaying knowledge base diagrams in the- [Protoge](https://protege.stanford.edu/) - system 
 - [Topic extraction using Wikipedia data](http://blog.prashanthellina.com/topic-extraction-using-wikipedia-data.html). 
-  
+- [FcaStone](http://fcastone.sourceforge.net/) Lays out algebraic lattices in the sense of Formal Concept Analysis. Try the [demo](http://www.upriss.org.uk/fca/fcademo.html) or the [lattice visualisations of Roget's Thesaurus](http://www.ketlab.org.uk/roget.html)) *Uta Priss*.
+
 #### Network and Web Engineering Tools 
 - [DNSViz](http://dnsviz.net/) - a DNS visualization tool 
 - [TraceViz](http://hokstad.com/traceviz-visualizing-traceroute-output-with-graphivz) - Traceroute visualization with sharp-looking SVG styles *Vidar Hokstad* 
+- [afterglow](http://afterglow.sourceforge.net/) is a collection of scripts to generate graphs for Graphviz (and LGL), from various network logs and firewall rulesets *Raffael Marty*
 - [SMART](https://sourceforge.net/projects/safemap/) - passive network flow visualization tool *Cisco's Critical Infrastructure Assurance Group (CIAG) Research team* 
 - [CSO Online](https://www.csoonline.com/article/2122766/malware-cybercrime/what-a-botnet-looks-like.html) - What a Botnet Looks like *David Vorel* 
 - [EFnet](http://map.efnet.net) - IRC Network server routing maps *Douglas Boldt* 
