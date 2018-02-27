@@ -228,6 +228,7 @@ You're welcome to add new stuff or report glitches. See [contributing.md](contri
 - [IdeaTree](https://www.ideatreelive.com:443) - Platform for concurrent, shared knowledge mapping
 - [Observable](https://beta.observablehq.com/) - Common Map, Chart & Diagram creation with graphviz support
 - [Bl.ock](https://bl.ocks.org/) - Common Mapp, Chart & Diagram creation with graphviz support
+- [graphistry](https://www.graphistry.com/) - Investigate across event & log systems with the power of visual graph analytics.
 
 #### Editor Addons
 - [Graphviz for vscode](https://marketplace.visualstudio.com/items?itemName=Stephanvs.dot) - Graphviz (dot) Syntax Highlight and snippets for Visual Studio Code *Stephanvs*
