@@ -188,6 +188,7 @@ You're welcome to add new stuff or report glitches. See [contributing.md](contri
 - [GMap](https://graphviz.org/_pages/Documentation/GHK09.pdf) - Visualizing graphs and clusters as maps ([cite](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.154.8753))  
 - [Efficient Node Overlap Removal Using a Proximity Stress Model](https://graphviz.org/_pages/Documentation/GH10.pdf) - Prism node overlap removal ([cite](https://link.springer.com/chapter/10.1007%2F978-3-642-00219-9_20))  
 - [On-line Hierarchical Graph Drawing](https://graphviz.org/_pages/Documentation/NW01.pdf) - dynadag algorithm  
+- [DIG-COLA](http://web2.research.att.com/export/sites/att_labs/groups/infovis/res/legacy_papers/DBLP-conf-infovis-DwyerK05.pdf) - Directed Graph Layout through Constrained Energy Minimization by *Tim Dwyer* and *Yehuda Koren*.
 
 #### Graph Drawing
 - [Wikipedia](https://en.wikipedia.org/wiki/Graph_drawing) - drawing of a graph or network diagram is a pictorial representation of the vertices and edges of a graph.
