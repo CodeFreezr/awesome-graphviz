@@ -83,6 +83,22 @@ Find here broken links or changed targets which needs further investigation to b
 - [ZGRViewer](http://zvtm.sourceforge.net/zgrviewer.html) - an SVG-based zooming graph viewer for large graphs *Emmanuel Pietriga* 
 
 
+### From before HTML to MD Conversion:
+<!-- 
+<li><a href="http://www2.research.att.com/~john/Grappa/" target="_blank">Grappa </a>, a pre-YOIX Graph Package for Java (also provides graph programming classes)[John Mocenigo]</li>
+
+(also for <a href="http://www.wickle.com/wiki/index.php/Windows_Graphviz_Installation_Instructions" target="_blank">Windows</a> [Dknox])</li>
+
+
+<li>java: a <a href="http://www.lmonson.com/downloads/dotparser/" target="_blank">parser</a> for dot files [Lynn Monson]</li>
+<li>java: <a href="http://www2.research.att.com/~john/Grappa/" target="_blank">Grappa</a> (a GUI but offers basic graph classes) [John Mocenigo]</li>
+<li><a href="http://www.juabus.ch/ClanDraw/ClanDraw.pdf" target="_blank">ClanDraw</a> family relationship (genealogy) visualization, works with GEDCOM, Java 1.5 [Hansuli Anderegg]</li>
+
+<li><a href="http://droogs.org/autodia/">AutoDia</a> has a Graphviz option for generating UML diagrams from: Perl, Java, PHP, or C++ code [Aaron Trevena]</li>
+<li><a href="http://dag.wieers.com/rpm/packages/graphviz/"><img alt="dag logo" src="{{ site.url }}/_pages/Resources/dag.png" /> Dag Wieers</a> - rpms for some RedHat Linux distributions.</li>
+
+-->
+
 
 
 
