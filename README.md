@@ -228,6 +228,7 @@ You're welcome to add new stuff or report glitches. See [contributing.md](contri
 - [IdeaTree](https://www.ideatreelive.com:443) - Platform for concurrent, shared knowledge mapping
 - [Observable](https://beta.observablehq.com/) - Common Map, Chart & Diagram creation with graphviz support
 - [Bl.ock](https://bl.ocks.org/) - Common Mapp, Chart & Diagram creation with graphviz support
+- [graphistry](https://www.graphistry.com/) - Investigate across event & log systems with the power of visual graph analytics.
 
 #### Editor Addons
 - [Graphviz for vscode](https://marketplace.visualstudio.com/items?itemName=Stephanvs.dot) - Graphviz (dot) Syntax Highlight and snippets for Visual Studio Code *Stephanvs*
@@ -329,7 +330,7 @@ You're welcome to add new stuff or report glitches. See [contributing.md](contri
 - [Drupal](https://www.drupal.org/project/graphviz_filter) Graphviz filter *Karim Ratib* 
 - [Wordpress EHT Graphviz](https://ociotec.com/eht-graphviz-plugin-para-wordpress/) plugin for Wordpress, to allow Graphviz images to be easily integrated into a Wordpress page. *Emilio González Montaña* 
 - [Wordpress Graphviz](https://wordpress.org/plugins/wp-graphviz/) plugin for Wordpres, to allow Graphviz images to be easily integrated into a Wordpress page. * - [DeBAAT](https://profiles.wordpress.org/debaat/)* 
-- [DokuWiki](https://www.dokuwiki.org/plugin:graphviz) directed and non-directed graph images from “dot�? language *Andreas Gohr* 
+- [DokuWiki](https://www.dokuwiki.org/plugin:graphviz) directed and non-directed graph images from “dot" language *Andreas Gohr* 
  
  
 ### Generators and Translators 
