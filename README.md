@@ -329,7 +329,7 @@ You're welcome to add new stuff or report glitches. See [contributing.md](contri
 - [Drupal](https://www.drupal.org/project/graphviz_filter) Graphviz filter *Karim Ratib* 
 - [Wordpress EHT Graphviz](https://ociotec.com/eht-graphviz-plugin-para-wordpress/) plugin for Wordpress, to allow Graphviz images to be easily integrated into a Wordpress page. *Emilio González Montaña* 
 - [Wordpress Graphviz](https://wordpress.org/plugins/wp-graphviz/) plugin for Wordpres, to allow Graphviz images to be easily integrated into a Wordpress page. * - [DeBAAT](https://profiles.wordpress.org/debaat/)* 
-- [DokuWiki](https://www.dokuwiki.org/plugin:graphviz) directed and non-directed graph images from “dot�? language *Andreas Gohr* 
+- [DokuWiki](https://www.dokuwiki.org/plugin:graphviz) directed and non-directed graph images from “dot" language *Andreas Gohr* 
  
  
 ### Generators and Translators 
