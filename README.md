@@ -12,7 +12,54 @@ You're welcome to add new stuff or report glitches. See [contributing.md](contri
 
 
 ## Table of Content
-
+* [Graphviz Distribution](#graphviz-distribution)
+  * [Introductions](#introductions)
+  * [Entities](#entities)
+  * [Attributes](#attributes)
+  * [Layout / Output](#layout--output)
+  * [Tools](#tools)
+  * [API](#api)
+* [Theory &amp; Publications](#theory--publications)
+  * [Graphviz Papers](#graphviz-papers)
+  * [Graph Drawing](#graph-drawing)
+  * [Information Visualization](#information-visualization)
+* [Graphical Interfaces](#graphical-interfaces)
+  * [Web\-Interface](#web-interface)
+  * [Online Platforms](#online-platforms)
+  * [Editor Addons](#editor-addons)
+  * [\.NET / C\#](#net--c)
+  * [Mac OS](#mac-os)
+  * [Java](#java)
+  * [Other](#other)
+* [Language Bindings](#language-bindings)
+  * [Libs for Node / JS / JQuery / D3](#libs-for-node--js--jquery--d3)
+  * [Libs for Python](#libs-for-python)
+  * [Libs for Django](#libs-for-django)
+  * [Libs for Go](#libs-for-go)
+  * [Libs for Java](#libs-for-java)
+  * [Libs for C\# and \.NET](#libs-for-c-and-net)
+  * [Libs for Perl](#libs-for-perl)
+  * [Others](#others)
+  * [Confluence/Jira](#confluencejira)
+  * [CMS (Wiki/Blog)](#cms-wikiblog)
+* [Generators and Translators](#generators-and-translators)
+  * [Transform data sources and formats into Graphviz](#transform-data-sources-and-formats-into-graphviz)
+  * [AI and Language Tools](#ai-and-language-tools)
+  * [Network and Web Engineering Tools](#network-and-web-engineering-tools)
+  * [Programming and Software Engineering Tools](#programming-and-software-engineering-tools)
+    * [UML and Software\-Design](#uml-and-software-design)
+    * [Documentation](#documentation)
+    * [Call Graphs](#call-graphs)
+    * [Dependency](#dependency)
+    * [Schema &amp; Datastructure](#schema--datastructure)
+    * [Theoretical Computer Science](#theoretical-computer-science)
+    * [Others](#others-1)
+  * [Bioinformatics and Cheminformatics](#bioinformatics-and-cheminformatics)
+  * [Document preparation](#document-preparation)
+  * [Linux Distributions](#linux-distributions)
+* [Package Search and Further Collections](#package-search-and-further-collections)
+  * [Packages](#packages)
+  * [More to find](#more-to-find)
 
 
 ## Content
@@ -186,7 +233,6 @@ You're welcome to add new stuff or report glitches. See [contributing.md](contri
 - [Graphviz for vscode](https://marketplace.visualstudio.com/items?itemName=Stephanvs.dot) - Graphviz (dot) Syntax Highlight and snippets for Visual Studio Code *Stephanvs*
 - [Graphviz Preview](https://marketplace.visualstudio.com/items?itemName=EFanZh.graphviz-preview) - Inline Preview inside vs code editor *EFanZh*
 - [Eclipse Zest/DOT](http://wiki.eclipse.org/Zest/DOT) - an Eclipse Zest 2.0 component that can be used to render and edit DOT graphs *Fabian Steeg* 
-- [Eclipse plugin](https://sourceforge.net/#!/projects/eclipsegraphviz/) - Plugin for the Eclipse-IDE
 
 #### .NET / C#
 - [Graphviz4Net](https://archive.codeplex.com/?p=graphviz4net) provides Windows Presentation Foundation (WPF) control that is capable of rendering graph layouts using Graphviz. *Štěpán Šindelář* 
