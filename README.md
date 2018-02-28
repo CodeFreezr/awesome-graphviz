@@ -96,6 +96,7 @@ You're welcome to add new stuff or report glitches. See [contributing.md](contri
 - [Command-line Invocation](https://graphviz.org/_pages/doc/info/command.html) - All Graphviz programs have a similar invocation.
 - [circo](https://linux.die.net/man/1/circo) - draws graphs using a circular layout.
 - [dot](https://graphviz.org/_pages/pdf/dot.1.pdf) - draws directed graphs.
+- [dotguide](http://www.graphviz.org/pdf/dotguide.pdf) - Drawing graphs with dot
 - [fdp](https://linux.die.net/man/1/fdp) - draws undirected graphs using a 'spring' model
 - [neato](https://graphviz.org/_pages/pdf/neatoguide.pdf) - draws undirected graphs using 'spring' models.
 - [osage](https://graphviz.org/_pages/pdf/osage.1.pdf) - filter for drawing clustered graphs.
