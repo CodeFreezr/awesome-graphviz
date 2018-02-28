@@ -223,6 +223,7 @@ You're welcome to add new stuff or report glitches. See [contributing.md](contri
 - [an AJAX viewer](https://ashitani.jp/gv/) written with Rico *T. Ashitani*.
 - [Online Graphviz Generator](http://fiane.mooo.com:8080/graphviz/) - Simple Online Generator with Go Server.
 - [webgraphviz](http://www.webgraphviz.com/) - WebGraphviz is Graphviz in the Browser.
+- [GraphvizFiddle](http://stamm-wilbrandt.de/GraphvizFiddle/#) - It is an online code editor and playground for Graphviz dot layout tool, see [blog](https://www.ibm.com/developerworks/community/blogs/HermannSW/entry/graphvizfiddle?lang=en)
 
 #### Online Platforms
 - [Gephi](https://gephi.org/) - The Open Graph Viz Platform *Mathieu Bastian*
