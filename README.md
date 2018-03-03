@@ -25,7 +25,7 @@ You're welcome to add new stuff or report glitches. See [contributing.md](contri
   * [Information Visualization](#information-visualization)
 * [Graphical Interfaces](#graphical-interfaces)
   * [Web\-Interface](#web-interface)
-  * [Online Platforms](#online-platforms)
+  * [Common Platforms](#common-platforms)
   * [Editor Addons](#editor-addons)
   * [\.NET / C\#](#net--c)
   * [Mac OS](#mac-os)
@@ -96,6 +96,7 @@ You're welcome to add new stuff or report glitches. See [contributing.md](contri
 - [Command-line Invocation](https://graphviz.org/_pages/doc/info/command.html) - All Graphviz programs have a similar invocation.
 - [circo](https://linux.die.net/man/1/circo) - draws graphs using a circular layout.
 - [dot](https://graphviz.org/_pages/pdf/dot.1.pdf) - draws directed graphs.
+- [dotguide](http://www.graphviz.org/pdf/dotguide.pdf) - Drawing graphs with dot
 - [fdp](https://linux.die.net/man/1/fdp) - draws undirected graphs using a 'spring' model
 - [neato](https://graphviz.org/_pages/pdf/neatoguide.pdf) - draws undirected graphs using 'spring' models.
 - [osage](https://graphviz.org/_pages/pdf/osage.1.pdf) - filter for drawing clustered graphs.
@@ -223,13 +224,15 @@ You're welcome to add new stuff or report glitches. See [contributing.md](contri
 - [an AJAX viewer](https://ashitani.jp/gv/) written with Rico *T. Ashitani*.
 - [Online Graphviz Generator](http://fiane.mooo.com:8080/graphviz/) - Simple Online Generator with Go Server.
 - [webgraphviz](http://www.webgraphviz.com/) - WebGraphviz is Graphviz in the Browser.
+- [GraphvizFiddle](http://stamm-wilbrandt.de/GraphvizFiddle/#) - It is an online code editor and playground for Graphviz dot layout tool, see [blog](https://www.ibm.com/developerworks/community/blogs/HermannSW/entry/graphvizfiddle?lang=en)
 
-#### Online Platforms
+#### Common Platforms
 - [Gephi](https://gephi.org/) - The Open Graph Viz Platform *Mathieu Bastian*
 - [IdeaTree](https://www.ideatreelive.com:443) - Platform for concurrent, shared knowledge mapping
 - [Observable](https://beta.observablehq.com/) - Common Map, Chart & Diagram creation with graphviz support
 - [Bl.ock](https://bl.ocks.org/) - Common Mapp, Chart & Diagram creation with graphviz support
 - [graphistry](https://www.graphistry.com/) - Investigate across event & log systems with the power of visual graph analytics.
+- [KeyLines Toolkit](https://cambridge-intelligence.com/keylines/) - Network Visualization Software with VueJS Component *Cambridge Intelligence* @CambridgeIntel
 
 #### Editor Addons
 - [Graphviz for vscode](https://marketplace.visualstudio.com/items?itemName=Stephanvs.dot) - Graphviz (dot) Syntax Highlight and snippets for Visual Studio Code *Stephanvs*
@@ -401,6 +404,7 @@ You're welcome to add new stuff or report glitches. See [contributing.md](contri
   - [YaST](https://lizards.opensuse.org/2009/01/19/graph-of-storage-devices/) - openSUSE installation and configuration showing a graph of storage devices with dependencies. *Arvin Schnell* 
   - [chefviz](https://github.com/tom--bo/chefviz) - Chefviz creates the dot files of recipes dependency-graph for graphviz.
   - [go-erd](https://github.com/gmarik/go-erd) - Visualize package's types and their inter-relationships to aid exploring and studying source code.
+  - [npm-packages](http://npm.anvaka.com/#/) - Analyze NPM Package Dependencies in 2D and 3D *Andrei Kashcha* aka @anvaka.
 
 ##### Schema & Datastructure
   - [Merisedot](http://oss.phear.org/merisedot/) - a tool to generate MCD Entity/Relation graphics of Merise. (Seulement en Français).
