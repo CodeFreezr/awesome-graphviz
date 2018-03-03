@@ -402,6 +402,7 @@ You're welcome to add new stuff or report glitches. See [contributing.md](contri
   - [YaST](https://lizards.opensuse.org/2009/01/19/graph-of-storage-devices/) - openSUSE installation and configuration showing a graph of storage devices with dependencies. *Arvin Schnell* 
   - [chefviz](https://github.com/tom--bo/chefviz) - Chefviz creates the dot files of recipes dependency-graph for graphviz.
   - [go-erd](https://github.com/gmarik/go-erd) - Visualize package's types and their inter-relationships to aid exploring and studying source code.
+  - [npm-packages](http://npm.anvaka.com/#/) - Analyze NPM Package Dependencies in 2D and 3D *Andrei Kashcha* aka @anvaka.
 
 ##### Schema & Datastructure
   - [Merisedot](http://oss.phear.org/merisedot/) - a tool to generate MCD Entity/Relation graphics of Merise. (Seulement en Français).
