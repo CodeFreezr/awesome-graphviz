@@ -376,6 +376,7 @@ You're welcome to add new stuff or report glitches. See [contributing.md](contri
 - [docker-compose-graphviz](https://github.com/abesto/docker-compose-graphviz) - Turn a docker-compose.yml files into Graphviz .dot files in go.
 - [docker-compose-dot](https://github.com/digibib/docker-compose-dot) - Convert docker-compose yaml files to graphviz dot files in go.
 - [Dotler](https://github.com/ronin13/dotler) - Dotler is a web crawler and graph generator written in go.
+- [sabaviz](https://github.com/tom--bo/sabaviz) - Create dot files for graphviz which visualize servers connections by netstat output in go.
  
 #### Programming and Software Engineering Tools 
 ##### UML and Software-Design
