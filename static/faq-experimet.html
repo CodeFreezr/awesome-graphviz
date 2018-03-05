@@ -1,0 +1,330 @@
+<html>
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Fira+Sans+Extra+Condensed|Yanone+Kaffeesatz:700" rel="stylesheet">     
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css" type='text/css'/>
+  <style>
+    /* <!--- Common Tags --> */
+    body {
+      background-color: #ccffe6;
+      margin: 0;
+      font-family: 'Fira Sans Extra Condensed', sans-serif;
+    }
+
+    i {
+      color: #909060;
+    }
+
+    h2 {
+      color: white;
+    }
+
+    a:hover{
+      text-shadow: 5px 5px 10px black;
+      color: white;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+
+    /* <!--- Own Styles --> */
+
+    .flex-container {
+      padding: 0;
+      padding-top: 35px;
+      margin: 0;
+      list-style: none;
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-flex-flow: row wrap;
+      justify-content: space-around;
+    }
+
+    .flex-item {
+      background: #303030;
+      width: 300px;
+      height: 485px;
+      padding: 0;  
+      margin-top: 30px;
+      box-shadow: 5px 5px 10px black;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+
+    .faq-QueTitle{
+      font-weight: bold;
+      color: #efefef;
+      background: #202020;
+      padding: 15px;
+    }
+
+    .faq-QueText{
+      color: #909060;
+      padding: 15px;
+      flex: 1;
+      overflow: auto;
+    }
+
+    .faq-Answer{
+      color: black;
+      background-color: #909060;
+      padding: 15px;
+      flex: 1;
+      overflow: auto;
+    }
+
+    .faq-Navi{
+      color: black;
+      height: 30px;
+      padding: 15px;
+      background: #202020;
+    }
+
+    .first {
+      color: #303030;
+    }
+
+    .prev {
+      color: #303030;
+    }
+
+    .top {
+        position: fixed;
+        width: 100%;
+        height: 50px;
+        z-index: 999;
+        background: black;
+        opacity: 0.75;
+        margin: 0;
+        display: flex;
+        justify-content:space-between;
+    }
+
+    .top-left {
+      width: 100px;
+    }
+    .top-center {
+      text-align: center;
+      padding-top: 10px;
+      width: 200px;
+      font-size: 30px;
+      font-weight: bolder;
+      color: white;
+      font-family: 'Yanone Kaffeesatz', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    }
+    .top-right {
+      text-align: right;
+      width: 100px;
+    }
+
+    .footer { 
+        height: 42px; 
+        position: fixed; 
+        bottom:0%;
+        width:100%; 
+        background-color: black; 
+        opacity: 0.75;
+        text-align: center;
+    }
+
+    .footer i,
+    .top-left i,
+    .top-right i {
+      padding: 4px;
+      padding-left: 8px;
+      padding-right: 8px;
+      font-size: 36px;
+    }
+
+</style>
+
+
+</head>
+
+
+<body>
+  <a name="top"></a>
+  <div class="top">
+    <div class="top-left">
+      <a title="Menu-DropDown" href="javascript:alert('awesome menu would vanish here')">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+    <div class="top-center">FAQ&nbsp;Department</div>
+    <div class="top-right">
+      <a title="Graphviz.org Homepage" href="https://graphviz.org">
+        <i class="fa fa-home"></i>
+      </a>
+    </div>
+  </div>
+
+  <div class="footer">
+    <div>
+      <a title="Back to Top" href="#top">
+        <i class="fa fa-arrow-circle-up"></i>
+      </a>
+    </div>      
+  </div>
+
+
+
+
+<ul class="flex-container">
+
+  <li class="flex-item">
+      <div class="faq-QueTitle">Title</div>
+    <div class="faq-QueText" a-id="1">Question</div>
+      <div class="faq-Answer" a-id="2">Answer</div>
+      <div class="faq-Navi"><!-- Anzahl A, Zero-A, Rankings, ...<br/> A:ntworten, 1:st, N:xt, P:rv,  L:st -->
+        <div style="text-align:left; float:left">
+          <i class="first fa fa-arrow-circle-o-left" style="font-size: 30px"></i>
+          <i class="next fa fa-arrow-circle-o-down" style="font-size: 30px"></i>
+          <i class="prev fa fa-arrow-circle-o-up" style="font-size: 30px"></i>
+          <i class="last fa fa-arrow-circle-o-right" style="font-size: 30px"></i>          
+        </div>
+        <div style="text-align: right;font-size: 30px">
+          <a href="#"><i class="fa fa-info-circle"></i></a>&nbsp;
+          <a href="#"><i class="fa fa-stack-overflow"></i></a>&nbsp;
+        </div>
+      </div>     
+  </li>  
+  
+  
+  <li class="flex-item">
+      <div class="faq-QueTitle">React and d3-graphviz</div>
+    <div class="faq-QueText" a-id="1">I'm trying to render a graphviz graph from a dotfile in my React Component. I keep running into errors I don't understand. If anyone could shed some light I would be grateful. .</div>
+      <div class="faq-Answer" a-id="2">n/a</div>
+      <div class="faq-Ans" a-id="3" style="display: none;">Antwort 1 - oder was ...</div>
+      <div class="faq-Ans" a-id="4" style="display: none;">Antwort 1 - oder was ...</div>
+      <div class="faq-Navi"><!-- Anzahl A, Zero-A, Rankings, ...<br/>
+        A:ntworten, 1:st, N:xt, P:rv,  L:st -->
+        <div style="text-align:left; float:left">
+          <i class="first fa fa-arrow-circle-o-left" style="font-size: 30px"></i>
+          <i class="next fa fa-arrow-circle-o-down" style="font-size: 30px"></i>
+          <i class="prev fa fa-arrow-circle-o-up" style="font-size: 30px"></i>
+          <i class="last fa fa-arrow-circle-o-right" style="font-size: 30px"></i>          
+        </div>
+        <div style="text-align: right;font-size: 30px">
+          <i class="fa fa-stack-overflow"></i>&nbsp;
+        </div>
+      </div>     
+  </li>
+  
+  <li class="flex-item">
+      <div class="faq-QueTitle">Lorem Ipsum Dolorem</div>
+    <div class="faq-QueText" a-id="1">Strong seasonal viennese spoon french press, cinnamon french press macchiato single origin so white. Instant, kopi-luwak breve shop lungo half and half whipped.<br/><br/>As grinder, froth, breve est siphon mug espresso. Con panna body fair trade, americano, to go robusta, cinnamon black skinny brewed white.</div>
+      <div class="faq-Answer" a-id="2">Extraction, sugar est, redeye wings spoon mazagran foam body. Café au lait cultivar, a brewed cortado coffee cup variety filter.<br/><br/>Plunger pot that, et chicory so seasonal extra spoon steamed café au lait. Filter, cultivar, americano siphon a breve robusta.</div>
+      <div class="faq-Ans" a-id="3" style="display: none;">Antwort 1 - oder was ...</div>
+      <div class="faq-Ans" a-id="4" style="display: none;">Antwort 1 - oder was ...</div>
+      <div class="faq-Navi"><!-- Anzahl A, Zero-A, Rankings, ...<br/>
+        A:ntworten, 1:st, N:xt, P:rv,  L:st -->
+        <div style="text-align:left; float:left">
+          <i class="first fa fa-arrow-circle-o-left" style="font-size: 30px"></i>
+          <i class="next fa fa-arrow-circle-o-down" style="font-size: 30px"></i>
+          <i class="prev fa fa-arrow-circle-o-up" style="font-size: 30px"></i>
+          <i class="last fa fa-arrow-circle-o-right" style="font-size: 30px"></i>          
+        </div>
+        <div style="text-align: right;font-size: 30px">
+          <i class="fa fa-stack-overflow"></i>&nbsp;
+        </div>
+      </div>     
+  </li>  
+  
+    <li class="flex-item">
+      <div class="faq-QueTitle">Graphviz: How to go from .dot to a graph?</div>
+    <div class="faq-QueText" a-id="1">I can't seem to figure this out. I have a .dot file, which is valid according to the syntax. How do I use graphviz to convert this into an image? (note that I'm on Windows, not linux)
+</div>
+      <div class="faq-Answer" a-id="2">type: dot -Tps filename.dot -o outfile.ps<br/><br/>
+
+If you want to use the dot renderer. There are alternatives like neato and twopi. If graphiz isn't in your path, figure out where it is installed and run it from there.<br/><br/>
+
+You can change the output format by varying the extension of the filename specified with -o.
+
+If you're using windows, check out the installed tool called GVEdit, it makes the whole process slightly easier. (...)</div>
+      <div class="faq-Navi"><!-- Anzahl A, Zero-A, Rankings, ...<br/> A:ntworten, 1:st, N:xt, P:rv,  L:st -->
+        <div style="text-align:left; float:left">
+          <i class="first fa fa-arrow-circle-o-left" style="font-size: 30px"></i>
+          <i class="next fa fa-arrow-circle-o-down" style="font-size: 30px"></i>
+          <i class="prev fa fa-arrow-circle-o-up" style="font-size: 30px"></i>
+          <i class="last fa fa-arrow-circle-o-right" style="font-size: 30px"></i>          
+        </div>
+        <div style="text-align: right;font-size: 30px">
+          <i class="fa fa-info-circle"></i>&nbsp;
+          <i class="fa fa-stack-overflow"></i>&nbsp;
+        </div>
+      </div>     
+  </li>
+  
+   <li class="flex-item">
+      <div class="faq-QueTitle">How to layout multiple subgraphs inside a master graph in dot?</div>
+    <div class="faq-QueText" a-id="1">I am trying to create a graph using dot. The graph I have come up till now is given below and code is also given.</div>
+      <div class="faq-Answer" a-id="2">n/a</div>
+      <div class="faq-Navi"><!-- Anzahl A, Zero-A, Rankings, ...<br/> A:ntworten, 1:st, N:xt, P:rv,  L:st -->
+        <div style="text-align:left; float:left">
+          <i class="first fa fa-arrow-circle-o-left" style="font-size: 30px"></i>
+          <i class="next fa fa-arrow-circle-o-down" style="font-size: 30px"></i>
+          <i class="prev fa fa-arrow-circle-o-up" style="font-size: 30px"></i>
+          <i class="last fa fa-arrow-circle-o-right" style="font-size: 30px"></i>          
+        </div>
+        <div style="text-align: right;font-size: 30px">
+          <i class="fa fa-info-circle"></i>&nbsp;
+          <i class="fa fa-stack-overflow"></i>&nbsp;
+        </div>
+      </div>     
+  </li>  
+ 
+  
+   <li class="flex-item">
+      <div class="faq-QueTitle">pydot and graphviz error: Couldn't import dot_parser, loading of dot files will not be possible</div>
+    <div class="faq-QueText" a-id="1">When I run a very simple code with pydot [<\>] &nbsp; It prints me the error message:
+
+Couldn't import dot_parser, loading of dot files will not be possible.
+
+I'm using python 2.7.3</div>
+      <div class="faq-Answer" a-id="2">Answer for pydot >= 1.1:
+
+The incompatibility of (upstream) pydot has been fixed by 6dff94b3f1, and thus pydot >= 1.1 will be compatible with pyparsing >= 1.5.7
+
+Answer applicable to pydot &lt;= 1.0.28:
+
+For anyone else who comes across this, it is due to the changes in pyparsing from 1.x to the 2.x release. To install pydot using pip, first install the older version of pyparsing:
+
+pip install pyparsing==1.5.7
+pip install pydot==1.0.28
+
+If you did not install pyparsing using pip, but instead used setup.py, then have a look at this solution to uninstall the package. Thanks @qtips.        
+      </div>
+      <div class="faq-Navi"><!-- Anzahl A, Zero-A, Rankings, ...<br/> A:ntworten, 1:st, N:xt, P:rv,  L:st -->
+        <div style="text-align:left; float:left">
+          <i class="first fa fa-arrow-circle-o-left" style="font-size: 30px"></i>
+          <i class="next fa fa-arrow-circle-o-down" style="font-size: 30px"></i>
+          <i class="prev fa fa-arrow-circle-o-up" style="font-size: 30px"></i>
+          <i class="last fa fa-arrow-circle-o-right" style="font-size: 30px"></i>          
+        </div>
+        <div style="text-align: right;font-size: 30px">
+          <i class="fa fa-info-circle"></i>&nbsp;
+          <i class="fa fa-stack-overflow"></i>&nbsp;
+        </div>
+      </div>     
+  </li>   
+  
+  
+  <li class="flex-item">2</li>
+  <li class="flex-item">3</li>
+  <li class="flex-item">4</li>
+  <li class="flex-item">5</li>
+  <li class="flex-item">6</li>
+  <li class="flex-item">12</li>
+  <li class="flex-item">13</li>
+  <li class="flex-item">14</li>
+  <li class="flex-item">15</li>
+  <li class="flex-item">16</li>  
+</ul>
+</body>
+</html>
