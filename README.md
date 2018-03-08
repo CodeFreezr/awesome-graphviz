@@ -316,11 +316,15 @@ You're welcome to add new stuff or report glitches. See [contributing.md](contri
 - [GraphViz::ISA](http://search.cpan.org/~marcel/GraphViz-ISA-1.100860/lib/GraphViz/ISA.pm) - Graph Perl packages' ISA runtime hierarchies *Marcel Grunauer* 
 - [Graph::Easy](http://search.cpan.org/~tels/Graph-Easy/) Rectilinear graph drawing program compatible with Graphviz and written  
  
+#### Libs for PHP
+- [Image_Graphviz](http://pear.php.net/package/Image_GraphViz) - class in PHP by *Sebastian Bergmann* 
+- [graphp.graphviz](https://github.com/graphp/graphviz) - GraphViz graph drawing for mathematical graph/network in PHP
+
 #### Others 
 - [Ruby-Graphviz](https://github.com/glejeune/Ruby-Graphviz/) - Ruby interface to Graphviz *Grégoire Lejeune* 
 - [MatLab](http://de.mathworks.com/matlabcentral/fileexchange/4518?requestedDomain=true&nocookie=true) *Leon Peshkin* 
 - [webdot](https://gitlab.com/graphviz/webdot) TCL *John Ellson*  
-- [Image_Graphviz](http://pear.php.net/package/Image_GraphViz) - class in PHP by *Sebastian Bergmann* 
+
  
 #### Confluence/Jira 
 - [Graphviz Diagrams for Confluence](https://marketplace.atlassian.com/plugins/com.atlassian.confluence.extra.graphviz/server/overview) - Generate and display graphs based on Graph Visualization Software (Graphviz) and the DOT language. *Bob Swift*
