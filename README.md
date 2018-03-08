@@ -214,16 +214,14 @@ You're welcome to add new stuff or report glitches. See [contributing.md](contri
 
 ### Graphical Interfaces
 #### Web-Interface
-- [Viz-Js](http://ushiroad.com/jsviz/) - DHTML-based interactive viewer for Graphviz *Satoshi Ueyama*.
-- [GraphvizOnline](http://dreampuf.github.io/GraphvizOnline/) - Online Editor with Syntax Higlighting.
-- [Graphviz.it](http://graphviz.it) - Online-Editor with all the standard examples, based on [graph-viz-d3-js](#graph-viz-d3-js).
-- [Canviz](http://www.ryandesign.com/canviz/) - an HTML5/Javascript canvas viewer (beta). *Ryan Schmidt*.
-- [Graphviz Test Tool](https://sites.google.com/site/kuabus/programming-by-hu/graphviz-test-tool) - a GUI front-end for Graphviz *Hansuli Anderegg *.
-- [GraphvizFiddle](https://stamm-wilbrandt.de/GraphvizFiddle/) - a dual-view Graphviz editor, see [blog](https://www.ibm.com/developerworks/community/blogs/HermannSW/entry/graphvizfiddle?lang=en) *Hermann Stamm-Wilbrandt*.
-
-- [an AJAX viewer](https://ashitani.jp/gv/) written with Rico *T. Ashitani*.
-- [Online Graphviz Generator](http://fiane.mooo.com:8080/graphviz/) - Simple Online Generator with Go Server.
+- [Liviz.js](http://ushiroad.com/jsviz/) - DHTML-based interactive viewer for Graphviz *Satoshi Ueyama*.
+- [AJAX viewer](https://ashitani.jp/gv/) written with Rico *T. Ashitani*.
 - [webgraphviz](http://www.webgraphviz.com/) - WebGraphviz is Graphviz in the Browser.
+- [Online Graphviz Generator](http://fiane.mooo.com:8080/graphviz/) - Simple Online Generator with Golang Server.
+- [GraphvizFiddle](https://stamm-wilbrandt.de/GraphvizFiddle/) - a dual-view Graphviz editor, see [blog](https://www.ibm.com/developerworks/community/blogs/HermannSW/entry/graphvizfiddle?lang=en) *Hermann Stamm-Wilbrandt*.
+- [Canviz](http://www.ryandesign.com/canviz/) - an HTML5/Javascript canvas viewer (beta). *Ryan Schmidt*.
+- [Graphviz.it](http://graphviz.it) - Online-Editor with all the standard examples, based on graph-viz-d3-js.
+- [GraphvizOnline](http://dreampuf.github.io/GraphvizOnline/) - Online Editor with Syntax Higlighting.
 
 #### Common Platforms
 - [Gephi](https://gephi.org/) - The Open Graph Viz Platform *Mathieu Bastian*
@@ -247,9 +245,10 @@ You're welcome to add new stuff or report glitches. See [contributing.md](contri
 - [Pixelglows](http://www.pixelglow.com/graphviz/) Document-based GUI for Mac OS X (won a 2004 award from Apple) *Glen Low* 
 
 #### Java
-- [idot](https://code.google.com/archive/p/idot) - Incremental Graphviz viewer (Java ≥ 1.5 with the excellent 
-- [Yoix](http://www.2uwebhosting.com/) - Scripting language implemented in Java with a data visualization module called YDAT that provides interactive display of GraphViz files (use -Txdot -y) *John Mocenigo* 
-- [TINTFU](https://www.openhub.net/p/tintfu) - Java-based editor for .dot graph files. *Walter Stroebel* 
+- [idot](https://code.google.com/archive/p/idot) - Incremental Graphviz viewer (Java ≥ 1.5)
+- [Yoix](http://www.2uwebhosting.com/) - Scripting language implemented in Java with a data visualization module called YDAT that provides interactive display of GraphViz files (use -Txdot -y) *John Mocenigo*.
+- [TINTFU](https://www.openhub.net/p/tintfu) - Java-based editor for .dot graph files. *Walter Stroebel*.
+- [Graphviz Test Tool](https://sites.google.com/site/kuabus/programming-by-hu/graphviz-test-tool) - Java GUI front-end for Graphviz *Hansuli Anderegg *.
 
 #### Other
 - [prefuse](http://prefuse.org/) - Toolkit *Mikko Vinni*.
