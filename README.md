@@ -220,7 +220,7 @@ You're welcome to add new stuff or report glitches. See [contributing.md](contri
 - [Canviz](http://www.ryandesign.com/canviz/) - an HTML5/Javascript canvas viewer (beta). *Ryan Schmidt*.
 - [Graphviz Test Tool](https://sites.google.com/site/kuabus/programming-by-hu/graphviz-test-tool) - a GUI front-end for Graphviz *Hansuli Anderegg *.
 - [GraphvizFiddle](https://stamm-wilbrandt.de/GraphvizFiddle/) - a dual-view Graphviz editor, see [blog](https://www.ibm.com/developerworks/community/blogs/HermannSW/entry/graphvizfiddle?lang=en) *Hermann Stamm-Wilbrandt*.
-- [jQuery.Graphviz](https://github.com/goinnn/jquery.graphviz) - a jQuery based interactive graph viewer for graphviz svg *Pablo Martín*.
+
 - [an AJAX viewer](https://ashitani.jp/gv/) written with Rico *T. Ashitani*.
 - [Online Graphviz Generator](http://fiane.mooo.com:8080/graphviz/) - Simple Online Generator with Go Server.
 - [webgraphviz](http://www.webgraphviz.com/) - WebGraphviz is Graphviz in the Browser.
@@ -267,6 +267,7 @@ You're welcome to add new stuff or report glitches. See [contributing.md](contri
 - [d3-dot-graph](https://github.com/gmamaladze/d3-dot-graph) - This module provides D3js compatible library to parse and load files in graphviz DOT (.dot) (graph description language) format.
 - [jquery.graphviz.svg](https://github.com/mountainstorm/jquery.graphviz.svg/) - jQuery plugin to make Graphviz SVG output more interactive and easier to navigate. *Rich Cooper* 
 - [node-graphviz](https://github.com/glejeune/node-graphviz) - Interface to the GraphViz graphing tool
+- [jQuery.Graphviz](https://github.com/goinnn/jquery.graphviz) - a jQuery based interactive graph viewer for graphviz svg, see a live demo on [jsfiddle](http://jsfiddle.net/UdysN/) *Pablo Martín*.
 
 #### Libs for Python
  - [Pydot](https://github.com/erocarrera/pydot) - a python interface to Graphviz (Windows comptible). 
