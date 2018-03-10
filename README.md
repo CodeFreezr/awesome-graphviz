@@ -258,6 +258,7 @@ You're welcome to add new stuff or report glitches. See [contributing.md](contri
 - [Leonhard](https://github.com/glejeune/Leonhard) - Simple viewer/editor for GraphViz, developed with MacRuby. (See the [demo](https://www.youtube.com/watch?v=nyfZVGlErTo&feature=youtu.be).) 
 - [EasyGraphViz](http://wiki.cyze.jp/wiki.cgi/software?page=EasyGraphViz) - Japanese editor for Graphviz. *Nikolaos Kavvadias*
 - [NodeViz](https://code.google.com/archive/p/nodeviz) - PHP framework for mapping relational data to highly styled Graphviz and displaying interactively in web clients *Greg Michalec and Skye Bender-deMoll* 
+- [dottask](https://github.com/mattboehm/dottask) - A todo tracker that utilizes dot/clojurejscript based on viz.js, see [example](http://dottask.mattboehm.rocks/) *Matthew Boehm*.
 
 ### Language Bindings  
 #### Libs for Node / JS / JQuery / D3
