@@ -409,6 +409,7 @@ You're welcome to add new stuff or report glitches. See [contributing.md](contri
   - [chefviz](https://github.com/tom--bo/chefviz) - Chefviz creates the dot files of recipes dependency-graph for graphviz.
   - [go-erd](https://github.com/gmarik/go-erd) - Visualize package's types and their inter-relationships to aid exploring and studying source code.
   - [npm-packages](http://npm.anvaka.com/#/) - Analyze NPM Package Dependencies in 2D and 3D *Andrei Kashcha* aka @anvaka.
+  - [graph.generator](https://plugins.gradle.org/plugin/com.vanniktech.dependency.graph.generator) - Gradle plugin that generates dependency graphs from your project. *Niklas Baudy*
 
 ##### Schema & Datastructure
   - [Merisedot](http://oss.phear.org/merisedot/) - a tool to generate MCD Entity/Relation graphics of Merise. (Seulement en Français).
