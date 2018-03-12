@@ -179,6 +179,7 @@ You're welcome to add new stuff or report glitches. See [contributing.md](contri
 - [reddit](https://www.reddit.com/r/graphviz/) - Subreddit for graphviz
 - [StackOverflow](https://stackoverflow.com/questions/tagged/graphviz) - Tagged with graphviz
 - [issues](https://gitlab.com/graphviz/graphviz/issues) - Issues on Gitlab
+- [ubuntu-wiki (de)](https://wiki.ubuntuusers.de/Graphviz/) - German ubuntu graphviz wiki
 
 
 ### Theory & Publications
