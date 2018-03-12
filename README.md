@@ -177,7 +177,7 @@ You're welcome to add new stuff or report glitches. See [contributing.md](contri
 ### Social Media
 - [@graphviz](https://twitter.com/Graphviz) - Official Twitter Account
 - [reddit](https://www.reddit.com/r/graphviz/) - Subreddit for graphviz
-- [StackOverflow](https://stackoverflow.com/questions/tagged/graphviz) - Questions tagged with [[graphviz]]
+- [StackOverflow](https://stackoverflow.com/questions/tagged/graphviz) - Questions tagged with [graphviz]
 - [issues](https://gitlab.com/graphviz/graphviz/issues) - Issues on Gitlab
 - [ubuntu-wiki (de)](https://wiki.ubuntuusers.de/Graphviz/) - German ubuntu graphviz wiki
 - [instagram](https://www.instagram.com/explore/tags/graphviz/) - Find Graphviz Images on Instagram
