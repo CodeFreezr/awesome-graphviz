@@ -175,9 +175,10 @@ You're welcome to add new stuff or report glitches. See [contributing.md](contri
   - [JSON - Output](https://graphviz.org/_pages/doc/info/output.html#d:json) - Explanation of the JSON-Output.
 
 ### Social Media
-- [a]()
-- [b]()
-- [c]()
+- [@graphviz](https://twitter.com/Graphviz) - Official Twitter Account
+- [reddit](https://www.reddit.com/r/graphviz/) - Subreddit for graphviz
+- [StackOverflow](https://stackoverflow.com/questions/tagged/graphviz) - Tagged with graphviz
+- [issues](https://gitlab.com/graphviz/graphviz/issues) - Issues on Gitlab
 
 
 ### Theory & Publications
