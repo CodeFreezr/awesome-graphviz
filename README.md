@@ -19,7 +19,7 @@ You're welcome to add new stuff or report glitches. See [contributing.md](contri
   * [Layout / Output](#layout--output)
   * [Tools](#tools)
   * [API](#api)
-  * [Social Media](#Social-Media)
+  * [Social Media](#social-media)
 * [Theory &amp; Publications](#theory--publications)
   * [Graphviz Papers](#graphviz-papers)
   * [Graph Drawing](#graph-drawing)
