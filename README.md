@@ -240,6 +240,7 @@ You're welcome to add new stuff or report glitches. See [contributing.md](contri
 #### .NET / C#
 - [Graphviz4Net](https://archive.codeplex.com/?p=graphviz4net) provides Windows Presentation Foundation (WPF) control that is capable of rendering graph layouts using Graphviz. *Štěpán Šindelář* 
 - [Wigraf](https://github.com/kml/Wigraf) - a Windows graphviz frontend based on WinGraphviz and C# .NET. "Graf" is polish for "graph." *Kamil Lemański* 
+- [PSGraph](https://github.com/KevinMarquette/PSGraph) - A set of utilities for working with Graphviz in Powershell *Kevin Marquette*
 
 #### Mac OS
 - [Instaviz](http://instaviz.com/) - Graph sketching for the iPhone using Graphviz libraries for rendering. *Glen Low* 
