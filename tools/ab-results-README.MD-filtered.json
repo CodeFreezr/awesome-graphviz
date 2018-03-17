@@ -1,0 +1,68 @@
+[
+  {
+    "loc": 1,
+    "status": 302,
+    "link": "https://awesome.re",
+    "redirect": "https://github.com/sindresorhus/awesome",
+    "error": ""
+  },
+  {
+    "loc": 221,
+    "status": 303,
+    "link": "https://www.palgrave.com/gp/journals",
+    "redirect": "https://www.palgrave.com/gp/journals",
+    "error": ""
+  },
+  {
+    "loc": 242,
+    "status": 302,
+    "link": "https://www.ideatreelive.com:443",
+    "redirect": "https://www.ideatreelive.com/ideatree/",
+    "error": ""
+  },
+  {
+    "loc": 265,
+    "status": 301,
+    "link": "http://www.2uwebhosting.com/",
+    "redirect": "https://www.2uwebhosting.com/",
+    "error": ""
+  },
+  {
+    "loc": 341,
+    "status": 301,
+    "link": "http://de.mathworks.com/matlabcentral/fileexchange/4518?requestedDomain=true&nocookie=true",
+    "redirect": "http://de.mathworks.com/matlabcentral/fileexchange/4518-matlab-graphviz-interface?nocookie=true&requestedDomain=true",
+    "error": ""
+  },
+  {
+    "loc": 399,
+    "status": 301,
+    "link": "https://sourceforge.net/projects/phpopencounter",
+    "redirect": "https://sourceforge.net/projects/phpopencounter/",
+    "error": ""
+  },
+  {
+    "loc": 465,
+    "status": 302,
+    "link": "http://pubs.acs.org/doi/abs/10.1021/ci4004464",
+    "redirect": "http://pubs.acs.org/doi/abs/10.1021/ci4004464?cookieSet=1",
+    "error": ""
+  },
+  {
+    "loc": 499,
+    "status": 429,
+    "link": "https://www.quora.com/search?q=graphviz",
+    "redirect": "",
+    "error": ""
+  },
+  {
+    "loc": 252,
+    "link": "https://github.com/ObjectiveTruth/Graphvizzer",
+    "error": "Dupe"
+  },
+  {
+    "loc": 312,
+    "link": "https://github.com/djmattyg007/graphviz-server",
+    "error": "Dupe"
+  }
+]

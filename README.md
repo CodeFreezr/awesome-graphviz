@@ -19,7 +19,7 @@ You're welcome to add new stuff or report glitches. See [contributing.md](contri
   * [Layout / Output](#layout--output)
   * [Tools](#tools)
   * [API](#api)
-  * [Social Media](#social-media)
+* [Social Media](#social-media)
 * [Theory &amp; Publications](#theory--publications)
   * [Graphviz Papers](#graphviz-papers)
   * [Graph Drawing](#graph-drawing)
@@ -27,7 +27,7 @@ You're welcome to add new stuff or report glitches. See [contributing.md](contri
 * [Graphical Interfaces](#graphical-interfaces)
   * [Web\-Interface](#web-interface)
   * [Common Platforms](#common-platforms)
-  * [Editor Addons](#editor-addons)
+  * [Addons](#addons)
   * [\.NET / C\#](#net--c)
   * [Mac OS](#mac-os)
   * [Java](#java)
@@ -40,9 +40,12 @@ You're welcome to add new stuff or report glitches. See [contributing.md](contri
   * [Libs for Java](#libs-for-java)
   * [Libs for C\# and \.NET](#libs-for-c-and-net)
   * [Libs for Perl](#libs-for-perl)
+  * [Libs for PHP](#libs-for-php)
   * [Others](#others)
+* [CMS\-Integration](#cms-integration)
   * [Confluence/Jira](#confluencejira)
-  * [CMS (Wiki/Blog)](#cms-wikiblog)
+  * [Wiki/Blog](#wikiblog)
+* [Docker Images](#docker-images)
 * [Generators and Translators](#generators-and-translators)
   * [Transform data sources and formats into Graphviz](#transform-data-sources-and-formats-into-graphviz)
   * [AI and Language Tools](#ai-and-language-tools)
@@ -236,16 +239,17 @@ You're welcome to add new stuff or report glitches. See [contributing.md](contri
 
 #### Common Platforms
 - [Gephi](https://gephi.org/) - The Open Graph Viz Platform *Mathieu Bastian*
-- [IdeaTree](https://www.ideatreelive.com:443) - Platform for concurrent, shared knowledge mapping
+- [IdeaTree](https://www.ideatreelive.com/ideatree/) - Platform for concurrent, shared knowledge mapping
 - [Observable](https://beta.observablehq.com/) - Common Map, Chart & Diagram creation with graphviz support
 - [Bl.ock](https://bl.ocks.org/) - Common Mapp, Chart & Diagram creation with graphviz support
 - [graphistry](https://www.graphistry.com/) - Investigate across event & log systems with the power of visual graph analytics.
 - [KeyLines Toolkit](https://cambridge-intelligence.com/keylines/) - Network Visualization Software with VueJS Component *Cambridge Intelligence* @CambridgeIntel
 
-#### Editor Addons
+#### Addons
 - [Graphviz for vscode](https://marketplace.visualstudio.com/items?itemName=Stephanvs.dot) - Graphviz (dot) Syntax Highlight and snippets for Visual Studio Code *Stephanvs*
 - [Graphviz Preview](https://marketplace.visualstudio.com/items?itemName=EFanZh.graphviz-preview) - Inline Preview inside vs code editor *EFanZh*
 - [Eclipse Zest/DOT](http://wiki.eclipse.org/Zest/DOT) - an Eclipse Zest 2.0 component that can be used to render and edit DOT graphs *Fabian Steeg* 
+- [Graphvizzer](https://graphvizzer.objectivetruth.ca/) - Graph instantly in your Slack-Chat channel. [src](https://github.com/ObjectiveTruth/Graphvizzer)
 
 #### .NET / C#
 - [Graphviz4Net](https://archive.codeplex.com/?p=graphviz4net) provides Windows Presentation Foundation (WPF) control that is capable of rendering graph layouts using Graphviz. *Štěpán Šindelář* 
@@ -258,7 +262,7 @@ You're welcome to add new stuff or report glitches. See [contributing.md](contri
 
 #### Java
 - [idot](https://code.google.com/archive/p/idot) - Incremental Graphviz viewer (Java ≥ 1.5)
-- [Yoix](http://www.2uwebhosting.com/) - Scripting language implemented in Java with a data visualization module called YDAT that provides interactive display of GraphViz files (use -Txdot -y) *John Mocenigo*.
+- [Yoix](https://www.2uwebhosting.com/) - Scripting language implemented in Java with a data visualization module called YDAT that provides interactive display of GraphViz files (use -Txdot -y) *John Mocenigo*.
 - [TINTFU](https://www.openhub.net/p/tintfu) - Java-based editor for .dot graph files. *Walter Stroebel*.
 - [Graphviz Test Tool](https://sites.google.com/site/kuabus/programming-by-hu/graphviz-test-tool) - Java GUI front-end for Graphviz *Hansuli Anderegg *.
 
@@ -337,21 +341,32 @@ You're welcome to add new stuff or report glitches. See [contributing.md](contri
 - [MatLab](http://de.mathworks.com/matlabcentral/fileexchange/4518?requestedDomain=true&nocookie=true) *Leon Peshkin* 
 - [webdot](https://gitlab.com/graphviz/webdot) TCL *John Ellson*  
 
- 
+### CMS-Integration 
 #### Confluence/Jira 
 - [Graphviz Diagrams for Confluence](https://marketplace.atlassian.com/plugins/com.atlassian.confluence.extra.graphviz/server/overview) - Generate and display graphs based on Graph Visualization Software (Graphviz) and the DOT language. *Bob Swift*
 - [Graphviz Cloud](https://marketplace.atlassian.com/plugins/com.addteq.graphviz/cloud/overview) - Create and render Graphviz diagrams for Confluence Cloud *Addteq*
 - [Digraph Macro](https://bobswift.atlassian.net/wiki/spaces/GVIZ/pages/30703811/Digraph+Macro) - The Digraph Macro creates directed graphs using the Graphviz language. *Bob Swift*
 - [GraphViz/PlantUML](https://avono-support.atlassian.net/wiki/spaces/PUML/overview) - Adding PlantUML Diagram in Confluence-Wiki with DOT-Language *Michael Griffel*
 
-#### CMS (Wiki/Blog) 
-- [MediaWiki-1](http://search.cpan.org/~tels/mediawiki-graph/) extension. *Tels* 
-- [MediaWiki-2](https://www.mediawiki.org/wiki/Extension:GraphViz) extension *Coffman* 
-- [Drupal](https://www.drupal.org/project/graphviz_filter) Graphviz filter *Karim Ratib* 
-- [Wordpress EHT Graphviz](https://ociotec.com/eht-graphviz-plugin-para-wordpress/) plugin for Wordpress, to allow Graphviz images to be easily integrated into a Wordpress page. *Emilio González Montaña* 
-- [Wordpress Graphviz](https://wordpress.org/plugins/wp-graphviz/) plugin for Wordpres, to allow Graphviz images to be easily integrated into a Wordpress page. * - [DeBAAT](https://profiles.wordpress.org/debaat/)* 
-- [DokuWiki](https://www.dokuwiki.org/plugin:graphviz) directed and non-directed graph images from “dot" language *Andreas Gohr* 
- 
+#### Wiki/Blog 
+- [MediaWiki-1](http://search.cpan.org/~tels/mediawiki-graph/) - Extension *Tels*.
+- [MediaWiki-2](https://www.mediawiki.org/wiki/Extension:GraphViz) - Extension *Coffman*.
+- [Drupal](https://www.drupal.org/project/graphviz_filter) - Graphviz filter *Karim Ratib*.
+- [Wordpress EHT Graphviz](https://ociotec.com/eht-graphviz-plugin-para-wordpress/) - Plugin for Wordpress, to allow Graphviz images to be easily integrated into a Wordpress page. *Emilio González Montaña*.
+- [Wordpress Graphviz](https://wordpress.org/plugins/wp-graphviz/) - Plugin for Wordpres, to allow Graphviz images to be easily integrated into a Wordpress page. * - [DeBAAT](https://profiles.wordpress.org/debaat/)*.
+- [DokuWiki](https://www.dokuwiki.org/plugin:graphviz) - Directed and non-directed graph images from “dot" language *Andreas Gohr*.
+- [trac GraphvizPlugin](https://trac-hacks.org/wiki/GraphvizPlugin) - Dynamic generation of diagrams within wiki pages and ticket descriptions.
+
+### Docker Images
+- [omerio/graphviz-webapp](https://hub.docker.com/r/omerio/graphviz-webapp/) - Simple Java Web application deployed as a Docker container and run as part of a Kubernetes cluster by *Omer Dawelbeit* on [git](https://github.com/omerio/graphviz-webapp/).
+- [omerio/graphviz-server](https://hub.docker.com/r/omerio/graphviz-server/) - HTTP server for Graphviz dot (ubuntu) by *Omer Dawelbeit*. More in this [blog-post](http://omerio.com/2013/11/03/running-a-graphviz-server-on-google-compute-engine/), src: [git](https://github.com/omerio/graphviz-server).
+- [epicjhon/docker-php](https://hub.docker.com/r/epicjhon/docker-php/) - PHP images with more tools: Git, Memcached, Phalcon, Zend, pdo_mysql, mysqli, Runkit, Graphviz by *Jhon Eslava* on [git](https://github.com/EpicJhon/docker-php).
+- [citizensadvice/ruby-jq](https://hub.docker.com/r/citizensadvice/ruby-jq/) - Ruby 2.3 with [jq](https://github.com/stedolan/jq) and graphviz on [git](https://github.com/citizensadvice/ruby-jq).
+- [hamroctopus/graphviz](https://hub.docker.com/r/hamroctopus/graphviz/) - Docker container (ubuntu 14.04.4) providing graphviz-2.38.0 from *Eric Crosson* on [git](https://github.com/EricCrosson/graphviz).
+- [efcasado/graphviz](https://hub.docker.com/r/efcasado/graphviz/) - Alpine Linux based, dockerized Graphviz by *Enrique Fernandez* on [git](https://github.com/efcasado/dockerfile-graphviz).
+- [djmattyg007/graphviz-server](https://hub.docker.com/r/djmattyg007/graphviz-server/) - Graphviz as a Docker Service by *Matthew Gamble* on [git](https://github.com/djmattyg007/graphviz-server).
+- [objectivetruth/graphvizzer](https://hub.docker.com/r/objectivetruth/graphvizzer/) - Docker image for the Graphvizzer slack-chat integrationon [git](https://github.com/ObjectiveTruth/Graphvizzer).
+- [rahulsom/groovy-graphviz-jenkins-slave](https://hub.docker.com/r/rahulsom/groovy-graphviz-jenkins-slave/) - Creates a Jenkins Slave with groovy and graphviz by *Rahul Somasunderam* on [git](https://github.com/rahulsom/dockerfiles).
  
 ### Generators and Translators 
 #### Transform data sources and formats into Graphviz 
