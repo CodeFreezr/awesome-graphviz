@@ -108,7 +108,6 @@ You're welcome to add new stuff or report glitches. See [contributing.md](contri
 - [sfdp](https://linux.die.net/man/1/sfdp) - filter for drawing large undirected graphs.
 - [twopi](https://linux.die.net/man/1/twopi) - filter for radial layouts of graphs.
 
-
 #### Tools
 - GUI
   - [dotty](https://linux.die.net/man/1/dotty) - Customizable Graph Editor, see also [pdf](https://www.graphviz.org/pdf/dottyguide.pdf).
@@ -177,6 +176,7 @@ You're welcome to add new stuff or report glitches. See [contributing.md](contri
   - [JSON - Schema](https://graphviz.org/_pages/doc/info/graphviz_json_schema.json) - Plain JSON representation of a graph encoding xdot attributes.
   - [JSON - Output](https://graphviz.org/_pages/doc/info/output.html#d:json) - Explanation of the JSON-Output.
 
+
 ### Social Media
 - [@graphviz](https://twitter.com/Graphviz) - Official Twitter Account
 - [reddit](https://www.reddit.com/r/graphviz/) - Subreddit for graphviz
@@ -185,7 +185,7 @@ You're welcome to add new stuff or report glitches. See [contributing.md](contri
 - [ubuntu-wiki (de)](https://wiki.ubuntuusers.de/Graphviz/) - German ubuntu graphviz wiki
 - [instagram](https://www.instagram.com/explore/tags/graphviz/) - Find Graphviz Images on Instagram
 - [flickr group](https://www.flickr.com/groups/graphviz/) - Flickr Group. Find Graphviz Images on [Flickr](https://www.flickr.com/photos/tags/graphviz/)
-
+- [Youtube](https://www.youtube.com/results?search_query=graphviz) - Over 2500 findings on Youtube
 
 ### Theory & Publications
 #### Graphviz Papers
