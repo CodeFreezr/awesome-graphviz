@@ -219,7 +219,8 @@ You're welcome to add new stuff or report glitches. See [contributing.md](contri
 - [Infovis now](http://vis.computer.org) - Current IEEE Infovis Symposia.
 - [Infovis past](https://www.infovis.org/) - Past IEEE Infovis Symposia.
 - [Information Visualization Journal](https://www.palgrave.com/gp/journals) - Magazin for Information Visualization.
-- [FlowingData](http://flowingdata.com/)**[Infothestics](http://infosthetics.com/)  
+- [FlowingData](http://flowingdata.com/) - FlowingData
+- [Infothestics](http://infosthetics.com/) - Infothestics
 - [York U. Gallery of Visualization](http://www.datavis.ca/gallery/index.php) (see also [Statistics and Statistical Graphics Resources](http://www.math.yorku.ca/SCS/StatResource.html)).  
 - [Stanford University course bilbiography](http://graphics.stanford.edu/courses/cs348c-96-fall/resources.html)[Stanford University Data Journalism](http://datajournalism.stanford.edu/)  
 - [Xerox PARC projects](http://www.parc.com/)  
@@ -419,6 +420,7 @@ You're welcome to add new stuff or report glitches. See [contributing.md](contri
   - [PlantUML](http://plantuml.com/) - generates UML diagrams (classes, usecases, activities, components) - using a simple text description language. *Arnaud Roques* 
   - [Grails class diagram plugin](http://grails.org/plugin/class-diagram/) - provides an UML-like diagram of grails domain classes. *Trygve Amundsen* 
   - [tags2uml](https://github.com/ruben2020/tags2uml) - Generates UML class diagrams, from source code with go.
+  - [Gravizo](http://www.gravizo.com/) - Simple way of describing graphs and include it easily in your web for free, blog, markdown page, github, and any location where remote images can be showed.
 
 ##### Documentation
   - [doxygen](http://www.stack.nl/~dimitri/doxygen/) - Uses graphviz to produce class hierarchies and other diagrams directly from source code *Dimitri van Heesch* 
