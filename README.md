@@ -214,6 +214,7 @@ You're welcome to add new stuff or report glitches. See [contributing.md](contri
 - [Graph Drawing Software (Mathematics and Visualization)](https://www.amazon.com/Graph-Drawing-Software-Mathematics-Visualization/dp/3540008810) by M. Junger, Petra Mutzel (Symposium on Graph Drawing 2001, Vienna).
 - [Drawing Graphs](https://www.amazon.com/Drawing-Graphs-Methods-Lecture-Computer/dp/3540420622) - Methods and Models by *Michael Kaufmann, Dorothea Wagner*.
 - [Handbook of Graph Drawing and Visualization](https://www.amazon.com/Handbook-Visualization-Discrete-Mathematics-Applications/dp/1584884126) Roberto Tamassia, ed. [(On-line version)](http://cs.brown.edu/~rt/gdhandbook/)
+- [D3 Graph Theory](https://mrpandey.github.io/d3graphTheory/index.html) - Learn graph theory interactively by *Avinash Pandey*. 
 
 #### Information Visualization
 - [Infovis now](http://vis.computer.org) - Current IEEE Infovis Symposia.
