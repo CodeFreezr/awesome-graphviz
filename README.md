@@ -221,10 +221,9 @@ You're welcome to add new stuff or report glitches. See [contributing.md](contri
 - [Infovis past](https://www.infovis.org/) - Past IEEE Infovis Symposia.
 - [Information Visualization Journal](https://www.palgrave.com/gp/journals) - Magazin for Information Visualization.
 - [FlowingData](http://flowingdata.com/) - FlowingData
-- [Infothestics](http://infosthetics.com/) - Infothestics
 - [York U. Gallery of Visualization](http://www.datavis.ca/gallery/index.php) (see also [Statistics and Statistical Graphics Resources](http://www.math.yorku.ca/SCS/StatResource.html)).  
 - [Stanford University course bilbiography](http://graphics.stanford.edu/courses/cs348c-96-fall/resources.html)[Stanford University Data Journalism](http://datajournalism.stanford.edu/)  
-- [Xerox PARC projects](http://www.parc.com/)  
+ 
 
 
 ### Graphical Interfaces
