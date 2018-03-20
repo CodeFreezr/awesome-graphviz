@@ -1,6 +1,12 @@
 # Attic of awesome-graphviz
 Find here broken links or changed targets which needs further investigation to be deleted to bring back on the main page.
 
+### Theory & Publications
+#### Information Visualization
+- [Infothestics](http://infosthetics.com/) - Infothestics
+- [Xerox PARC projects](http://www.parc.com/) 
+- [Information Visualization Journal](https://www.palgrave.com/gp/journals) - Magazin for Information Visualization.
+
 #### Programming and Software Engineering Tools
 ##### UML and Software-Design
   - [ADR](http://www.albertolluch.com/research/adr) - is a system for formal software design by means of graphical methods. *Alberto Lluch Lafuente* 
@@ -82,9 +88,9 @@ Find here broken links or changed targets which needs further investigation to b
 - [xdot.py](https://sourceforge.net/projects/freshmeat/) - an interactive viewer for graphs. *Jose Fonseca* 
 - [ZGRViewer](http://zvtm.sourceforge.net/zgrviewer.html) - an SVG-based zooming graph viewer for large graphs *Emmanuel Pietriga* 
 
-
-### From before HTML to MD Conversion:
 <!-- 
+### From before HTML to MD Conversion:
+
 <li><a href="http://www2.research.att.com/~john/Grappa/" target="_blank">Grappa </a>, a pre-YOIX Graph Package for Java (also provides graph programming classes)[John Mocenigo]</li>
 
 (also for <a href="http://www.wickle.com/wiki/index.php/Windows_Graphviz_Installation_Instructions" target="_blank">Windows</a> [Dknox])</li>
