@@ -425,6 +425,7 @@ You're welcome to add new stuff or report glitches. See [contributing.md](contri
   - [doxygen](http://www.stack.nl/~dimitri/doxygen/) - Uses graphviz to produce class hierarchies and other diagrams directly from source code *Dimitri van Heesch* 
   - [IsaViz](http://www.w3.org/2001/11/IsaViz/) - A Visual Authoring Tool for RDF *Emmanuel Pietriga* 
   - [Symfony application-map plugin](https://symfony.com/legacy) - an easy-to-use documentation tool for the symfony framework community. *Tomasz Ducin* 
+  - [godoc](https://github.com/golang/gddo) - The GoDoc-Project uses graphviz to show the graph of imported packages (see footer of package page on [godoc.org](https://godoc.org/)).
 
 ##### Call Graphs
   - [javashot](https://code.google.com/archive/p/javashot) - captures the dynamic execution flow of a Java programa. The traces can be viewed using Graphviz.
