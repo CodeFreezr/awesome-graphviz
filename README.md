@@ -230,7 +230,7 @@ You're welcome to add new stuff or report glitches. See [contributing.md](contri
 - [Liviz.js](http://ushiroad.com/jsviz/) - DHTML-based interactive viewer for Graphviz *Satoshi Ueyama*.
 - [AJAX viewer](https://ashitani.jp/gv/) written with Rico *T. Ashitani*.
 - [webgraphviz](http://www.webgraphviz.com/) - WebGraphviz is Graphviz in the Browser.
-- [Online Graphviz Generator](http://fiane.mooo.com:8080/graphviz/) - Simple Online Generator with Golang Server.
+- [Online Graphviz Generator](http://fiane.mooo.com:8080/graphviz/) - Simple Online Generator with Golang Server see [src](https://github.com/noselasd/gvweb).
 - [GraphvizFiddle](https://stamm-wilbrandt.de/GraphvizFiddle/) - a dual-view Graphviz editor, see [blog](https://www.ibm.com/developerworks/community/blogs/HermannSW/entry/graphvizfiddle?lang=en) *Hermann Stamm-Wilbrandt*.
 - [Canviz](http://www.ryandesign.com/canviz/) - an HTML5/Javascript canvas viewer (beta). *Ryan Schmidt*.
 - [Graphviz.it](http://graphviz.it) - Online-Editor with all the standard examples, based on graph-viz-d3-js.
