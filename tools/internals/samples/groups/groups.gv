@@ -1,0 +1,22 @@
+digraph G {
+    rankdir=LR
+  A [group=g1]
+  {rank = same; B[group=g2]; C[group=g3]}
+  D [group=g1]
+  {rank = same; E[group=g2]; F[group=g3]}
+
+  A -> B [label="1"]
+  A -> C [label="2", style=dashed, weight=2]
+  B -> C [label="3", style=dashed, weight=2]
+  B -> D [label="4", style=dashed, weight=2]
+  C -> D [label="5", weight=2]
+  D -> E [label="6", style=dashed, weight=2]
+  D -> F [label="7", weight=2]
+  E -> F [label="8", weight=2]
+  F -> A
+
+  edge[style=invis];
+  A -> D
+  B -> E
+  C -> F
+}
