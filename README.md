@@ -408,6 +408,7 @@ You're welcome to add new stuff or report glitches. See [contributing.md](contri
 - [docker-compose-dot](https://github.com/digibib/docker-compose-dot) - Convert docker-compose yaml files to graphviz dot files in go.
 - [Dotler](https://github.com/ronin13/dotler) - Dotler is a web crawler and graph generator written in go.
 - [sabaviz](https://github.com/tom--bo/sabaviz) - Create dot files for graphviz which visualize servers connections by netstat output in go.
+- [Kafka Streams Topology Visualizer](https://github.com/zz85/kafka-streams-viz) - Great solution if you wanna show how streams topologies are tied together.
  
 #### Programming and Software Engineering Tools 
 ##### UML and Software-Design
