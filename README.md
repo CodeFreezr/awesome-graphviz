@@ -340,6 +340,7 @@ You're welcome to add new stuff or report glitches. See [contributing.md](contri
 - [Ruby-Graphviz](https://github.com/glejeune/Ruby-Graphviz/) - Ruby interface to Graphviz *Grégoire Lejeune* 
 - [MatLab](http://de.mathworks.com/matlabcentral/fileexchange/4518?requestedDomain=true&nocookie=true) *Leon Peshkin* 
 - [webdot](https://gitlab.com/graphviz/webdot) TCL *John Ellson*  
+- [S-DOT](http://www.martin-loetzsch.de/S-DOT/) - Common Lisp interface to dot *also Martin Loetzsch*.
 
 ### CMS-Integration 
 #### Confluence/Jira 
@@ -377,11 +378,11 @@ You're welcome to add new stuff or report glitches. See [contributing.md](contri
 - [Linguine Maps](http://www.softwaresecretweapons.com/lm_hibernate.html) - visualize XML DTDs, Apache Object Relational Bridge Files, Apache Ant Build files, and provide a clean Java API for diagramming *Pavel Simakov*.
 - [PostgreSQL AutoDoc](https://github.com/cbbrowne/autodoc) - documents the relation structure of PostgreSQL databases *Rod Taylor*.
 - [DOTML](http://www.martin-loetzsch.de/DOTML/) - XML markup to mirror dot language. Includes scripts and XSLT to transform and render *Martin Loetzsch*.
-- [S-DOT](http://www.martin-loetzsch.de/S-DOT/) - Common Lisp interface to dot *also Martin Loetzsch*.
 - [DBGraphNav](https://code.google.com/archive/p/dbgraphnav) - Tool to facilitate the browsing of data within relational databases. *Paul McMillan*.
 - [EMF To Graphviz](https://sourceforge.net/projects/emf2gv/) - Eclipse plugin that helps to transform an EMF model into a diagram using Graphviz. 
 - [graphstk](https://github.com/dgnorton/graphstk) - Generate graphviz from golang stack trace.
 - [node-it](https://github.com/cfstras/node-it) - subreddit grapher with graphviz written in golang.
+- [lsofgraph](https://github.com/zevv/lsofgraph) - A small utility to convert Unix lsof output to a graph showing FIFO and UNIX interprocess communication by *Ico Doornekamp*.
 
 #### AI and Language Tools 
 - [txt2graph](http://andreas-romeyke.de/txt2graph/txt2graph.html) - visualize the structure and dependencies of a text read from stdin and generates a dot-File for graphviz to stdout *Andreas Romeyke* 
