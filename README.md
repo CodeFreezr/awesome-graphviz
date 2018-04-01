@@ -389,6 +389,7 @@ You're welcome to add new stuff or report glitches. See [contributing.md](contri
 - [Ontoviz](https://protegewiki.stanford.edu/wiki/OntoViz) - is a plugin for displaying knowledge base diagrams in the- [Protoge](https://protege.stanford.edu/) - system 
 - [Topic extraction using Wikipedia data](http://blog.prashanthellina.com/topic-extraction-using-wikipedia-data.html). 
 - [FcaStone](http://fcastone.sourceforge.net/) Lays out algebraic lattices in the sense of Formal Concept Analysis. Try the [demo](http://www.upriss.org.uk/fca/fcademo.html) or the [lattice visualisations of Roget's Thesaurus](http://www.ketlab.org.uk/roget.html)) *Uta Priss*.
+- [CorpusExplorer](https://notes.jan-oliver-ruediger.de/software/corpusexplorer-overview/) - FOSS for Corpuslinguists & Text-/Data-Mining with GraphViz Export by *Jan Oliver Rüdiger*
 
 #### Network and Web Engineering Tools 
 - [DNSViz](http://dnsviz.net/) - a DNS visualization tool 
