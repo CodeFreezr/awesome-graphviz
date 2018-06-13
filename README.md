@@ -236,6 +236,7 @@ You're welcome to add new stuff or report glitches. See [contributing.md](contri
 - [Graphviz.it](http://graphviz.it) - Online-Editor with all the standard examples, based on graph-viz-d3-js.
 - [GraphvizOnline](http://dreampuf.github.io/GraphvizOnline/) - Online Editor with Syntax Higlighting.
 - [viz-js](http://viz-js.com/) - Example Gui from the viz.js Library *Mike Daines*.
+- [Edotor.net](https://edotor.net) - Fiddle-like editor with rich features like refactorings, code-fixes and preview by *Niklas Mollenhauer*.
 
 #### Common Platforms
 - [Gephi](https://gephi.org/) - The Open Graph Viz Platform *Mathieu Bastian*
