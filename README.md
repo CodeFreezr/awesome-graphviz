@@ -479,6 +479,7 @@ You're welcome to add new stuff or report glitches. See [contributing.md](contri
 - [Mac OmniGraffle](https://www.omnigroup.com/omnigraffle/) - *Omni Group* 
 - [GraphVizio](http://www.calvert.ch/graphvizio/) - is an addin for Visio to lay out diagrams using Graphviz (also see- [blog post](http://www.calvert.ch/maurice/2010/05/11/graphvizio-a-graphviz-addin-for-visio/)). *Maurice Calvert* 
 - [TeX and PSTRICKS](http://web.ncf.ca/en493/GRAPHVIZ-TEX/graphviz.html) - describes how to use PSTRICKS in conjunction with TeX to include Graphviz PostScript output into TeX documents. This approach makes further manipulation, such as rotation,shifting, etc. easy. *Roger Herz-Fischler* 
+- [graphviz2drawio](https://github.com/hbmartin/graphviz2drawio) - Convert graphviz to draw.io (mxGraph) format *Harold Martin* 
  
 #### Linux Distributions 
 - [Debian](https://packages.debian.org/search?suite=all&searchon=names&keywords=graphviz) - Linux packages for several architectures. 
