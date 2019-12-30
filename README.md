@@ -237,6 +237,7 @@ You're welcome to add new stuff or report glitches. See [contributing.md](contri
 - [GraphvizOnline](http://dreampuf.github.io/GraphvizOnline/) - Online Editor with Syntax Higlighting.
 - [viz-js](http://viz-js.com/) - Example Gui from the viz.js Library *Mike Daines*.
 - [Edotor.net](https://edotor.net) - Fiddle-like editor with rich features like refactorings, code-fixes and preview by *Niklas Mollenhauer*.
+- [Sketchviz](https://sketchviz.com/) - Interactive editor that renders DOT graphs with a hand-drawn look.
 
 #### Common Platforms
 - [Gephi](https://gephi.org/) - The Open Graph Viz Platform *Mathieu Bastian*
