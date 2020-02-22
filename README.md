@@ -426,6 +426,7 @@ You're welcome to add new stuff or report glitches. See [contributing.md](contri
   - [tags2uml](https://github.com/ruben2020/tags2uml) - Generates UML class diagrams, from source code with go.
   - [Gravizo](http://www.gravizo.com/) - Simple way of describing graphs and include it easily in your web for free, blog, markdown page, github, and any location where remote images can be showed.
   - [Umple](https://github.com/umple/umple) - Textual language for modeling and code generation of complete executable systems; generates UML class diagrams, state diagrams and entity-relationship diagrams.
+  - [gitk-class-diagram](https://github.com/stefandtw/gitk-class-diagram/) - Class diagrams based on commit diffs.
 
 ##### Documentation
   - [doxygen](http://www.stack.nl/~dimitri/doxygen/) - Uses graphviz to produce class hierarchies and other diagrams directly from source code *Dimitri van Heesch* 
