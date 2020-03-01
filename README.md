@@ -343,6 +343,8 @@ You're welcome to add new stuff or report glitches. See [contributing.md](contri
 - [MatLab](http://de.mathworks.com/matlabcentral/fileexchange/4518?requestedDomain=true&nocookie=true) *Leon Peshkin* 
 - [webdot](https://gitlab.com/graphviz/webdot) TCL *John Ellson*  
 - [S-DOT](http://www.martin-loetzsch.de/S-DOT/) - Common Lisp interface to dot *also Martin Loetzsch*.
+- [Rgraphviz](https://bioconductor.org/packages/release/bioc/html/Rgraphviz.html) - Support for using the Graphviz library and its DOT graph drawing language from within R. *Kasper Daniel Hansen et all*
+
 
 ### CMS-Integration 
 #### Confluence/Jira 
