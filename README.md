@@ -286,6 +286,7 @@ You're welcome to add new stuff or report glitches. See [contributing.md](contri
 - [jquery.graphviz.svg](https://github.com/mountainstorm/jquery.graphviz.svg/) - jQuery plugin to make Graphviz SVG output more interactive and easier to navigate. *Rich Cooper* 
 - [node-graphviz](https://github.com/glejeune/node-graphviz) - Interface to the GraphViz graphing tool
 - [jQuery.Graphviz](https://github.com/goinnn/jquery.graphviz) - a jQuery based interactive graph viewer for graphviz svg, see a live demo on [jsfiddle](http://jsfiddle.net/UdysN/) *Pablo Martín*.
+- [ts-graphviz](https://github.com/ts-graphviz/ts-graphviz) - Simple Graphviz library for TypeScript.
 
 #### Libs for Python
  - [Pydot](https://github.com/erocarrera/pydot) - a python interface to Graphviz (Windows comptible). 
