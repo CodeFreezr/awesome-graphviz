@@ -1,5 +1,5 @@
 # Attic of awesome-graphviz
-Find here broken links or changed targets which needs further investigation to be deleted to bring back on the main page.
+Find here broken links or changed targets which needs further investigation to be deleted or to bring back on the main page.
 
 ### Theory & Publications
 #### Information Visualization
