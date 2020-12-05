@@ -436,6 +436,7 @@ You're welcome to add new stuff or report glitches. See [contributing.md](contri
   - [gitk-class-diagram](https://github.com/stefandtw/gitk-class-diagram/) - Class diagrams based on commit diffs.
 
 ##### Documentation
+  - [pointillism.io](https://pointillism.io) - Render your checked-in DOT files straight from your git repos, in your README.md, wiki, and Confluence documentation.
   - [doxygen](http://www.stack.nl/~dimitri/doxygen/) - Uses graphviz to produce class hierarchies and other diagrams directly from source code *Dimitri van Heesch* 
   - [IsaViz](http://www.w3.org/2001/11/IsaViz/) - A Visual Authoring Tool for RDF *Emmanuel Pietriga* 
   - [Symfony application-map plugin](https://symfony.com/legacy) - an easy-to-use documentation tool for the symfony framework community. *Tomasz Ducin* 
