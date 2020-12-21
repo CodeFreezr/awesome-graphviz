@@ -44,6 +44,7 @@ You're welcome to add new stuff or report glitches. See [contributing.md](contri
       - [Libs for C# and .NET](#libs-for-c-and-net)
       - [Libs for Perl](#libs-for-perl)
       - [Libs for PHP](#libs-for-php)
+      - [Libs for R](#libs-for-r)      
       - [Others](#others)
     - [CMS-Integration](#cms-integration)
       - [Confluence/Jira](#confluencejira)
@@ -342,7 +343,7 @@ You're welcome to add new stuff or report glitches. See [contributing.md](contri
 - [Image_Graphviz](http://pear.php.net/package/Image_GraphViz) - class in PHP by *Sebastian Bergmann* 
 - [graphp.graphviz](https://github.com/graphp/graphviz) - GraphViz graph drawing for mathematical graph/network in PHP
 
-#### Libs for R (rstats)
+#### Libs for R
 - [Rgraphviz](https://bioconductor.org/packages/release/bioc/html/Rgraphviz.html) - Support for using the Graphviz library within R. *Kasper Daniel Hansen et all*
 - [DiagrammeR](https://rich-iannone.github.io/DiagrammeR/graphviz_and_mermaid.html) Graphviz support is an integral part of the DiagrammeR package. *Richard Iannone*
 
