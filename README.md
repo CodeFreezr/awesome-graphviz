@@ -352,7 +352,7 @@ You're welcome to add new stuff or report glitches. See [contributing.md](contri
 - [MatLab](http://de.mathworks.com/matlabcentral/fileexchange/4518?requestedDomain=true&nocookie=true) *Leon Peshkin* 
 - [webdot](https://gitlab.com/graphviz/webdot) TCL *John Ellson*  
 - [S-DOT](http://www.martin-loetzsch.de/S-DOT/) - Common Lisp interface to dot *also Martin Loetzsch*.
-
+- [graphviz](https://hackage.haskell.org/package/graphviz) - Haskell bindings for the Dot language
 
 
 ### CMS-Integration 
