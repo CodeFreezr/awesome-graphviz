@@ -515,7 +515,7 @@ You're welcome to add new stuff or report glitches. See [contributing.md](contri
 - [Maven Central](https://search.maven.org/#search%7Cga%7C1%7Cgraphviz) - Find the most actual Jar-Files.
 
 #### More to find
-- Graphviz-Resources (https://graphviz.org/resources/) - A lot ot Graphviz Resources
+- [Graphviz-Resources](https://graphviz.org/resources/) - A lot ot Graphviz Resources
 - [Stack Overflow](https://stackoverflow.com/search?q=graphviz) - Found thousands Questions & Answers for graphviz
 - [Google Code](https://code.google.com/archive/search?q=graphviz) - Over 100 more references
 - [DMOZ Graph Drawing](https://dmoztools.net/Science/Math/Combinatorics/Software/Graph_Drawing/) - DMOZ Category Science > Math > Combinatorics > Software > Graph Drawing 
