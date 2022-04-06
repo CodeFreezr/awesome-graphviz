@@ -1,6 +1,6 @@
 # Awesome GraphViz [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-A curated list of GraphViz related resources.  
+A curated, independent list of GraphViz related resources.  
 
 ![GraphViz](static/GraphvizLogo.png)
 
