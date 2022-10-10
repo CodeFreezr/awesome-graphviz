@@ -231,6 +231,7 @@ You're welcome to add new stuff or report glitches. See [contributing.md](contri
 
 ### Graphical Interfaces
 #### Web-Interface
+- [Online Graphviz Editor](https://github.com/ztjhz/graphviz-editor) - A beautiful website that generates Graphviz image URL that can be used directly on any website without a need to host them on a server
 - [Liviz.js](http://ushiroad.com/jsviz/) - DHTML-based interactive viewer for Graphviz *Satoshi Ueyama*.
 - [AJAX viewer](https://ashitani.jp/gv/) written with Rico *T. Ashitani*.
 - [webgraphviz](http://www.webgraphviz.com/) - WebGraphviz is Graphviz in the Browser.
@@ -242,6 +243,7 @@ You're welcome to add new stuff or report glitches. See [contributing.md](contri
 - [viz-js](http://viz-js.com/) - Example Gui from the viz.js Library *Mike Daines*.
 - [Edotor.net](https://edotor.net) - Fiddle-like editor with rich features like refactorings, code-fixes and preview by *Niklas Mollenhauer*.
 - [Sketchviz](https://sketchviz.com/) - Interactive editor that renders DOT graphs with a hand-drawn look.
+
 
 #### Common Platforms
 - [Gephi](https://gephi.org/) - The Open Graph Viz Platform *Mathieu Bastian*
