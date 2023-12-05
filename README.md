@@ -471,6 +471,7 @@ You're welcome to add new stuff or report glitches. See [contributing.md](contri
   - [GraphQLviz](https://github.com/Macroz/GraphQLviz) - GraphQLviz marries GraphQL (schemas) with Graphviz.
   - [memviz](https://github.com/bradleyjkemp/memviz) - Visualize your data structures using graphviz 
   - [sqliterd](https://github.com/gwenn/sqliterd) - Tool to create a Graphviz dot file from SQLite database schema written in go.
+  - [DSViz](https://github.com/sunxfancy/DSViz) - Visualize C++ data structure with a non-invasive approach.
 
 ##### Theoretical Computer Science
   - [Ragel](http://www.colm.net/open-source/ragel/) - (think "lex") - compiles executable finite state machines from regular languages and can generate diagrams of the state machines in DOT format. 
