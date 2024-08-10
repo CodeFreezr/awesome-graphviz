@@ -238,7 +238,6 @@ You're welcome to add new stuff or report glitches. See [contributing.md](contri
 - [Online Graphviz Generator](http://fiane.mooo.com:8080/graphviz/) - Simple Online Generator with Golang Server see [src](https://github.com/noselasd/gvweb).
 - [GraphvizFiddle](https://stamm-wilbrandt.de/GraphvizFiddle/) - a dual-view Graphviz editor, see [blog](https://www.ibm.com/developerworks/community/blogs/HermannSW/entry/graphvizfiddle?lang=en) *Hermann Stamm-Wilbrandt*.
 - [Canviz](http://www.ryandesign.com/canviz/) - an HTML5/Javascript canvas viewer (beta). *Ryan Schmidt*.
-- [Graphviz.it](http://graphviz.it) - Online-Editor with all the standard examples, based on graph-viz-d3-js.
 - [GraphvizOnline](http://dreampuf.github.io/GraphvizOnline/) - Online Editor with Syntax Higlighting.
 - [viz-js](http://viz-js.com/) - Example Gui from the viz.js Library *Mike Daines*.
 - [Edotor.net](https://edotor.net) - Fiddle-like editor with rich features like refactorings, code-fixes and preview by *Niklas Mollenhauer*.
