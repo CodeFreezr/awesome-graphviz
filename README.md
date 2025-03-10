@@ -115,7 +115,7 @@ You're welcome to add new stuff or report glitches. See [contributing.md](contri
 #### Tools
 - GUI
   - [dotty](https://linux.die.net/man/1/dotty) - Customizable Graph Editor, see also [pdf](https://www.graphviz.org/pdf/dottyguide.pdf).
-  - [gvedit](http://204.178.9.49/content/new-gvedit-released) - Simple graph editor and viewer, Release-Notes. See als [pdf](https://graphviz.org/_pages/pdf/gvedit.1.pdf).
+  - [gvedit](https://man.archlinux.org/man/extra/graphviz/gvedit.1.en) - Simple graph editor and viewer, see also [pdf](https://graphviz.org/_pages/pdf/gvedit.1.pdf).
   - [lefty](https://linux.die.net/man/1/lefty) - Programmable Graphics Editor, see also [pdf](https://graphviz.org/_pages/pdf/leftyguide.pdf).
   - [lneato](https://linux.die.net/man/1/lneato) - Editor on top of neato & lefty, see also [pdf](https://graphviz.org/_pages/pdf/lneato.1.pdf).
   - [smyrna](https://linux.die.net/man/1/smyrna) - Interactive graph viewer, see also [pdf](https://graphviz.org/_pages/pdf/smyrna.1.pdf).
