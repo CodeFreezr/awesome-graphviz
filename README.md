@@ -78,7 +78,6 @@ You're welcome to add new stuff or report glitches. See [contributing.md](contri
 - [About Graph Visualisation](https://www.graphviz.org/about/) - A Summary about Graph Visualisation.
 - [Wikipedia-Graphviz](https://en.wikipedia.org/wiki/Graphviz) -  Wikipedia page about Graphviz.
 - [Wikipedia-DOT](https://en.wikipedia.org/wiki/DOT_(graph_description_language)) -  Great starter into the DOT / GV Language.
-- [Changelog](https://gitlab.com/graphviz/graphviz/blob/master/ChangeLog) - Changelog starting from March 13, 2000.
 - [Wish List](https://graphviz.org/_pages/doc/todo.html) - Graphviz Wish List
 - Translations
   - [Romanian](http://science.webhostinggeeks.com/graphviz-about-rm) 
@@ -135,7 +134,7 @@ You're welcome to add new stuff or report glitches. See [contributing.md](contri
   - [gvmap](https://www.mankier.com/1/gvmap) - Find clusters and create a geographical map highlighting clusters, see also [pdf](https://graphviz.org/_pages/pdf/gvmap.1.pdf).
   - [gvpack](https://www.mankier.com/1/gvpack) - Merge and pack disjoint graphs, see also [pdf](https://graphviz.org/_pages/pdf/gvpack.1.pdf).
   - [gvpr](https://www.mankier.com/1/gvpr) - Graph pattern scanning and processing language, see also [pdf](https://graphviz.org/_pages/pdf/gvpr.1.pdf).
-  - [mingle](https://www.mankier.com/1/mingle) - Fast edge bundling, see also [pdf](https://graphviz.org/_pages/pdf/mingle.1.pdf).
+  - [mingle](https://graphviz.org/_pages/pdf/mingle.1.pdf) - Fast edge bundling.
   - [nop](https://www.mankier.com/1/nop) - Pretty-print graph file, see also [pdf](https://graphviz.org/_pages/pdf/nop.1.pdf).
   - [sccmap](https://www.mankier.com/1/sccmap) - Extract strongly connected components of directed graphs, see also [pdf](https://graphviz.org/_pages/pdf/sccmap.1.pdf).
   - [tred](https://www.mankier.com/1/tred) - Transitive reduction filter for directed graphs, see also [pdf](https://graphviz.org/_pages/pdf/tred.1.pdf).
@@ -159,11 +158,6 @@ You're welcome to add new stuff or report glitches. See [contributing.md](contri
       - [pathplan](https://graphviz.org/_pages/pdf/pathplan.3.pdf) - ﬁnds and smooths shortest paths.
       - [xdot](https://graphviz.org/_pages/pdf/xdot.3.pdf) - parsing and deparsing of xdot operations.
     - Sample Programs
-      - [demo.c](https://graphviz.org/_pages/dot.demo/demo.c)
-      - [dot.c](https://graphviz.org/_pages/dot.demo/dot.c) 
-      - [example.c](https://graphviz.org/_pages/dot.demo/example.c)
-      - [simple.c](https://graphviz.org/_pages/dot.demo/simple.c)
-      - [Makefile](https://graphviz.org/_pages/dot.demo/Makefile)
   - TCL/TK libraries
     - [gdtclft.3tcl](https://graphviz.org/_pages/pdf/gdtclft.3tcl.pdf) - render images in various bitmap formats (GD, GD2, GIF,JPEG, PNG, WBMP,XBM).
     - [tcldot.3tcl](https://graphviz.org/_pages/pdf/tcldot.3tcl.pdf) - graph manipulation in tcl.
@@ -177,7 +171,6 @@ You're welcome to add new stuff or report glitches. See [contributing.md](contri
   - [TCL](https://graphviz.org/_pages/pdf/gv.3tcl.pdf) - graph manipulation in tcl.
 - Misc
   - [Build Notes](https://graphviz.org/doc/build.html) - Information on Building the sourcecode.
-  - [JSON - Schema](https://graphviz.org/_pages/doc/info/graphviz_json_schema.json) - Plain JSON representation of a graph encoding xdot attributes.
   - [JSON - Output](https://graphviz.org/_pages/doc/info/output.html#d:json) - Explanation of the JSON-Output.
 
 
@@ -200,24 +193,23 @@ You're welcome to add new stuff or report glitches. See [contributing.md](contri
 - [A method for drawing directed graphs](https://graphviz.org/_pages/Documentation/TSE93.pdf) - dot's algorithm (1993) ([cite](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.3.8982))  
 - [Efficient and high quality force-directed graph drawing](http://yifanhu.net/PUB/graph_draw.pdf) - sfdp's algorithm (2005)  
 - [Improved Circular Layouts](https://graphviz.org/_pages/Documentation/GK06.pdf) - crossing reduction and edge bundling for circular layouts ([cite](https://link.springer.com/chapter/10.1007%2F978-3-540-70904-6_37))  
-- [Efficient and High Quality Force-Directed Graph Drawing](https://graphviz.org/_pages/Documentation/Hu05.pdf) - the multiscale algorithm used in sfdp ([cite](http://www.mathematica-journal.com/issue/v10i1/graph_draw.html))  
+- [Efficient and High Quality Force-Directed Graph Drawing](https://graphviz.org/_pages/Documentation/Hu05.pdf) - the multiscale algorithm used in sfdp.  
 - [Implementing a General-Purpose Edge Router](https://graphviz.org/_pages/Documentation/DGKN97.pdf) - edge routing in Graphviz ([cite](https://link.springer.com/chapter/10.1007%2F3-540-63938-1_68))  
 - [Improved Force-Directed Layouts](https://graphviz.org/_pages/Documentation/GN98.pdf) - Voronoi-based node overlap removal ([cite](https://link.springer.com/chapter/10.1007%2F3-540-37623-2_28))  
 - [GMap](https://graphviz.org/_pages/Documentation/GHK09.pdf) - Visualizing graphs and clusters as maps ([cite](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.154.8753))  
 - [Efficient Node Overlap Removal Using a Proximity Stress Model](https://graphviz.org/_pages/Documentation/GH10.pdf) - Prism node overlap removal ([cite](https://link.springer.com/chapter/10.1007%2F978-3-642-00219-9_20))  
 - [On-line Hierarchical Graph Drawing](https://graphviz.org/_pages/Documentation/NW01.pdf) - dynadag algorithm  
-- [DIG-COLA](http://web2.research.att.com/export/sites/att_labs/groups/infovis/res/legacy_papers/DBLP-conf-infovis-DwyerK05.pdf) - Directed Graph Layout through Constrained Energy Minimization by *Tim Dwyer* and *Yehuda Koren*.
+
 
 #### Graph Drawing
 - [Wikipedia](https://en.wikipedia.org/wiki/Graph_drawing) - drawing of a graph or network diagram is a pictorial representation of the vertices and edges of a graph.
 - [graphdrawing.org](http://www.graphdrawing.org/index.html) - annual symposia, books, data, open problems and more  
-- [Survey](http://users.monash.edu/~gfarr/research/GraphDrawing02-Mel.ppt) - Franz Brandenburg talk notes in Powerpoint
 - [Marks et al](http://www.merl.com/publications/TR2001-49/) - note on history of graph drawing
 - [David Eppstein's](http://www.ics.uci.edu/~eppstein/gina/gdraw.html) - Geometry in Action
 - [Graph Drawing](https://www.amazon.com/Graph-Drawing-Algorithms-Visualization-Graphs/dp/0133016153) - Algorithms for the Visualization of Graphs by *Ioannis G. Tollis, Giuseppe Di Battista, Peter Eades, Roberto Tamassia*.
 - [Graph Drawing Software (Mathematics and Visualization)](https://www.amazon.com/Graph-Drawing-Software-Mathematics-Visualization/dp/3540008810) by M. Junger, Petra Mutzel (Symposium on Graph Drawing 2001, Vienna).
 - [Drawing Graphs](https://www.amazon.com/Drawing-Graphs-Methods-Lecture-Computer/dp/3540420622) - Methods and Models by *Michael Kaufmann, Dorothea Wagner*.
-- [Handbook of Graph Drawing and Visualization](https://www.amazon.com/Handbook-Visualization-Discrete-Mathematics-Applications/dp/1584884126) Roberto Tamassia, ed. [(On-line version)](http://cs.brown.edu/~rt/gdhandbook/)
+- [Handbook of Graph Drawing and Visualization](https://www.amazon.com/Handbook-Visualization-Discrete-Mathematics-Applications/dp/1584884126) Roberto Tamassia, ed. 
 - [D3 Graph Theory](https://mrpandey.github.io/d3graphTheory/index.html) - Learn graph theory interactively by *Avinash Pandey*. 
 
 #### Information Visualization
@@ -235,7 +227,7 @@ You're welcome to add new stuff or report glitches. See [contributing.md](contri
 - [Liviz.js](http://ushiroad.com/jsviz/) - DHTML-based interactive viewer for Graphviz *Satoshi Ueyama*.
 - [AJAX viewer](https://ashitani.jp/gv/) written with Rico *T. Ashitani*.
 - [webgraphviz](http://www.webgraphviz.com/) - WebGraphviz is Graphviz in the Browser.
-- [Online Graphviz Generator](http://fiane.mooo.com:8080/graphviz/) - Simple Online Generator with Golang Server see [src](https://github.com/noselasd/gvweb).
+- [Online Graphviz Generator](https://github.com/noselasd/gvweb) - Simple Online Generator with Golang Server see
 - [GraphvizFiddle](https://stamm-wilbrandt.de/GraphvizFiddle/) - a dual-view Graphviz editor, see [blog](https://www.ibm.com/developerworks/community/blogs/HermannSW/entry/graphvizfiddle?lang=en) *Hermann Stamm-Wilbrandt*.
 - [Canviz](http://www.ryandesign.com/canviz/) - an HTML5/Javascript canvas viewer (beta). *Ryan Schmidt*.
 - [GraphvizOnline](http://dreampuf.github.io/GraphvizOnline/) - Online Editor with Syntax Higlighting.
@@ -276,7 +268,6 @@ You're welcome to add new stuff or report glitches. See [contributing.md](contri
 #### Other
 - [prefuse](http://prefuse.org/) - Toolkit *Mikko Vinni*.
 - [KGraphViewer](https://www.kde.org/applications/graphics/kgraphviewer/) - a KDE viewer for layouts generated by Graphviz tools. *Gaël de Chalendar* 
-- [BioGrapher](http://www.bioquest.org/esteem/esteem_details.php?product_id=6509) Excel front-end (WinXP and Mac) for Graphviz that allows the user to specify graphs in a spreadsheet using adjacency matrix, node list or Newick notation (for phylogenetic trees) and visualize the layout generated by Graphviz as an Excel (vector graphics) picture object. *Rama Viswanathan* 
 - [Leonhard](https://github.com/glejeune/Leonhard) - Simple viewer/editor for GraphViz, developed with MacRuby. (See the [demo](https://www.youtube.com/watch?v=nyfZVGlErTo&feature=youtu.be).) 
 - [EasyGraphViz](http://wiki.cyze.jp/wiki.cgi/software?page=EasyGraphViz) - Japanese editor for Graphviz. *Nikolaos Kavvadias*
 - [NodeViz](https://code.google.com/archive/p/nodeviz) - PHP framework for mapping relational data to highly styled Graphviz and displaying interactively in web clients *Greg Michalec and Skye Bender-deMoll* 
@@ -329,7 +320,7 @@ You're welcome to add new stuff or report glitches. See [contributing.md](contri
 #### Libs for C# and .NET
  - [graphviznet](https://code.google.com/archive/p/graphviznet) 
  - [CodePlex QuickGraph](https://archive.codeplex.com/) 
- - [Tigris QuickGraph](http://quickgraph.tigris.org/source/browse/quickgraph/trunk/src/) 
+
 
 #### Libs for Perl
 - [Graphviz2](https://metacpan.org/release/GraphViz2) - Perl interface, supports new options *Ron Savage* 
@@ -346,7 +337,6 @@ You're welcome to add new stuff or report glitches. See [contributing.md](contri
 
 #### Libs for R
 - [Rgraphviz](https://bioconductor.org/packages/release/bioc/html/Rgraphviz.html) - Support for using the Graphviz library within R. *Kasper Daniel Hansen et all*
-- [DiagrammeR](https://rich-iannone.github.io/DiagrammeR/graphviz_and_mermaid.html) Graphviz support is an integral part of the DiagrammeR package. *Richard Iannone*
 
 #### Others 
 - [Ruby-Graphviz](https://github.com/glejeune/Ruby-Graphviz/) - Ruby interface to Graphviz *Grégoire Lejeune* 
@@ -367,7 +357,6 @@ You're welcome to add new stuff or report glitches. See [contributing.md](contri
 - [MediaWiki-1](http://search.cpan.org/~tels/mediawiki-graph/) - Extension *Tels*.
 - [MediaWiki-2](https://www.mediawiki.org/wiki/Extension:GraphViz) - Extension *Coffman*.
 - [Drupal](https://www.drupal.org/project/graphviz_filter) - Graphviz filter *Karim Ratib*.
-- [Wordpress EHT Graphviz](https://ociotec.com/eht-graphviz-plugin-para-wordpress/) - Plugin for Wordpress, to allow Graphviz images to be easily integrated into a Wordpress page. *Emilio González Montaña*.
 - [Wordpress Graphviz](https://wordpress.org/plugins/wp-graphviz/) - Plugin for Wordpres, to allow Graphviz images to be easily integrated into a Wordpress page. * - [DeBAAT](https://profiles.wordpress.org/debaat/)*.
 - [DokuWiki](https://www.dokuwiki.org/plugin:graphviz) - Directed and non-directed graph images from “dot" language *Andreas Gohr*.
 - [trac GraphvizPlugin](https://trac-hacks.org/wiki/GraphvizPlugin) - Dynamic generation of diagrams within wiki pages and ticket descriptions.
@@ -380,7 +369,7 @@ You're welcome to add new stuff or report glitches. See [contributing.md](contri
 - [hamroctopus/graphviz](https://hub.docker.com/r/hamroctopus/graphviz/) - Docker container (ubuntu 14.04.4) providing graphviz-2.38.0 from *Eric Crosson* on [git](https://github.com/EricCrosson/graphviz).
 - [efcasado/graphviz](https://hub.docker.com/r/efcasado/graphviz/) - Alpine Linux based, dockerized Graphviz by *Enrique Fernandez* on [git](https://github.com/efcasado/dockerfile-graphviz).
 - [djmattyg007/graphviz-server](https://hub.docker.com/r/djmattyg007/graphviz-server/) - Graphviz as a Docker Service by *Matthew Gamble* on [git](https://github.com/djmattyg007/graphviz-server).
-- [objectivetruth/graphvizzer](https://hub.docker.com/r/objectivetruth/graphvizzer/) - Docker image for the Graphvizzer slack-chat integrationon [git](https://github.com/ObjectiveTruth/Graphvizzer).
+- [objectivetruth/graphvizzer](https://github.com/ObjectiveTruth/Graphvizzer) - Docker image for the Graphvizzer slack-chat integrationon.
 - [rahulsom/groovy-graphviz-jenkins-slave](https://hub.docker.com/r/rahulsom/groovy-graphviz-jenkins-slave/) - Creates a Jenkins Slave with groovy and graphviz by *Rahul Somasunderam* on [git](https://github.com/rahulsom/dockerfiles).
  
 ### Generators and Translators 
@@ -388,14 +377,12 @@ You're welcome to add new stuff or report glitches. See [contributing.md](contri
 - [ExcelToGraphviz1](https://sourceforge.net/projects/relationship-visualizer/) - Relationship Visualizer - Convert Excel data into Graphviz graphs *Jeff Long*.
 - [ExcelToGraphviz2](https://sourceforge.net/projects/excel-to-graphviz/) - a tool for visualizing Excel data as graphs *Matt Castelli*.
 - [Graph API](https://www.drupal.org/project/graphapi/) - a Drupal graph generation module with Graphviz Dot output capabilities. *Sebastian Daniel*.
-- [WorldCat xISSN](http://www.worldcat.org/xissn/titlehistory) - shows the history of a journal indexed by ISSN *OCLC Online Computer Library Center, Inc.*.
 - [Linguine Maps](http://www.softwaresecretweapons.com/lm_hibernate.html) - visualize XML DTDs, Apache Object Relational Bridge Files, Apache Ant Build files, and provide a clean Java API for diagramming *Pavel Simakov*.
 - [PostgreSQL AutoDoc](https://github.com/cbbrowne/autodoc) - documents the relation structure of PostgreSQL databases *Rod Taylor*.
 - [DOTML](http://www.martin-loetzsch.de/DOTML/) - XML markup to mirror dot language. Includes scripts and XSLT to transform and render *Martin Loetzsch*.
 - [DBGraphNav](https://code.google.com/archive/p/dbgraphnav) - Tool to facilitate the browsing of data within relational databases. *Paul McMillan*.
 - [EMF To Graphviz](https://sourceforge.net/projects/emf2gv/) - Eclipse plugin that helps to transform an EMF model into a diagram using Graphviz. 
 - [graphstk](https://github.com/dgnorton/graphstk) - Generate graphviz from golang stack trace.
-- [node-it](https://github.com/cfstras/node-it) - subreddit grapher with graphviz written in golang.
 - [lsofgraph](https://github.com/zevv/lsofgraph) - A small utility to convert Unix lsof output to a graph showing FIFO and UNIX interprocess communication by *Ico Doornekamp*.
 
 #### AI and Language Tools 
@@ -411,8 +398,6 @@ You're welcome to add new stuff or report glitches. See [contributing.md](contri
 - [afterglow](http://afterglow.sourceforge.net/) is a collection of scripts to generate graphs for Graphviz (and LGL), from various network logs and firewall rulesets *Raffael Marty*
 - [SMART](https://sourceforge.net/projects/safemap/) - passive network flow visualization tool *Cisco's Critical Infrastructure Assurance Group (CIAG) Research team* 
 - [CSO Online](https://www.csoonline.com/article/2122766/malware-cybercrime/what-a-botnet-looks-like.html) - What a Botnet Looks like *David Vorel* 
-- [EFnet](http://map.efnet.net) - IRC Network server routing maps *Douglas Boldt* 
-- [phpOpenTracker](https://sourceforge.net/projects/phpopencounter) - provides a framework solution for the analysis of website traffic and visitor analysis. *Sebastian Bergmann* 
 - [apache2dot](http://www.chaosreigns.com/code/apache2dot/) - Apache log file visualizer 
 - [sig2dot](http://www.chaosreigns.com/code/sig2dot/) - generates a graph of all of the signature relationships in a GPG/PGP keyring 
 - [Rocketfuel](http://research.cs.washington.edu/networking/rocketfuel/) - ISP mapper [see](http://research.cs.washington.edu/networking/rocketfuel/interactive/) *U. Washington* 
@@ -431,11 +416,9 @@ You're welcome to add new stuff or report glitches. See [contributing.md](contri
 ##### UML and Software-Design
   - [Compendium-TA](https://www.compendiumdev.co.uk/page.php?title=compendiumta) - an integrated package of modelling tools which uses Graphviz for graph layouts *Alan Richardson* 
   - [AsmL](https://www.microsoft.com/en-us/research/project/asml-abstract-state-machine-language/?from=http%3A%2F%2Fresearch.microsoft.com%2Fen-us%2Fprojects%2Fasml%2F) - an executable specification language from Microsoft Research *Yuri Gurevich*, *Margus Veanes*.
-  - [ArgoUML Graphviz](http://argouml-graphviz.tigris.org/) - Automatically repositioning all visual elements from UML diagrams that are stored in XMI. These can be exported with DOT to PDF, SVG, PNG, etc. This XLST runs independently of ArgoUML. *Pander* 
   - [Visustin](http://www.aivosto.com/visustin.html) - Visustin flow chart & uml generator *Aivosto* 
   - [APIviz](https://code.google.com/archive/p/apiviz) - is a JavaDoc doclet which extends the Java standard doclet. It generates comprehensive UML-like class and package diagrams. 
   - [PlantUML](http://plantuml.com/) - generates UML diagrams (classes, usecases, activities, components) - using a simple text description language. *Arnaud Roques* 
-  - [Grails class diagram plugin](http://grails.org/plugin/class-diagram/) - provides an UML-like diagram of grails domain classes. *Trygve Amundsen* 
   - [tags2uml](https://github.com/ruben2020/tags2uml) - Generates UML class diagrams, from source code with go.
   - [Gravizo](http://www.gravizo.com/) - Simple way of describing graphs and include it easily in your web for free, blog, markdown page, github, and any location where remote images can be showed.
   - [Umple](https://github.com/umple/umple) - Textual language for modeling and code generation of complete executable systems; generates UML class diagrams, state diagrams and entity-relationship diagrams.
@@ -474,7 +457,6 @@ You're welcome to add new stuff or report glitches. See [contributing.md](contri
 
 ##### Theoretical Computer Science
   - [Ragel](http://www.colm.net/open-source/ragel/) - (think "lex") - compiles executable finite state machines from regular languages and can generate diagrams of the state machines in DOT format. 
-  - [Lambda Animator](http://thyer.name/lambda-animator/) - is a tool for demonstrating and experimenting with alternative reduction strategies in the lambda-calculus *Mike Thyer* 
   - [Maria](http://www.tcs.hut.fi/Software/maria/index.en.html) - Modular Reachability Analyzer - a reachability analyzer for concurrent systems that uses Algebraic System Nets as its modelling formalism *Marko Mäkelä* 
   - [Finite State Machine web visualization](http://www.let.rug.nl/vannoord/Fsa/) - interactively accepts input from a form *Gertjan van Noord* 
   - [scxml2dot](https://code.google.com/archive/p/scxml2dot) - a very simple conversion function in perl to plot a finite state machine written in scxml using the graphviz tools. *Fabrizio Morbini* 
@@ -491,12 +473,11 @@ You're welcome to add new stuff or report glitches. See [contributing.md](contri
  
 #### Document preparation 
 - [dot2tex](https://dot2tex.readthedocs.io/en/latest/) - LaTeX-friendly converter from Graphviz (xdot) - to converting xdot PSTricks or PGF/TikZ commands, with support for LaTeX labels and arrows. *Kjell Magne Fauske*.
-- [graphviz mode for emacs](http://ppareit.github.io/graphviz-dot-mode/) - (or- [here](https://graphviz.org/_pages/Misc/graphviz-dot-mode.el)). 
+- [graphviz mode for emacs](http://ppareit.github.io/graphviz-dot-mode/) - Emacs Solution 
 - [Ladot](http://brighten.bigw.org/projects/ladot/) - scripts for including LaTeX in your Graphviz files *Brighten Godfrey* 
 - [TeXmacs](http://www.texmacs.org/tmweb/home/welcome.en.html) - a scientific text editor, inspired by TeX and GNU Emacs, has a Graphviz interface *Joris van der Hoeven* 
 - [Mac OmniGraffle](https://www.omnigroup.com/omnigraffle/) - *Omni Group* 
 - [GraphVizio](http://www.calvert.ch/graphvizio/) - is an addin for Visio to lay out diagrams using Graphviz (also see- [blog post](http://www.calvert.ch/maurice/2010/05/11/graphvizio-a-graphviz-addin-for-visio/)). *Maurice Calvert* 
-- [TeX and PSTRICKS](http://web.ncf.ca/en493/GRAPHVIZ-TEX/graphviz.html) - describes how to use PSTRICKS in conjunction with TeX to include Graphviz PostScript output into TeX documents. This approach makes further manipulation, such as rotation,shifting, etc. easy. *Roger Herz-Fischler* 
 - [graphviz2drawio](https://github.com/hbmartin/graphviz2drawio) - Convert graphviz to draw.io (mxGraph) format *Harold Martin* 
  
 #### Linux Distributions 
@@ -511,7 +492,6 @@ You're welcome to add new stuff or report glitches. See [contributing.md](contri
 - [npm packages](https://www.npmjs.com/browse/keyword/graphviz) - npm packages.
 - [CPAN](http://search.cpan.org/search?query=graphviz&mode=all) - The ultimative PERL Source.
 - [RPM Find](http://fr2.rpmfind.net/linux/rpm2html/search.php?query=graphviz&submit=Search+...&system=&arch=) - many distros and architectures.
-- [GoLangLibs](https://golanglibs.com/search?q=graphviz) - Three pages full of Go Packages.
 - [Go Search](http://go-search.org/search?q=graphviz) - Searching in over 700k Golang Files and Packages.
 - [GoDoc](https://godoc.org/?q=graphviz) - Query through all the Go Package Documentation.
 - [Maven Central](https://search.maven.org/#search%7Cga%7C1%7Cgraphviz) - Find the most actual Jar-Files.
@@ -520,8 +500,6 @@ You're welcome to add new stuff or report glitches. See [contributing.md](contri
 - [Graphviz-Resources](https://graphviz.org/resources/) - A lot ot Graphviz Resources
 - [Stack Overflow](https://stackoverflow.com/search?q=graphviz) - Found thousands Questions & Answers for graphviz
 - [Google Code](https://code.google.com/archive/search?q=graphviz) - Over 100 more references
-- [DMOZ Graph Drawing](https://dmoztools.net/Science/Math/Combinatorics/Software/Graph_Drawing/) - DMOZ Category Science > Math > Combinatorics > Software > Graph Drawing 
-- [DMOZ Graph Theory](https://dmoztools.net/Science/Math/Combinatorics/Graph_Theory/) - Science > Math > Combinatorics > Graph Theory 
 - [Quora](https://www.quora.com/topic/GraphViz) - Quora Topic Search. Fulltext-Search [here](https://www.quora.com/search?q=graphviz).
 - [DockerHub](https://hub.docker.com/search/?isAutomated=0&isOfficial=0&page=1&pullCount=1&q=graphviz&starCount=0) - Found over 100 Docker Images with Graphviz included.
 
